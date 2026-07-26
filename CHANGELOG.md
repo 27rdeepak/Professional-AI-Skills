@@ -23,3 +23,10 @@ Notable changes follow Keep a Changelog and Semantic Versioning.
 
 - Remaining core skills to reach 100 production-ready skills.
 - Phase 5 examples and regression suite.
+
+## [1.0.0] - 2026-07-26
+
+### Added
+
+- Release notes and packaging for the 100-skill AIOS library.
+- Stable repository structure with examples, regressions, and platform guidance.
