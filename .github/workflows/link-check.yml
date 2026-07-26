@@ -1,0 +1,12 @@
+name: Link check
+on:
+  pull_request:
+  workflow_dispatch:
+permissions: {contents: read}
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: lycheeverse/lychee-action@v2
+        with: {args: "--no-progress --exclude-path .git .", fail: true}

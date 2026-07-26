@@ -1,0 +1,4 @@
+interface:
+  display_name: "First Principles Analysis"
+  short_description: "Decompose ambiguous problems into constraints, facts, assumpt..."
+  default_prompt: "Use $first-principles-analysis to produce a rigorous, decision-ready result."

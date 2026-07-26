@@ -1,0 +1,4 @@
+interface:
+  display_name: "Root Cause Analysis"
+  short_description: "Diagnose recurring failures using evidence, causal tests, and..."
+  default_prompt: "Use $root-cause-analysis to produce a rigorous, decision-ready result."

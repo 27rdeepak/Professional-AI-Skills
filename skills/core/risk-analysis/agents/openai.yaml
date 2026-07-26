@@ -1,0 +1,4 @@
+interface:
+  display_name: "Risk Analysis"
+  short_description: "Identify, assess, prioritize, and treat uncertainty against s..."
+  default_prompt: "Use $risk-analysis to produce a rigorous, decision-ready result."

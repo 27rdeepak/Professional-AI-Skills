@@ -1,0 +1,4 @@
+interface:
+  display_name: "Problem Framing"
+  short_description: "Turn vague concerns into bounded, testable, decision-relevant..."
+  default_prompt: "Use $problem-framing to produce a rigorous, decision-ready result."

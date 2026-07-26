@@ -1,0 +1,11 @@
+name: Bug report
+description: Report incorrect or unsafe behavior
+title: "[Bug]: "
+body:
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Include skill, request, platform, expected and observed behavior; redact sensitive data.
+    validations:
+      required: true

@@ -1,0 +1,11 @@
+name: New skill
+description: Propose a distinct reusable skill
+title: "[Skill]: "
+body:
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Provide the proposed name, three trigger examples, distinction from existing skills, and success criteria.
+    validations:
+      required: true

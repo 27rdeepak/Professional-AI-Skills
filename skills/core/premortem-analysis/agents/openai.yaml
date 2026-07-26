@@ -1,0 +1,4 @@
+interface:
+  display_name: "Premortem Analysis"
+  short_description: "Anticipate plausible failure modes and convert them into prev..."
+  default_prompt: "Use $premortem-analysis to produce a rigorous, decision-ready result."

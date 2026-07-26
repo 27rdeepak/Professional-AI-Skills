@@ -1,0 +1,4 @@
+interface:
+  display_name: "Critical Thinking"
+  short_description: "Evaluate claims, assumptions, evidence, logic, and alternativ..."
+  default_prompt: "Use $critical-thinking to produce a rigorous, decision-ready result."

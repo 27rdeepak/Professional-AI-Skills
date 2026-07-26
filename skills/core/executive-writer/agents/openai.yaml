@@ -1,0 +1,4 @@
+interface:
+  display_name: "Executive Writer"
+  short_description: "Turn complex material into concise, decision-ready executive..."
+  default_prompt: "Use $executive-writer to produce a rigorous, decision-ready result."

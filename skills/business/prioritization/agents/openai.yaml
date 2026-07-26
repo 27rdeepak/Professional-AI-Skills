@@ -1,0 +1,4 @@
+interface:
+  display_name: "Prioritization"
+  short_description: "Rank work transparently using value, urgency, effort, risk, a..."
+  default_prompt: "Use $prioritization to produce a rigorous, decision-ready result."

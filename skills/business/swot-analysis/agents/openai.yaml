@@ -1,0 +1,4 @@
+interface:
+  display_name: "SWOT Analysis"
+  short_description: "Produce evidence-based SWOT analysis that leads to strategic..."
+  default_prompt: "Use $swot-analysis to produce a rigorous, decision-ready result."

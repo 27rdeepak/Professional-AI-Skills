@@ -1,0 +1,4 @@
+interface:
+  display_name: "Executive Communication"
+  short_description: "Plan high-stakes communication around audience, decision, tru..."
+  default_prompt: "Use $executive-communication to produce a rigorous, decision-ready result."
