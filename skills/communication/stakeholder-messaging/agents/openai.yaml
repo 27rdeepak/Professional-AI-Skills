@@ -1,0 +1,4 @@
+interface:
+  display_name: "Stakeholder Messaging"
+  short_description: "Stakeholder Messaging skill for AIOS"
+  default_prompt: "Use $stakeholder-messaging to produce a rigorous, decision-ready result."

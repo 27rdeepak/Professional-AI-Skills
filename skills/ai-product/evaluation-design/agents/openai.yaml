@@ -1,0 +1,4 @@
+interface:
+  display_name: "Evaluation Design"
+  short_description: "Evaluation Design skill for AIOS"
+  default_prompt: "Use $evaluation-design to produce a rigorous, decision-ready result."

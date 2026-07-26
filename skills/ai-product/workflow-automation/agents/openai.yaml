@@ -1,0 +1,4 @@
+interface:
+  display_name: "Workflow Automation"
+  short_description: "Workflow Automation skill for AIOS"
+  default_prompt: "Use $workflow-automation to produce a rigorous, decision-ready result."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Source Triage"
+  short_description: "Source Triage skill for AIOS"
+  default_prompt: "Use $source-triage to produce a rigorous, decision-ready result."

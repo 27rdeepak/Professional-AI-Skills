@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cost Optimization"
+  short_description: "Cost Optimization skill for AIOS"
+  default_prompt: "Use $cost-optimization to produce a rigorous, decision-ready result."

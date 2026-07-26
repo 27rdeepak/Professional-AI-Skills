@@ -6,7 +6,7 @@ A cross-platform library of concise, composable skills for professional AI assis
 
 ## Current release
 
-The foundation includes 20 production-ready skills across core reasoning, communication, business, and research. The roadmap expands to 100 skills plus frameworks, templates, playbooks, personas, evaluations, and platform packs.
+The library now includes 100 production-ready skills across core reasoning, communication, business, enterprise IT, Microsoft 365, cybersecurity, leadership, research, software engineering, productivity, and AI product work. The roadmap continues with deeper examples, regression checks, and release packaging.
 
 ## Quick start
 

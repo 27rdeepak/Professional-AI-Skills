@@ -1,3 +1,5 @@
 # Examples
 
-Representative prompts and outputs can be added here as the library grows.
+Representative prompts and outputs for the skill library.
+
+- [Phase 5 Examples](phase-5-examples.md)

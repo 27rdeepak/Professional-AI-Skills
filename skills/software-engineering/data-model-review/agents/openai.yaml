@@ -1,0 +1,4 @@
+interface:
+  display_name: "Data Model Review"
+  short_description: "Data Model Review skill for AIOS"
+  default_prompt: "Use $data-model-review to produce a rigorous, decision-ready result."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "MVP Scope"
+  short_description: "MVP Scope skill for AIOS"
+  default_prompt: "Use $mvp-scope to produce a rigorous, decision-ready result."

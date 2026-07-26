@@ -1,0 +1,4 @@
+interface:
+  display_name: "Meeting Preparation"
+  short_description: "Meeting Preparation skill for AIOS"
+  default_prompt: "Use $meeting-preparation to produce a rigorous, decision-ready result."

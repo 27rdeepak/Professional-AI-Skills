@@ -1,0 +1,4 @@
+interface:
+  display_name: "Market Analysis"
+  short_description: "Market Analysis skill for AIOS"
+  default_prompt: "Use $market-analysis to produce a rigorous, decision-ready result."

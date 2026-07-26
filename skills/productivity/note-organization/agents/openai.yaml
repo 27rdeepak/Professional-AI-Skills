@@ -1,0 +1,4 @@
+interface:
+  display_name: "Note Organization"
+  short_description: "Note Organization skill for AIOS"
+  default_prompt: "Use $note-organization to produce a rigorous, decision-ready result."

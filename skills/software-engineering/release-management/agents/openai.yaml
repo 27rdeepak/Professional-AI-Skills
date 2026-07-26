@@ -1,0 +1,4 @@
+interface:
+  display_name: "Release Management"
+  short_description: "Release Management skill for AIOS"
+  default_prompt: "Use $release-management to produce a rigorous, decision-ready result."

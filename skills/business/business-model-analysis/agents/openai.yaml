@@ -1,0 +1,4 @@
+interface:
+  display_name: "Business Model Analysis"
+  short_description: "Business Model Analysis skill for AIOS"
+  default_prompt: "Use $business-model-analysis to produce a rigorous, decision-ready result."

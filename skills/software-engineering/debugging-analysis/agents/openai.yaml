@@ -1,0 +1,4 @@
+interface:
+  display_name: "Debugging Analysis"
+  short_description: "Debugging Analysis skill for AIOS"
+  default_prompt: "Use $debugging-analysis to produce a rigorous, decision-ready result."

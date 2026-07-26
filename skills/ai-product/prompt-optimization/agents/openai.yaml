@@ -1,0 +1,4 @@
+interface:
+  display_name: "Prompt Optimization"
+  short_description: "Prompt Optimization skill for AIOS"
+  default_prompt: "Use $prompt-optimization to produce a rigorous, decision-ready result."

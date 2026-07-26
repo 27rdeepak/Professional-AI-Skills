@@ -1,0 +1,4 @@
+interface:
+  display_name: "Decision Journal"
+  short_description: "Decision Journal skill for AIOS"
+  default_prompt: "Use $decision-journal to produce a rigorous, decision-ready result."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Customer Segmentation"
+  short_description: "Customer Segmentation skill for AIOS"
+  default_prompt: "Use $customer-segmentation to produce a rigorous, decision-ready result."

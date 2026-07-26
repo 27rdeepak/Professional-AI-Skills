@@ -1,0 +1,4 @@
+interface:
+  display_name: "Executive Research Brief"
+  short_description: "Executive Research Brief skill for AIOS"
+  default_prompt: "Use $executive-research-brief to produce a rigorous, decision-ready result."

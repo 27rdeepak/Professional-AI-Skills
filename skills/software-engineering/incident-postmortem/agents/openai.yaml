@@ -1,0 +1,4 @@
+interface:
+  display_name: "Incident Postmortem"
+  short_description: "Incident Postmortem skill for AIOS"
+  default_prompt: "Use $incident-postmortem to produce a rigorous, decision-ready result."

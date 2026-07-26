@@ -1,0 +1,4 @@
+interface:
+  display_name: "Board Communication"
+  short_description: "Board Communication skill for AIOS"
+  default_prompt: "Use $board-communication to produce a rigorous, decision-ready result."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Status Update Writing"
+  short_description: "Status Update Writing skill for AIOS"
+  default_prompt: "Use $status-update-writing to produce a rigorous, decision-ready result."

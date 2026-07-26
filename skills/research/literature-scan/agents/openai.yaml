@@ -1,0 +1,4 @@
+interface:
+  display_name: "Literature Scan"
+  short_description: "Literature Scan skill for AIOS"
+  default_prompt: "Use $literature-scan to produce a rigorous, decision-ready result."

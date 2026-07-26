@@ -1,0 +1,4 @@
+interface:
+  display_name: "Facilitation Planning"
+  short_description: "Facilitation Planning skill for AIOS"
+  default_prompt: "Use $facilitation-planning to produce a rigorous, decision-ready result."

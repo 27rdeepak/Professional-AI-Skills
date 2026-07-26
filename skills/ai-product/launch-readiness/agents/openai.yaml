@@ -1,0 +1,4 @@
+interface:
+  display_name: "Launch Readiness"
+  short_description: "Launch Readiness skill for AIOS"
+  default_prompt: "Use $launch-readiness to produce a rigorous, decision-ready result."

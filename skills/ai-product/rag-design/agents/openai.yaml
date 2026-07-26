@@ -1,0 +1,4 @@
+interface:
+  display_name: "RAG Design"
+  short_description: "RAG Design skill for AIOS"
+  default_prompt: "Use $rag-design to produce a rigorous, decision-ready result."

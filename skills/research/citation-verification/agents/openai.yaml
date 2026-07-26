@@ -1,0 +1,4 @@
+interface:
+  display_name: "Citation Verification"
+  short_description: "Citation Verification skill for AIOS"
+  default_prompt: "Use $citation-verification to produce a rigorous, decision-ready result."

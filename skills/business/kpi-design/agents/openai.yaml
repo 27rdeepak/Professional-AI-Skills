@@ -1,0 +1,4 @@
+interface:
+  display_name: "KPI Design"
+  short_description: "KPI Design skill for AIOS"
+  default_prompt: "Use $kpi-design to produce a rigorous, decision-ready result."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Focus Planning"
+  short_description: "Focus Planning skill for AIOS"
+  default_prompt: "Use $focus-planning to produce a rigorous, decision-ready result."

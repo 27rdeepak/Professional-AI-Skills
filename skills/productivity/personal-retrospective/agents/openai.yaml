@@ -1,0 +1,4 @@
+interface:
+  display_name: "Personal Retrospective"
+  short_description: "Personal Retrospective skill for AIOS"
+  default_prompt: "Use $personal-retrospective to produce a rigorous, decision-ready result."

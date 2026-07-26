@@ -1,0 +1,4 @@
+interface:
+  display_name: "Email Crafting"
+  short_description: "Email Crafting skill for AIOS"
+  default_prompt: "Use $email-crafting to produce a rigorous, decision-ready result."

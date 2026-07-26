@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agent Design"
+  short_description: "Agent Design skill for AIOS"
+  default_prompt: "Use $agent-design to produce a rigorous, decision-ready result."

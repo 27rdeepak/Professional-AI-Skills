@@ -1,0 +1,4 @@
+interface:
+  display_name: "Prompt Integration"
+  short_description: "Prompt Integration skill for AIOS"
+  default_prompt: "Use $prompt-integration to produce a rigorous, decision-ready result."

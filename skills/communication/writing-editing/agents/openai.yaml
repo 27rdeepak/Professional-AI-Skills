@@ -1,0 +1,4 @@
+interface:
+  display_name: "Writing Editing"
+  short_description: "Writing Editing skill for AIOS"
+  default_prompt: "Use $writing-editing to produce a rigorous, decision-ready result."

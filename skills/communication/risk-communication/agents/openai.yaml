@@ -1,0 +1,4 @@
+interface:
+  display_name: "Risk Communication"
+  short_description: "Risk Communication skill for AIOS"
+  default_prompt: "Use $risk-communication to produce a rigorous, decision-ready result."

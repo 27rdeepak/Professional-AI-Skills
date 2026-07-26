@@ -1,0 +1,4 @@
+interface:
+  display_name: "Documentation Engineering"
+  short_description: "Documentation Engineering skill for AIOS"
+  default_prompt: "Use $documentation-engineering to produce a rigorous, decision-ready result."

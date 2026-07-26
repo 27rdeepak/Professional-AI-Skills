@@ -1,0 +1,4 @@
+interface:
+  display_name: "Architecture Review"
+  short_description: "Architecture Review skill for AIOS"
+  default_prompt: "Use $architecture-review to produce a rigorous, decision-ready result."

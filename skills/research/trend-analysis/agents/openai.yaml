@@ -1,0 +1,4 @@
+interface:
+  display_name: "Trend Analysis"
+  short_description: "Trend Analysis skill for AIOS"
+  default_prompt: "Use $trend-analysis to produce a rigorous, decision-ready result."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "OKR Design"
+  short_description: "OKR Design skill for AIOS"
+  default_prompt: "Use $okr-design to produce a rigorous, decision-ready result."

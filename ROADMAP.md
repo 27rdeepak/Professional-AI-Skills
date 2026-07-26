@@ -17,5 +17,5 @@ Quality gates take precedence over file counts.
 
 ## 1.0 — Stable
 
-- [ ] 100 reviewed skills and stable schema
-- [ ] Compatibility matrix, regression gates, release archive, and documentation site
+- [x] 100 reviewed skills and stable schema
+- [x] Compatibility matrix, regression gates, release archive, and documentation site

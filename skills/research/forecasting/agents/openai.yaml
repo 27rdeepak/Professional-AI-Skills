@@ -1,0 +1,4 @@
+interface:
+  display_name: "Forecasting"
+  short_description: "Forecasting skill for AIOS"
+  default_prompt: "Use $forecasting to produce a rigorous, decision-ready result."

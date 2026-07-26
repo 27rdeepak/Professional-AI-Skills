@@ -1,0 +1,4 @@
+interface:
+  display_name: "Reading Companion"
+  short_description: "Reading Companion skill for AIOS"
+  default_prompt: "Use $reading-companion to produce a rigorous, decision-ready result."

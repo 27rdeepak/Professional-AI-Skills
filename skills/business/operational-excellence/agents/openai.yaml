@@ -1,0 +1,4 @@
+interface:
+  display_name: "Operational Excellence"
+  short_description: "Operational Excellence skill for AIOS"
+  default_prompt: "Use $operational-excellence to produce a rigorous, decision-ready result."

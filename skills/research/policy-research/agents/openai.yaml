@@ -1,0 +1,4 @@
+interface:
+  display_name: "Policy Research"
+  short_description: "Policy Research skill for AIOS"
+  default_prompt: "Use $policy-research to produce a rigorous, decision-ready result."

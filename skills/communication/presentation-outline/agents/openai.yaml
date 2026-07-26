@@ -1,0 +1,4 @@
+interface:
+  display_name: "Presentation Outline"
+  short_description: "Presentation Outline skill for AIOS"
+  default_prompt: "Use $presentation-outline to produce a rigorous, decision-ready result."

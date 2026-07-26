@@ -1,0 +1,4 @@
+interface:
+  display_name: "Migration Planning"
+  short_description: "Migration Planning skill for AIOS"
+  default_prompt: "Use $migration-planning to produce a rigorous, decision-ready result."

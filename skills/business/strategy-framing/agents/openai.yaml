@@ -1,0 +1,4 @@
+interface:
+  display_name: "Strategy Framing"
+  short_description: "Strategy Framing skill for AIOS"
+  default_prompt: "Use $strategy-framing to produce a rigorous, decision-ready result."

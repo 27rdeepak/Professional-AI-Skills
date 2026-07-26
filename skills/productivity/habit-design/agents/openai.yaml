@@ -1,0 +1,4 @@
+interface:
+  display_name: "Habit Design"
+  short_description: "Habit Design skill for AIOS"
+  default_prompt: "Use $habit-design to produce a rigorous, decision-ready result."

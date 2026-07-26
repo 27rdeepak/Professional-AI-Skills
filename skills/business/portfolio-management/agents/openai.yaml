@@ -1,0 +1,4 @@
+interface:
+  display_name: "Portfolio Management"
+  short_description: "Portfolio Management skill for AIOS"
+  default_prompt: "Use $portfolio-management to produce a rigorous, decision-ready result."

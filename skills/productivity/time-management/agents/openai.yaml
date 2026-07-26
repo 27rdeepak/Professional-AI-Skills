@@ -1,0 +1,4 @@
+interface:
+  display_name: "Time Management"
+  short_description: "Time Management skill for AIOS"
+  default_prompt: "Use $time-management to produce a rigorous, decision-ready result."

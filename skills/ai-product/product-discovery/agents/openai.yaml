@@ -1,0 +1,4 @@
+interface:
+  display_name: "Product Discovery"
+  short_description: "Product Discovery skill for AIOS"
+  default_prompt: "Use $product-discovery to produce a rigorous, decision-ready result."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Governance"
+  short_description: "AI Governance skill for AIOS"
+  default_prompt: "Use $ai-governance to produce a rigorous, decision-ready result."

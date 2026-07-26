@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pricing Strategy"
+  short_description: "Pricing Strategy skill for AIOS"
+  default_prompt: "Use $pricing-strategy to produce a rigorous, decision-ready result."
