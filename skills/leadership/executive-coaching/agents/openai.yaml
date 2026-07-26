@@ -1,0 +1,4 @@
+interface:
+  display_name: "Executive Coaching"
+  short_description: "Assess goals, behaviors, constraints, strengths, and developmental themes|Distinguish skill gaps from context and sys..."
+  default_prompt: "Use $executive-coaching to produce a rigorous, decision-ready result."

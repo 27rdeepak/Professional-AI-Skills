@@ -1,0 +1,4 @@
+interface:
+  display_name: "Intune Management"
+  short_description: "Review enrollment, compliance policies, configuration profiles, application deployment, and remediation|Distinguish d..."
+  default_prompt: "Use $intune-management to produce a rigorous, decision-ready result."

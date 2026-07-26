@@ -1,0 +1,4 @@
+interface:
+  display_name: "SharePoint Governance"
+  short_description: "Review site lifecycle, permission model, content sprawl, external sharing, and information architecture|Separate owne..."
+  default_prompt: "Use $sharepoint-governance to produce a rigorous, decision-ready result."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Entra ID Governance"
+  short_description: "Assess tenant structure, identity lifecycle, privileged access, conditional access, and guest control|Map identity ri..."
+  default_prompt: "Use $entra-id-governance to produce a rigorous, decision-ready result."

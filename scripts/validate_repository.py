@@ -18,6 +18,8 @@ for f in files:
  a=f.parent/"agents/openai.yaml"
  if not a.exists() or f"${name}" not in a.read_text(): errors.append(f"{f}: invalid agent metadata")
  if len(t.splitlines())>500: errors.append(f"{f}: too long")
-if len(files)!=20: errors.append(f"expected 20 skills, found {len(files)}")
+if len(files)<20: errors.append(f"expected at least 20 skills, found {len(files)}")
+for required in ["skills/enterprise-it","skills/microsoft365","skills/cybersecurity","skills/business","skills/leadership","frameworks","templates","personas","playbooks","evaluations","platform"]:
+ if not (R/required).exists(): errors.append(f"missing {required}")
 if errors: print("\n".join("ERROR: "+x for x in errors));sys.exit(1)
 print(f"Validated {len(files)} skills and repository foundation.")

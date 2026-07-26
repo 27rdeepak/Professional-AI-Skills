@@ -1,5 +1,3 @@
 # Frameworks
 
-Reusable methods shared by skills.
-
-See the [roadmap](../ROADMAP.md).
+Reusable decision lenses and facilitation patterns.

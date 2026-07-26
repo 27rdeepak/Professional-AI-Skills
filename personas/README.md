@@ -1,5 +1,3 @@
 # Personas
 
-Stakeholder lenses without invented credentials or authority.
-
-See the [roadmap](../ROADMAP.md).
+Stakeholder lenses used to tune tone, priorities, and risk framing.

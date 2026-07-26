@@ -1,0 +1,4 @@
+interface:
+  display_name: "Vendor Management"
+  short_description: "Assess supplier scope, criticality, performance, renewals, and concentration risk|Separate commercial, operational, s..."
+  default_prompt: "Use $vendor-management to produce a rigorous, decision-ready result."

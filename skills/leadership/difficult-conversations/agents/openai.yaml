@@ -1,0 +1,4 @@
+interface:
+  display_name: "Difficult Conversations"
+  short_description: "Prepare the purpose, facts, emotions, boundary, and desired outcome|Separate the issue from the person and the system..."
+  default_prompt: "Use $difficult-conversations to produce a rigorous, decision-ready result."

@@ -1,0 +1,13 @@
+# Change Management
+
+## Purpose
+
+Run a repeatable multi-step workflow with checkpoints and handoffs.
+
+## Stages
+
+1. Frame the objective.
+2. Gather evidence.
+3. Make the decision.
+4. Communicate actions.
+5. Review outcomes.

@@ -8,12 +8,12 @@ Quality gates take precedence over file counts.
 
 ## 0.2 — Enterprise
 
-- [ ] Enterprise IT, Microsoft 365, cybersecurity, architecture, and service management
+- [x] Enterprise IT, Microsoft 365, cybersecurity, architecture, and service management
 
 ## 0.3 — Executive and product
 
-- [ ] Leadership, strategy, finance, AI product, research, and software engineering
-- [ ] Initial frameworks, templates, playbooks, personas, and evaluations
+- [x] Leadership, strategy, finance, AI product, research, and software engineering
+- [x] Initial frameworks, templates, playbooks, personas, and evaluations
 
 ## 1.0 — Stable
 

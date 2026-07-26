@@ -1,0 +1,4 @@
+interface:
+  display_name: "Incident Response"
+  short_description: "Classify event scope, severity, containment needs, evidence, and communications|Separate detection, containment, erad..."
+  default_prompt: "Use $incident-response to produce a rigorous, decision-ready result."

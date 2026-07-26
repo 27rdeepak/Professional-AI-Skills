@@ -1,5 +1,3 @@
 # Examples
 
-Representative requests and outputs.
-
-See the [roadmap](../ROADMAP.md).
+Representative prompts and outputs can be added here as the library grows.

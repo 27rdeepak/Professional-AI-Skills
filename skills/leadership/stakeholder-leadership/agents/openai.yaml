@@ -1,0 +1,4 @@
+interface:
+  display_name: "Stakeholder Leadership"
+  short_description: "Define the decision, coalition, objections, and trust gaps|Plan sequencing, influence, and narrative by audience|Iden..."
+  default_prompt: "Use $stakeholder-leadership to produce a rigorous, decision-ready result."

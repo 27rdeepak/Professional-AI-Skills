@@ -1,10 +1,9 @@
-# Platform Guides
+# Platform Guidance
 
-Canonical skills live under `skills/`. Guides explain loading, not behavior.
+Use the most specific pack that fits the job, and keep the active context narrow.
 
-- [Chatgpt](chatgpt/README.md)
-- [Claude](claude/README.md)
-- [Gemini](gemini/README.md)
-- [Codex](codex/README.md)
-- [Cursor](cursor/README.md)
-- [Copilot](copilot/README.md)
+- [ChatGPT](chatgpt.md)
+- [Claude](claude.md)
+- [Gemini](gemini.md)
+- [Cursor](cursor.md)
+- [Copilot](copilot.md)

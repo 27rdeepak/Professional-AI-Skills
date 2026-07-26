@@ -1,0 +1,4 @@
+interface:
+  display_name: "Operating Model Design"
+  short_description: "Describe decision rights, processes, roles, interfaces, service levels, and metrics|Identify mismatches between strat..."
+  default_prompt: "Use $operating-model-design to produce a rigorous, decision-ready result."

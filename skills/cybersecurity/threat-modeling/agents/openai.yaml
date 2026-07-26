@@ -1,0 +1,4 @@
+interface:
+  display_name: "Threat Modeling"
+  short_description: "Define assets, trust boundaries, entry points, actors, abuse cases, and controls|Map plausible attack paths and defen..."
+  default_prompt: "Use $threat-modeling to produce a rigorous, decision-ready result."

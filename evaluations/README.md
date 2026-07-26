@@ -1,5 +1,3 @@
 # Evaluations
 
-Rubrics and regression cases for observable behavior.
-
-See the [roadmap](../ROADMAP.md).
+Rubrics and test cases for skill quality and regressions.

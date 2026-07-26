@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cloud Governance"
+  short_description: "Define environment, guardrails, account structure, policy, and exception handling|Check whether controls are preventa..."
+  default_prompt: "Use $cloud-governance to produce a rigorous, decision-ready result."

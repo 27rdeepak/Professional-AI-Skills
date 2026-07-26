@@ -1,5 +1,3 @@
 # Tests
 
-Structural and future behavioral checks.
-
-See the [roadmap](../ROADMAP.md).
+Add forward tests and regression checks for new skills and packs.

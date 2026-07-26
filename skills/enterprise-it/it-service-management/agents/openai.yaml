@@ -1,0 +1,4 @@
+interface:
+  display_name: "IT Service Management"
+  short_description: "Describe the service, process, ownership, SLAs, incidents, changes, and dependencies|Distinguish operational process..."
+  default_prompt: "Use $it-service-management to produce a rigorous, decision-ready result."

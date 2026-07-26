@@ -1,0 +1,4 @@
+interface:
+  display_name: "Financial Impact Analysis"
+  short_description: "Quantify revenue, cost, cash, margin, and timing effects with explicit assumptions|Check sensitivity to adoption, pri..."
+  default_prompt: "Use $financial-impact-analysis to produce a rigorous, decision-ready result."

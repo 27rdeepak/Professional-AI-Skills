@@ -1,0 +1,4 @@
+interface:
+  display_name: "Change Leadership"
+  short_description: "Assess readiness, incentives, friction, sponsor strength, and adoption risks|Separate announcement from adoption and..."
+  default_prompt: "Use $change-leadership to produce a rigorous, decision-ready result."

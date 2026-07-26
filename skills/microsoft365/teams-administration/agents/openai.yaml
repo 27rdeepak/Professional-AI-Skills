@@ -1,0 +1,4 @@
+interface:
+  display_name: "Teams Administration"
+  short_description: "Assess meeting, chat, calling, policy, retention, and support settings against user needs|Spot fragmented policy, spr..."
+  default_prompt: "Use $teams-administration to produce a rigorous, decision-ready result."
