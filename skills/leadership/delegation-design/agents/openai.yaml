@@ -1,0 +1,4 @@
+interface:
+  display_name: "Delegation Design"
+  short_description: "Delegate outcomes with clear authority, support, and control."
+  default_prompt: "Use $delegation-design to define the outcome, authority level, constraints, support, checkpoints, escalation triggers, and delegation conversation."

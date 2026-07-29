@@ -1,0 +1,4 @@
+interface:
+  display_name: "Compliance Readiness"
+  short_description: "Test audit readiness with controls, evidence, and remediation."
+  default_prompt: "Use $compliance-readiness to assess this audit scope, control operation, evidence quality, remediation needs, and entry criteria."

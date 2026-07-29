@@ -1,0 +1,4 @@
+interface:
+  display_name: "Disaster Recovery Planning"
+  short_description: "Design testable recovery for critical services and dependencies."
+  default_prompt: "Use $disaster-recovery-planning to assess recovery objectives, dependencies, backup integrity, runbooks, tests, and residual risk."

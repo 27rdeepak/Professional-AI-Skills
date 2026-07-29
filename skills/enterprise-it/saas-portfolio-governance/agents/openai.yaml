@@ -1,0 +1,4 @@
+interface:
+  display_name: "SaaS Portfolio Governance"
+  short_description: "Rationalize SaaS by value, usage, cost, risk, and exit."
+  default_prompt: "Use $saas-portfolio-governance to assess this application portfolio and recommend retain, optimize, consolidate, renegotiate, or retire actions."

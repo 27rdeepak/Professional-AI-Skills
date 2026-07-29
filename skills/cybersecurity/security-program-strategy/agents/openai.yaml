@@ -1,0 +1,4 @@
+interface:
+  display_name: "Security Program Strategy"
+  short_description: "Build a risk-led, measurable cybersecurity strategy and roadmap."
+  default_prompt: "Use $security-program-strategy to create a business-linked security program strategy with priorities, trade-offs, ownership, and measurable outcomes."

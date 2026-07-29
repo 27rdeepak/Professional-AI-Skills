@@ -1,0 +1,4 @@
+interface:
+  display_name: "Security Architecture Review"
+  short_description: "Find and prioritize architecture-specific security risks."
+  default_prompt: "Use $security-architecture-review to assess this design's trust boundaries, attack paths, controls, approval conditions, and verification evidence."

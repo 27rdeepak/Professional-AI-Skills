@@ -1,0 +1,4 @@
+interface:
+  display_name: "Executive Presence"
+  short_description: "Build confidence through clear, composed executive behavior."
+  default_prompt: "Use $executive-presence to diagnose observable behaviors, sharpen the decision narrative, prepare for challenge, and define a measurable practice drill."
