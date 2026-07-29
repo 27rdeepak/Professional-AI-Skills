@@ -1,0 +1,4 @@
+interface:
+  display_name: "Exchange Online Governance"
+  short_description: "Govern Exchange mail flow, access, protection, and retention."
+  default_prompt: "Use $exchange-online-governance to assess Exchange Online mail flows, access, protection, retention, operational gaps, and prioritized changes."

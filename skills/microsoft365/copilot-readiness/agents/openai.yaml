@@ -1,0 +1,4 @@
+interface:
+  display_name: "Microsoft 365 Copilot Readiness"
+  short_description: "Plan a governed, measurable Microsoft 365 Copilot rollout."
+  default_prompt: "Use $copilot-readiness to assess use cases, identity, permissions, information hygiene, controls, adoption, measurement, and rollout gates."

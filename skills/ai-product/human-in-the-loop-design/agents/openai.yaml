@@ -1,0 +1,4 @@
+interface:
+  display_name: "Human-in-the-Loop Design"
+  short_description: "Design meaningful, sustainable human oversight for AI decisions."
+  default_prompt: "Use $human-in-the-loop-design to map failure consequences and design review, approval, escalation, fallback, and learning controls."

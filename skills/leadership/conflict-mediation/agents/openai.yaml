@@ -1,0 +1,4 @@
+interface:
+  display_name: "Conflict Mediation"
+  short_description: "Resolve workplace conflict through fair operating agreements."
+  default_prompt: "Use $conflict-mediation to screen risks, map the conflict, design the conversation, and produce a workable agreement with follow-up."

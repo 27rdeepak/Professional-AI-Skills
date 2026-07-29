@@ -1,0 +1,4 @@
+interface:
+  display_name: "Purview Compliance"
+  short_description: "Govern Microsoft 365 protection, retention, and investigation."
+  default_prompt: "Use $purview-compliance to design or assess Purview controls across classification, DLP, retention, investigations, operations, and measurable effectiveness."
