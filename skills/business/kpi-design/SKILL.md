@@ -1,6 +1,6 @@
 ---
 name: kpi-design
-description: Define what should be measured, why it matters, how it is calculated, and what good looks like|Separate leading and lagging indicators|Recommend a manageable scorecard. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Define what to measure, why it matters, how it is calculated, and what good looks like. Use when designing KPIs or a metrics framework, fixing a metric that drives the wrong behavior, defining 'good' for a team or product, or trimming a bloated dashboard to the few metrics that matter.
 ---
 
 # KPI Design

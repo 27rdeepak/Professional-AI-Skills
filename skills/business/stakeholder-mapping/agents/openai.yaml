@@ -1,4 +1,4 @@
 interface:
   display_name: "Stakeholder Mapping"
   short_description: "Map influence, interest, support, risks, and messaging needs by stakeholder group|Separate power from proximity and l..."
-  default_prompt: "Use $stakeholder-mapping to produce a rigorous, decision-ready result."
+  default_prompt: "Use $stakeholder-mapping to rate influence and stance, separate power from loudness, and plan a sequenced engagement."

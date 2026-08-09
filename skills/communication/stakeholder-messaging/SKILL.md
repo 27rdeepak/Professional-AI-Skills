@@ -1,6 +1,6 @@
 ---
 name: stakeholder-messaging
-description: Tailor the message to audience power, interests, objections, and timing|Separate reassurance from persuasion from instruction|Recommend audience-specific talking points. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Tailor a message to audience power, interests, objections, and timing. Use when crafting messages for different stakeholders, adapting one update for multiple audiences, overcoming a stakeholder's likely objection, or timing a sensitive message.
 ---
 
 # Stakeholder Messaging

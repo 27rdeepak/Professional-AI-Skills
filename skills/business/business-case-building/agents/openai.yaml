@@ -1,4 +1,4 @@
 interface:
   display_name: "Business Case Building"
   short_description: "Define the problem, options, costs, benefits, risks, timing, and decision criteria|Separate direct value from strateg..."
-  default_prompt: "Use $business-case-building to produce a rigorous, decision-ready result."
+  default_prompt: "Use $business-case-building to lay out the problem, options, ranged costs and benefits, risks, and approval conditions."

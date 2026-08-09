@@ -1,6 +1,6 @@
 ---
 name: it-service-management
-description: Describe the service, process, ownership, SLAs, incidents, changes, and dependencies|Distinguish operational process gaps from tool defects|Highlight recurring failures, queue health, and handoff risk|Recommend operating improvements and controls. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Review a service's process, ownership, SLAs, incidents, changes, and dependencies, distinguishing operational process gaps from tool defects. Use when assessing an ITSM process or service desk, diagnosing recurring incidents or queue backlogs, reviewing change or incident management, or improving service operations.
 ---
 
 # IT Service Management
@@ -15,7 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. service operating review.
+1. Describe the service: scope, ownership, SLAs, and key dependencies.
+2. Review incident, change, and request flows and their queue health.
+3. Distinguish operational process gaps from tool defects.
+4. Surface recurring failures, handoff risk, and SLA breaches with evidence.
+5. Trace the highest-impact bottleneck to its cause.
+6. Recommend operating improvements and controls.
 
 ## Decision rules
 
@@ -26,7 +31,7 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **decision-ready brief** with:
+Default to a **service operating review** with:
 
 1. Bottom line
 2. Evidence and analysis
@@ -47,17 +52,17 @@ Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Failure modes
 
-- **Premature certainty:** use ranges or scenarios.
+- **Tool-blaming:** most queue pain is process and ownership, not the ITSM tool.
+- **Metric vanity:** measure resolution and recurrence, not tickets touched.
 - **Framework theater:** omit sections that do not change action.
-- **Fact–inference blending:** label the boundary.
-- **Generic advice:** connect recommendations to supplied context.
-- **Hidden trade-offs:** name what the preferred action sacrifices.
+- **Fact–inference blending:** separate measured queue data from anecdote.
+- **Generic process advice:** tie every change to the observed bottleneck.
 
 ## Example
 
-**Request:** “Use it-service-management to analyze this material.”
+**Request:** "Use $it-service-management to review an incident queue that keeps breaching SLA."
 
-Apply the workflow, expose evidence gaps, and deliver the default output with a clear bottom line.
+Describe the service and its SLAs, review queue health, and separate the process gap — unclear escalation ownership — from any tool limitation. Trace the top breach cause to its origin, and recommend a concrete operating change such as a defined escalation owner and a triage rule, not generic best practice.
 
 ## Evaluation
 
@@ -65,4 +70,4 @@ A strong result is accurate, traceable, decision-relevant, proportionate, and ac
 
 ## Related skills
 
-Combine with `evidence-validation` for contested claims, `risk-analysis` for uncertainty, `executive-writer` for senior audiences, and `quality-review` before publication.
+Pair with `root-cause-analysis` for recurring incidents and `operating-model-design` for the ownership structure.

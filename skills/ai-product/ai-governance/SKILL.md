@@ -1,6 +1,6 @@
 ---
 name: ai-governance
-description: Define policy, review points, risk tiers, approvals, and ownership for AI usage|Check whether controls are usable and enforceable|Identify safety, privacy, and compliance gaps|Recommend pragmatic guardrails and escalation paths. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Define policy, review points, risk tiers, approvals, and ownership for AI usage. Use when standing up AI governance, classifying AI use cases by risk, deciding what needs human approval, or responding to a regulatory or internal-audit requirement for AI oversight.
 ---
 
 # AI Governance

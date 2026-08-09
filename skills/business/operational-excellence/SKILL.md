@@ -1,6 +1,6 @@
 ---
 name: operational-excellence
-description: Assess process flow, defects, delay, ownership, and service levels|Identify waste, rework, and bottlenecks|Recommend operational improvements with measurable impact. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Assess process flow, defects, delay, ownership, and service levels. Use when improving an operational process, diagnosing delay or defect rates, raising service levels, or finding where a workflow loses time and quality.
 ---
 
 # Operational Excellence

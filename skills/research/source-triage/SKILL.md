@@ -1,6 +1,6 @@
 ---
 name: source-triage
-description: Assess relevance, authority, method, recency, and conflict of interest|Filter out weak or noisy sources early|Identify which sources deserve deeper reading|Recommend a focused reading set. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Assess relevance, authority, method, recency, and conflict of interest across sources. Use when filtering a pile of sources before deep reading, deciding which to trust and prioritize, screening search results, or building a shortlist for a review.
 ---
 
 # Source Triage

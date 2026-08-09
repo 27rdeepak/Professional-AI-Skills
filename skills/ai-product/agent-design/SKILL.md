@@ -1,6 +1,6 @@
 ---
 name: agent-design
-description: Assess agent goals, tools, autonomy, memory, guardrails, and handoffs|Identify overreach, prompt brittleness, and failure containment needs|Recommend a narrower or safer agent pattern when needed. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Assess an AI agent's goals, tools, autonomy, memory, guardrails, and handoffs. Use when designing or reviewing an autonomous or tool-using agent, deciding how much autonomy to grant, adding guardrails or human handoffs, or debugging why an agent loops, over-acts, or loses context.
 ---
 
 # Agent Design

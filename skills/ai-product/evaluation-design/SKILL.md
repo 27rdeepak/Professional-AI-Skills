@@ -1,6 +1,6 @@
 ---
 name: evaluation-design
-description: Define success criteria, datasets, tests, rubrics, and failure thresholds|Separate model quality, workflow quality, and business value|Recommend how to measure improvement and regressions. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Define success criteria, datasets, tests, rubrics, and failure thresholds for a system. Use when building an evaluation for an AI feature or model, deciding what 'good enough to ship' means, designing test sets and rubrics, or diagnosing why a system passes offline but fails in production.
 ---
 
 # Evaluation Design

@@ -1,4 +1,4 @@
 interface:
   display_name: "Third-Party Risk"
   short_description: "Assess vendor access, data types, business criticality, control posture, and exit options|Differentiate contractual a..."
-  default_prompt: "Use $third-party-risk to produce a rigorous, decision-ready result."
+  default_prompt: "Use $third-party-risk to assess this vendor's access, criticality, control evidence, concentration, and exit options."

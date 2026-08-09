@@ -1,6 +1,6 @@
 ---
 name: third-party-risk
-description: Assess vendor access, data types, business criticality, control posture, and exit options|Differentiate contractual assurance from operational assurance|Identify concentration and cascade risk|Recommend due diligence, monitoring, and mitigation steps. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Assess a vendor's access, data exposure, business criticality, control posture, and exit options, separating contractual assurance from operational evidence. Use when onboarding or renewing a supplier, reviewing a vendor's security posture, assessing concentration or fourth-party risk, or deciding whether to accept a vendor's residual risk.
 ---
 
 # Third-Party Risk
@@ -15,7 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. third-party risk review.
+1. Map what the vendor accesses: data types, systems, privileges, and the business processes that depend on them.
+2. Rate business criticality and the blast radius of a vendor breach or outage.
+3. Assess control posture with evidence — attestation scope, test results — not questionnaires or logos alone.
+4. Separate contractual assurance (SLAs, clauses) from operational assurance (what is actually running).
+5. Identify concentration, fourth-party, and cascade risk.
+6. Recommend due diligence, monitoring cadence, contractual controls, and exit feasibility.
 
 ## Decision rules
 
@@ -26,7 +31,7 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **decision-ready brief** with:
+Default to a **vendor risk assessment** with:
 
 1. Bottom line
 2. Evidence and analysis
@@ -47,17 +52,17 @@ Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Failure modes
 
-- **Premature certainty:** use ranges or scenarios.
+- **Certificate theater:** a SOC 2 badge is scope-bound — read the report, not the logo.
+- **Exit blindness:** assess how hard it is to leave before you depend on the vendor.
 - **Framework theater:** omit sections that do not change action.
-- **Fact–inference blending:** label the boundary.
-- **Generic advice:** connect recommendations to supplied context.
-- **Hidden trade-offs:** name what the preferred action sacrifices.
+- **Fact–inference blending:** separate attested controls from assumed ones.
+- **Concentration blind spot:** flag where many services share one vendor or sub-processor.
 
 ## Example
 
-**Request:** “Use third-party-risk to analyze this material.”
+**Request:** "Use $third-party-risk to assess a SaaS analytics vendor that will receive customer PII."
 
-Apply the workflow, expose evidence gaps, and deliver the default output with a clear bottom line.
+Map the PII flow and the vendor's privileges, rate criticality, and test the control claims against the actual scope of their SOC 2 report. Separate contract terms from operating reality, flag concentration and the cost of exit, and recommend monitoring plus specific contractual data-handling controls.
 
 ## Evaluation
 
@@ -65,4 +70,4 @@ A strong result is accurate, traceable, decision-relevant, proportionate, and ac
 
 ## Related skills
 
-Combine with `evidence-validation` for contested claims, `risk-analysis` for uncertainty, `executive-writer` for senior audiences, and `quality-review` before publication.
+Pair with `security-architecture-review` for the integration design, `risk-analysis` to track residual exposure, and `commercial-negotiation` for the contract terms.

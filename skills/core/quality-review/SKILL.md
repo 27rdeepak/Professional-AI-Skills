@@ -1,6 +1,6 @@
 ---
 name: quality-review
-description: Review deliverables against explicit requirements, evidence, usability, and risk. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Review a deliverable against explicit acceptance criteria for correctness, completeness, consistency, usability, and risk, then state release readiness. Use when checking whether a document, plan, design, or analysis is good enough to ship — as a release gate, or when someone asks "is this ready to send?"
 ---
 
 # Quality Review
@@ -15,10 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. Set acceptance criteria and severity definitions.
-2. Check correctness, completeness, consistency, traceability, usability, and compliance.
-3. Report reproducible findings with consequence and remedy.
-4. State release readiness.
+1. Establish or restate acceptance criteria and severity definitions.
+2. Check correctness, completeness, consistency, traceability, usability, and compliance against those criteria.
+3. Record each finding with a reproducible location, its consequence, and a remedy.
+4. Rank findings by severity, not by the order they were found.
+5. State a clear verdict: ready, ready with conditions, or not ready.
+6. List the must-fix items that gate release.
 
 ## Decision rules
 
@@ -50,17 +52,17 @@ Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Failure modes
 
-- **Premature certainty:** use ranges or scenarios.
+- **Nit flood:** rank by consequence so blockers are not buried under style notes.
+- **Vague findings:** every finding needs a location, a consequence, and a fix.
 - **Framework theater:** omit sections that do not change action.
-- **Fact–inference blending:** label the boundary.
-- **Generic advice:** connect recommendations to supplied context.
-- **Hidden trade-offs:** name what the preferred action sacrifices.
+- **Fact–inference blending:** separate defects observed from risks inferred.
+- **Missing verdict:** always state ready, ready with conditions, or not ready.
 
 ## Example
 
-**Request:** “Use $quality-review to analyze this material.”
+**Request:** "Use $quality-review to assess whether this data-migration plan is release-ready."
 
-Apply the workflow, expose evidence gaps, and deliver the default output with a clear bottom line.
+Set acceptance criteria — rollback tested, data validated, cutover window agreed — and check the plan against each. Flag that the rollback step lacks a verification test as a must-fix blocker, rank the remaining findings by consequence, and give a "ready with conditions" verdict that lists the gates.
 
 ## Evaluation
 
@@ -68,4 +70,4 @@ A strong result is accurate, traceable, decision-relevant, proportionate, and ac
 
 ## Related skills
 
-Combine with `evidence-validation` for contested claims, `risk-analysis` for uncertainty, `executive-writer` for senior audiences, and `quality-review` before publication.
+Pair with `critical-thinking` to test the deliverable's claims and `risk-analysis` to weigh the residual exposure of shipping with known gaps.

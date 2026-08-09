@@ -1,6 +1,6 @@
 ---
 name: okr-design
-description: Frame objectives and key results with measurable outcomes and realistic stretch|Avoid output-only metrics and vanity measures|Recommend a small set of aligned objectives. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Frame objectives and key results with measurable outcomes and realistic stretch. Use when setting OKRs for a team or quarter, converting vague goals into measurable outcomes, calibrating stretch, or fixing OKRs that are really a task list.
 ---
 
 # OKR Design

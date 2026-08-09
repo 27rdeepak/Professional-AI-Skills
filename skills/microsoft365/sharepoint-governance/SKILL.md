@@ -1,6 +1,6 @@
 ---
 name: sharepoint-governance
-description: Review site lifecycle, permission model, content sprawl, external sharing, and information architecture|Separate ownership issues from design issues|Identify stale, duplicated, or overexposed content patterns|Recommend governance, retention, and cleanup actions. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Review SharePoint and OneDrive site lifecycle, permission model, content sprawl, external sharing, and information architecture, separating ownership issues from design issues. Use when assessing SharePoint governance, addressing content sprawl or overexposed sites, reviewing external sharing, or planning retention and cleanup.
 ---
 
 # SharePoint Governance
@@ -15,7 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. sharepoint governance plan.
+1. Establish the site estate, lifecycle stages, and ownership.
+2. Review the permission model and external sharing exposure.
+3. Separate ownership issues from information-architecture design issues.
+4. Identify stale, duplicated, or overexposed content patterns.
+5. Assess retention and lifecycle controls.
+6. Recommend governance, retention, and cleanup actions.
 
 ## Decision rules
 
@@ -26,7 +31,7 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **decision-ready brief** with:
+Default to a **SharePoint governance plan** with:
 
 1. Bottom line
 2. Evidence and analysis
@@ -47,17 +52,17 @@ Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Failure modes
 
-- **Premature certainty:** use ranges or scenarios.
+- **Overexposure blindness:** broad "everyone" permissions are the top data-exposure risk.
+- **Ownerless sites:** a site with no owner accumulates sprawl and stale access.
 - **Framework theater:** omit sections that do not change action.
-- **Fact–inference blending:** label the boundary.
-- **Generic advice:** connect recommendations to supplied context.
-- **Hidden trade-offs:** name what the preferred action sacrifices.
+- **Fact–inference blending:** separate measured sharing data from assumption.
+- **Cleanup without governance:** a one-time purge without provisioning rules recurs.
 
 ## Example
 
-**Request:** “Use sharepoint-governance to analyze this material.”
+**Request:** "Use $sharepoint-governance to address sprawl in a tenant with thousands of sites and broad external sharing."
 
-Apply the workflow, expose evidence gaps, and deliver the default output with a clear bottom line.
+Map lifecycle and ownership, then flag the overexposed and externally shared sites that carry real data-exposure risk. Separate ownership gaps from information-architecture design problems, and recommend retention plus a cleanup and provisioning standard so the sprawl does not simply return.
 
 ## Evaluation
 
@@ -65,4 +70,4 @@ A strong result is accurate, traceable, decision-relevant, proportionate, and ac
 
 ## Related skills
 
-Combine with `evidence-validation` for contested claims, `risk-analysis` for uncertainty, `executive-writer` for senior audiences, and `quality-review` before publication.
+Pair with `purview-compliance` for classification and DLP and `entra-id-governance` for external identity control.

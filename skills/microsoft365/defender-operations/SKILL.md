@@ -1,6 +1,6 @@
 ---
 name: defender-operations
-description: Assess alert fidelity, coverage, tuning, response ownership, and containment workflow|Identify blind spots across endpoint, identity, email, and cloud signals|Differentiate noise reduction from true coverage loss|Recommend operational improvements and escalation thresholds. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Assess Microsoft Defender alert fidelity, signal coverage, tuning, response ownership, and containment workflow across endpoint, identity, email, and cloud. Use when reviewing a Defender or XDR deployment, diagnosing alert fatigue or missed detections, tuning noisy rules, or clarifying SOC response ownership.
 ---
 
 # Defender Operations
@@ -15,7 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. defender operations brief.
+1. Establish which Defender workloads are deployed and what signals they cover.
+2. Identify blind spots across endpoint, identity, email, and cloud.
+3. Assess alert fidelity: true-positive rate, noise, and duplication.
+4. Differentiate noise reduction from true coverage loss when tuning.
+5. Review response ownership and the containment workflow.
+6. Recommend tuning, coverage fixes, and escalation thresholds.
 
 ## Decision rules
 
@@ -26,7 +31,7 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **decision-ready brief** with:
+Default to a **Defender operations assessment** with:
 
 1. Bottom line
 2. Evidence and analysis
@@ -47,17 +52,17 @@ Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Failure modes
 
-- **Premature certainty:** use ranges or scenarios.
+- **Tuning into blindness:** suppressing noise can silence a real detection — verify first.
+- **Ownerless alerts:** a high-fidelity alert no one owns is not a control.
 - **Framework theater:** omit sections that do not change action.
-- **Fact–inference blending:** label the boundary.
-- **Generic advice:** connect recommendations to supplied context.
-- **Hidden trade-offs:** name what the preferred action sacrifices.
+- **Fact–inference blending:** separate measured alert data from impression.
+- **Coverage assumed:** a deployed workload is not the same as covered signal.
 
 ## Example
 
-**Request:** “Use defender-operations to analyze this material.”
+**Request:** "Use $defender-operations to review a SOC drowning in Defender alerts."
 
-Apply the workflow, expose evidence gaps, and deliver the default output with a clear bottom line.
+Map the deployed workloads and their coverage, measure alert fidelity, and separate genuine noise from real signal before tuning anything. Fix the identity blind spot the noise was hiding, assign response ownership, and set escalation thresholds so high-fidelity alerts reach an owner fast.
 
 ## Evaluation
 
@@ -65,4 +70,4 @@ A strong result is accurate, traceable, decision-relevant, proportionate, and ac
 
 ## Related skills
 
-Combine with `evidence-validation` for contested claims, `risk-analysis` for uncertainty, `executive-writer` for senior audiences, and `quality-review` before publication.
+Pair with `incident-response` for the response workflow and `threat-modeling` for coverage priorities.

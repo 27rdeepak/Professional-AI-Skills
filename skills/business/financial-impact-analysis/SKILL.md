@@ -1,6 +1,6 @@
 ---
 name: financial-impact-analysis
-description: Quantify revenue, cost, cash, margin, and timing effects with explicit assumptions|Check sensitivity to adoption, pricing, utilization, and delay|Separate one-time from recurring effects|Recommend the most financially credible path. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Quantify the revenue, cost, cash, margin, and timing effects of a decision with explicit assumptions and sensitivity, separating one-time from recurring effects. Use when modeling the financial impact of an initiative, validating projected savings or revenue, stress-testing a forecast, or comparing options on a financial basis.
 ---
 
 # Financial Impact Analysis
@@ -15,7 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. financial impact brief.
+1. Define the decision, the baseline, and the time horizon.
+2. Build the revenue, cost, cash, and margin effects with explicit, sourced assumptions.
+3. Separate one-time from recurring effects and phase them over time.
+4. Test sensitivity to the drivers that matter — adoption, pricing, utilization, delay.
+5. Identify the assumptions the result is most fragile to.
+6. Recommend the most financially credible path and the range around it.
 
 ## Decision rules
 
@@ -26,7 +31,7 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **decision-ready brief** with:
+Default to a **financial impact model and assumptions** with:
 
 1. Bottom line
 2. Evidence and analysis
@@ -47,17 +52,17 @@ Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Failure modes
 
-- **Premature certainty:** use ranges or scenarios.
+- **Point-estimate illusion:** carry ranges and name the fragile assumption.
+- **One-time/recurring blur:** phase costs and benefits, do not average them.
 - **Framework theater:** omit sections that do not change action.
-- **Fact–inference blending:** label the boundary.
-- **Generic advice:** connect recommendations to supplied context.
-- **Hidden trade-offs:** name what the preferred action sacrifices.
+- **Fact–inference blending:** label every assumption as an assumption.
+- **Baseline drift:** measure impact against a clearly stated baseline, not a moving one.
 
 ## Example
 
-**Request:** “Use financial-impact-analysis to analyze this material.”
+**Request:** "Use $financial-impact-analysis to model the impact of moving support to a lower-cost region."
 
-Apply the workflow, expose evidence gaps, and deliver the default output with a clear bottom line.
+Set the baseline and horizon, then split the one-time transition cost from the recurring savings and phase them over time. Test sensitivity to attrition and the productivity ramp, and give a range with the single assumption — likely ramp speed — most able to erode the projected savings.
 
 ## Evaluation
 
@@ -65,4 +70,4 @@ A strong result is accurate, traceable, decision-relevant, proportionate, and ac
 
 ## Related skills
 
-Combine with `evidence-validation` for contested claims, `risk-analysis` for uncertainty, `executive-writer` for senior audiences, and `quality-review` before publication.
+Feed `business-case-building` and `decision-analysis`, and pair with `risk-analysis` for downside scenarios.

@@ -1,6 +1,6 @@
 ---
 name: citation-verification
-description: Check whether quotes, statistics, and claims are supported by the cited source|Identify misquotation, missing context, or unsupported extrapolation|Recommend corrections or lower-confidence wording. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Check whether quotes, statistics, and claims are supported by the cited source. Use when verifying that citations actually back their claims, fact-checking a document before publication, catching misquoted or out-of-context figures, or auditing sources in a report.
 ---
 
 # Citation Verification

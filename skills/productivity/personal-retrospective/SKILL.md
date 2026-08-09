@@ -1,6 +1,6 @@
 ---
 name: personal-retrospective
-description: Review what worked, what failed, what was learned, and what to change next|Separate patterns from one-off events|Recommend a small set of adjustments for the next cycle. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Review what worked, what failed, what was learned, and what to change next. Use when running a personal or team retrospective, reflecting after a project or sprint, extracting lessons from a period of work, or planning concrete changes.
 ---
 
 # Personal Retrospective

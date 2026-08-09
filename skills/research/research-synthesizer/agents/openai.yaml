@@ -1,4 +1,4 @@
 interface:
   display_name: "Research Synthesizer"
   short_description: "Combine multiple sources into a traceable synthesis with unce..."
-  default_prompt: "Use $research-synthesizer to produce a rigorous, decision-ready result."
+  default_prompt: "Use $research-synthesizer to group evidence by finding, show agreement and disagreement, and give a calibrated conclusion with gaps."

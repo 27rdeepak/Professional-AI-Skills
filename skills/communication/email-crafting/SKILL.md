@@ -1,6 +1,6 @@
 ---
 name: email-crafting
-description: Write emails around audience, purpose, tone, and action|Choose the smallest message that still changes behavior|Make ask, deadline, and ownership explicit|Recommend a concise email that is easy to act on. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Write an email around audience, purpose, tone, and the action needed. Use when drafting an important or sensitive email, tightening a rambling message, getting a clear action from a busy recipient, or adjusting tone for a tricky audience.
 ---
 
 # Email Crafting

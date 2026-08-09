@@ -1,6 +1,6 @@
 ---
 name: product-discovery
-description: Frame the problem, user, context, and evidence of demand|Check whether the problem is painful, frequent, and urgent enough|Identify alternative solutions and competing priorities|Recommend discovery experiments and next tests. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Frame the problem, user, context, and evidence of demand before building. Use when validating a product idea, deciding whether a problem is worth solving, planning discovery research, or challenging a feature request that lacks evidence of demand.
 ---
 
 # Product Discovery

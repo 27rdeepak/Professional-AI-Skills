@@ -1,6 +1,6 @@
 ---
 name: risk-communication
-description: Translate technical or operational risk into consequence, likelihood, mitigation, and decision impact|Avoid false precision|Recommend language suitable for executives. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Translate technical or operational risk into consequence, likelihood, mitigation, and decision impact. Use when explaining a risk to non-technical leaders, briefing on a security or operational exposure, or turning a risk assessment into a decision-ready message.
 ---
 
 # Risk Communication

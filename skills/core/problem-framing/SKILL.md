@@ -1,6 +1,6 @@
 ---
 name: problem-framing
-description: Turn vague concerns into bounded, testable, decision-relevant problem statements. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Turn a vague concern into a bounded, testable, decision-relevant problem statement before anyone proposes solutions. Use when the ask is fuzzy ("support is slow," "engagement is down"), when stakeholders disagree on what the problem even is, or when solutions are being debated before the problem is defined.
 ---
 
 # Problem Framing
@@ -15,10 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. Identify stakeholder, outcome, state, gap, and consequence.
-2. Separate symptoms, causes, constraints, and solutions.
-3. Define scope, baseline, and success measures.
-4. Offer alternative frames with different implications.
+1. Identify the stakeholder, the desired outcome, the current state, and the gap between them.
+2. Quantify the consequence of the gap and name who feels it.
+3. Separate symptoms, causes, constraints, and premature solutions.
+4. Define scope, baseline, and how you would measure "solved."
+5. Write the problem as a single testable statement.
+6. Offer two or three alternative frames and show how each points to different solutions.
 
 ## Decision rules
 
@@ -50,17 +52,17 @@ Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Failure modes
 
-- **Premature certainty:** use ranges or scenarios.
+- **Solution smuggling:** a frame that names the fix is not a problem statement.
+- **Boundless scope:** an unbounded problem is untestable — set the edges.
 - **Framework theater:** omit sections that do not change action.
 - **Fact–inference blending:** label the boundary.
-- **Generic advice:** connect recommendations to supplied context.
-- **Hidden trade-offs:** name what the preferred action sacrifices.
+- **Symptom as problem:** frame the gap, not the most visible symptom.
 
 ## Example
 
-**Request:** “Use $problem-framing to analyze this material.”
+**Request:** "Use $problem-framing to turn 'our support is too slow' into a testable problem statement."
 
-Apply the workflow, expose evidence gaps, and deliver the default output with a clear bottom line.
+Pin the outcome (resolution within SLA) and the baseline (current median resolution time and which segment breaches it). Separate the symptom "slow" from candidate causes — staffing, tooling, routing — then offer alternative frames: a throughput problem versus a triage problem, each implying different solutions and a different next test.
 
 ## Evaluation
 
@@ -68,4 +70,4 @@ A strong result is accurate, traceable, decision-relevant, proportionate, and ac
 
 ## Related skills
 
-Combine with `evidence-validation` for contested claims, `risk-analysis` for uncertainty, `executive-writer` for senior audiences, and `quality-review` before publication.
+Hand off to `first-principles-analysis` to challenge assumed constraints, `root-cause-analysis` to test candidate causes, and `decision-analysis` once options exist.

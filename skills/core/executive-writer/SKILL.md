@@ -1,6 +1,6 @@
 ---
 name: executive-writer
-description: Turn complex material into concise, decision-ready executive writing. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Turn complex or technical material into concise, decision-first executive writing. Use when drafting a memo, board note, status update, or recommendation for senior leaders where the conclusion must come first, specialist detail must become business impact, and the reader will act on the bottom line alone.
 ---
 
 # Executive Writer
@@ -15,10 +15,13 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. Identify audience, decision, stakes, and action.
-2. Lead with the conclusion and order evidence by relevance.
-3. Translate specialist detail into business impact without weakening accuracy.
-4. End with action, owner, and timing when supported.
+1. Identify the audience, the decision at stake, and the action you want.
+2. State the conclusion in the first two sentences.
+3. Order supporting evidence by relevance to that decision, not by chronology.
+4. Translate specialist detail into cost, risk, time, or revenue impact without weakening accuracy.
+5. Separate facts, assumptions, and recommendation explicitly.
+6. Close with the action, owner, and timing when supported.
+7. Cut anything that does not move the decision.
 
 ## Decision rules
 
@@ -50,17 +53,17 @@ Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Failure modes
 
-- **Premature certainty:** use ranges or scenarios.
+- **Buried lede:** the ask must not arrive on page two.
+- **Jargon shield:** translate every specialist term into a consequence.
 - **Framework theater:** omit sections that do not change action.
 - **Fact–inference blending:** label the boundary.
-- **Generic advice:** connect recommendations to supplied context.
-- **Hidden trade-offs:** name what the preferred action sacrifices.
+- **Confidence inflation:** do not harden a hedged finding to sound decisive.
 
 ## Example
 
-**Request:** “Use $executive-writer to analyze this material.”
+**Request:** "Use $executive-writer to brief the CFO on why a launch is slipping two weeks."
 
-Apply the workflow, expose evidence gaps, and deliver the default output with a clear bottom line.
+Open with the slip, its cost, and the recommended response. Give the two load-bearing reasons in business terms, separate what is certain from what is still being confirmed, and end with the specific decision needed and by when.
 
 ## Evaluation
 
@@ -68,4 +71,4 @@ A strong result is accurate, traceable, decision-relevant, proportionate, and ac
 
 ## Related skills
 
-Combine with `evidence-validation` for contested claims, `risk-analysis` for uncertainty, `executive-writer` for senior audiences, and `quality-review` before publication.
+Feed from `executive-summarizer` for source compression, `decision-analysis` when presenting options, and `quality-review` before it goes to the board.

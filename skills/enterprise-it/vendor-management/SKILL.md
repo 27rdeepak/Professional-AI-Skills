@@ -1,6 +1,6 @@
 ---
 name: vendor-management
-description: Assess supplier scope, criticality, performance, renewals, and concentration risk|Separate commercial, operational, security, and exit risks|Compare contract terms to actual service delivery|Recommend negotiation, exit, or remediation steps. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Assess supplier scope, criticality, performance, renewals, and concentration risk, separating commercial, operational, security, and exit risks. Use when reviewing a supplier portfolio or a key vendor, preparing for a renewal, building a vendor scorecard, or deciding whether to renew, remediate, or exit.
 ---
 
 # Vendor Management
@@ -15,7 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. vendor scorecard and action plan.
+1. Establish the supplier's scope, criticality, and what depends on them.
+2. Assess performance against SLAs and compare contract terms to actual delivery.
+3. Separate commercial, operational, security, and exit risks.
+4. Evaluate renewal timing, leverage, and concentration risk.
+5. Assess exit feasibility and switching cost.
+6. Recommend negotiation, remediation, or exit steps.
 
 ## Decision rules
 
@@ -26,7 +31,7 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **decision-ready brief** with:
+Default to a **vendor scorecard and action plan** with:
 
 1. Bottom line
 2. Evidence and analysis
@@ -47,17 +52,17 @@ Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Failure modes
 
-- **Premature certainty:** use ranges or scenarios.
+- **Contract-as-reality:** what is delivered can differ from what is signed — check both.
+- **Renewal autopilot:** a renewal with no leverage assessment forfeits negotiating room.
 - **Framework theater:** omit sections that do not change action.
-- **Fact–inference blending:** label the boundary.
-- **Generic advice:** connect recommendations to supplied context.
-- **Hidden trade-offs:** name what the preferred action sacrifices.
+- **Fact–inference blending:** separate measured performance from vendor claims.
+- **Exit blindness:** know the switching cost before criticality makes exit impossible.
 
 ## Example
 
-**Request:** “Use vendor-management to analyze this material.”
+**Request:** "Use $vendor-management to review a critical managed-service provider ahead of renewal."
 
-Apply the workflow, expose evidence gaps, and deliver the default output with a clear bottom line.
+Establish criticality and the systems that depend on the provider, then score performance against SLA and separate security risk from commercial and operational risk. Assess exit cost and concentration, and recommend a renew-or-remediate path with the specific leverage points to use in the renewal.
 
 ## Evaluation
 
@@ -65,4 +70,4 @@ A strong result is accurate, traceable, decision-relevant, proportionate, and ac
 
 ## Related skills
 
-Combine with `evidence-validation` for contested claims, `risk-analysis` for uncertainty, `executive-writer` for senior audiences, and `quality-review` before publication.
+Pair with `commercial-negotiation` for the renewal and `third-party-risk` for the security posture.

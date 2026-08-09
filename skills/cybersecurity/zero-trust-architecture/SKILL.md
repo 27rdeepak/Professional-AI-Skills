@@ -1,6 +1,6 @@
 ---
 name: zero-trust-architecture
-description: Evaluate identity, device, network, application, data, and telemetry controls against least-privilege intent|Identify where trust assumptions still bypass policy|Prioritize control layering and migration sequence|Recommend pragmatic adoption steps and guardrails. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Evaluate identity, device, network, application, data, and telemetry controls against least-privilege intent, and sequence a pragmatic path to zero trust. Use when assessing zero-trust maturity, planning a segmentation or identity-first initiative, reviewing where implicit trust still bypasses policy, or prioritizing zero-trust investments.
 ---
 
 # Zero Trust Architecture
@@ -15,7 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. zero trust roadmap.
+1. Define the protect surface: the data, assets, applications, and services that matter most.
+2. Assess each pillar — identity, device, network, application, data, telemetry — against least-privilege intent.
+3. Find where implicit trust still bypasses policy: flat networks, standing admin, unmanaged devices.
+4. Prioritize control layering by risk reduction and feasibility.
+5. Sequence a migration that preserves operations and avoids big-bang cutovers.
+6. Recommend guardrails, success metrics, and the first concrete increment.
 
 ## Decision rules
 
@@ -26,7 +31,7 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **decision-ready brief** with:
+Default to a **zero-trust assessment and roadmap** with:
 
 1. Bottom line
 2. Evidence and analysis
@@ -47,17 +52,17 @@ Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Failure modes
 
-- **Premature certainty:** use ranges or scenarios.
+- **Product-as-strategy:** zero trust is an architecture, not a tool purchase.
+- **Big-bang risk:** sequence increments; a flip-the-switch cutover breaks operations.
 - **Framework theater:** omit sections that do not change action.
-- **Fact–inference blending:** label the boundary.
-- **Generic advice:** connect recommendations to supplied context.
-- **Hidden trade-offs:** name what the preferred action sacrifices.
+- **Fact–inference blending:** separate enforced policy from aspirational policy.
+- **Protect-surface drift:** anchor every control to a defined asset, not the whole network.
 
 ## Example
 
-**Request:** “Use zero-trust-architecture to analyze this material.”
+**Request:** "Use $zero-trust-architecture to assess a company still on a flat corporate network with VPN access."
 
-Apply the workflow, expose evidence gaps, and deliver the default output with a clear bottom line.
+Define the protect surface, score each pillar against least-privilege intent, and flag the flat network and standing VPN trust as the top gaps. Sequence identity-first controls and segmentation as staged increments, each with a success metric and a guardrail so operations keep running through the migration.
 
 ## Evaluation
 
@@ -65,4 +70,4 @@ A strong result is accurate, traceable, decision-relevant, proportionate, and ac
 
 ## Related skills
 
-Combine with `evidence-validation` for contested claims, `risk-analysis` for uncertainty, `executive-writer` for senior audiences, and `quality-review` before publication.
+Build on `security-architecture-review` for design detail and `threat-modeling` for the attack paths segmentation should close.

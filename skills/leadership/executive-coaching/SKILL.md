@@ -1,6 +1,6 @@
 ---
 name: executive-coaching
-description: Assess goals, behaviors, constraints, strengths, and developmental themes|Distinguish skill gaps from context and system constraints|Translate feedback into concrete practice and accountability|Recommend a growth plan with measurable behavior change. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Assess a leader's goals, behaviors, constraints, strengths, and developmental themes, distinguishing skill gaps from context and system constraints. Use when building a leadership development or coaching plan, interpreting 360 feedback, diagnosing a performance or derailment theme, or turning feedback into measurable behavior change.
 ---
 
 # Executive Coaching
@@ -15,7 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. coaching plan.
+1. Establish the leader's goals, role demands, and success measures.
+2. Assess behaviors, strengths, and developmental themes with evidence.
+3. Distinguish genuine skill gaps from context and system constraints.
+4. Translate feedback into a few concrete, observable practice behaviors.
+5. Set accountability, feedback sources, and a cadence.
+6. Recommend a growth plan with measurable behavior change.
 
 ## Decision rules
 
@@ -26,7 +31,7 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **decision-ready brief** with:
+Default to a **coaching and development plan** with:
 
 1. Bottom line
 2. Evidence and analysis
@@ -47,17 +52,17 @@ Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Failure modes
 
-- **Premature certainty:** use ranges or scenarios.
+- **Skill-blaming the system:** a structural constraint will not yield to individual coaching.
+- **Unmeasurable goals:** "be more strategic" is not a plan — name the observable behavior.
 - **Framework theater:** omit sections that do not change action.
-- **Fact–inference blending:** label the boundary.
-- **Generic advice:** connect recommendations to supplied context.
-- **Hidden trade-offs:** name what the preferred action sacrifices.
+- **Fact–inference blending:** separate feedback evidence from your interpretation.
+- **Strength neglect:** build on strengths, not only on closing gaps.
 
 ## Example
 
-**Request:** “Use executive-coaching to analyze this material.”
+**Request:** "Use $executive-coaching to build a plan from a director's 360 that flags 'poor delegation.'"
 
-Apply the workflow, expose evidence gaps, and deliver the default output with a clear bottom line.
+Establish their goals and role demands, then test whether it is a delegation skill gap or an under-resourced, unclear team. Translate the feedback into two observable behaviors — such as agreeing decision rights per task — and set an accountability cadence with measurable change over a defined period.
 
 ## Evaluation
 
@@ -65,4 +70,4 @@ A strong result is accurate, traceable, decision-relevant, proportionate, and ac
 
 ## Related skills
 
-Combine with `evidence-validation` for contested claims, `risk-analysis` for uncertainty, `executive-writer` for senior audiences, and `quality-review` before publication.
+Pair with `delegation-design` when delegation is the theme and `difficult-conversations` for the feedback delivery.

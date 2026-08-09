@@ -1,4 +1,4 @@
 interface:
   display_name: "Knowledge Distillation"
   short_description: "Extract reusable principles, models, and practices from dense..."
-  default_prompt: "Use $knowledge-distillation to produce a rigorous, decision-ready result."
+  default_prompt: "Use $knowledge-distillation to turn this material into reusable, labeled principles, each with a trigger and a worked example."

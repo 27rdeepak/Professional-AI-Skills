@@ -1,6 +1,6 @@
 ---
 name: debugging-analysis
-description: Reconstruct symptom, reproduction path, expected state, and observed state|Compare likely causes by probability and discriminating value|Recommend the smallest test that reduces uncertainty fastest|Translate findings into a fix and verification plan. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Reconstruct symptom, reproduction path, expected state, and observed state. Use when diagnosing a bug or unexpected behavior, isolating a hard-to-reproduce failure, structuring a debugging investigation, or narrowing a fault to its cause.
 ---
 
 # Debugging Analysis

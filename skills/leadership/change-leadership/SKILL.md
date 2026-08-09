@@ -1,6 +1,6 @@
 ---
 name: change-leadership
-description: Assess readiness, incentives, friction, sponsor strength, and adoption risks|Separate announcement from adoption and habit formation|Anticipate resistance by group and layer|Recommend a change plan with reinforcement and measurement. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Assess readiness, incentives, friction, sponsor strength, and adoption risks, separating announcement from actual adoption and habit formation. Use when planning or rescuing a change initiative, diagnosing why a rollout is stalling, assessing organizational readiness, or designing reinforcement so a change sticks.
 ---
 
 # Change Leadership
@@ -15,7 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. change leadership plan.
+1. Define the change, the from-to behavior shift, and the outcome that proves adoption.
+2. Assess readiness, incentives, friction, and sponsor strength by affected group.
+3. Separate announcement from adoption and habit formation.
+4. Anticipate resistance by group and by organizational layer.
+5. Design reinforcement, feedback loops, and adoption measures.
+6. Recommend a change plan with reinforcement and measurement.
 
 ## Decision rules
 
@@ -26,7 +31,7 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **decision-ready brief** with:
+Default to a **change plan with adoption measures** with:
 
 1. Bottom line
 2. Evidence and analysis
@@ -47,17 +52,17 @@ Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Failure modes
 
-- **Premature certainty:** use ranges or scenarios.
+- **Announcement equals adoption:** a launch email is the start, not the change.
+- **Sponsor drift:** without visible, sustained sponsorship, adoption decays.
 - **Framework theater:** omit sections that do not change action.
-- **Fact–inference blending:** label the boundary.
-- **Generic advice:** connect recommendations to supplied context.
-- **Hidden trade-offs:** name what the preferred action sacrifices.
+- **Fact–inference blending:** separate observed resistance from assumed motive.
+- **Reinforcement gap:** a change with no reinforcement reverts to the old habit.
 
 ## Example
 
-**Request:** “Use change-leadership to analyze this material.”
+**Request:** "Use $change-leadership for a new CRM rollout that teams are quietly ignoring."
 
-Apply the workflow, expose evidence gaps, and deliver the default output with a clear bottom line.
+Define the from-to behavior and the outcome that proves adoption, then assess readiness and friction by team. Separate the announcement from real adoption, locate the missing middle-manager reinforcement that is stalling it, and recommend a plan with adoption metrics and sustained, visible sponsorship.
 
 ## Evaluation
 
@@ -65,4 +70,4 @@ A strong result is accurate, traceable, decision-relevant, proportionate, and ac
 
 ## Related skills
 
-Combine with `evidence-validation` for contested claims, `risk-analysis` for uncertainty, `executive-writer` for senior audiences, and `quality-review` before publication.
+Pair with `stakeholder-mapping` for the coalition and `operating-model-design` when the change alters how work flows.

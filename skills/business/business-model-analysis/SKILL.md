@@ -1,6 +1,6 @@
 ---
 name: business-model-analysis
-description: Assess value proposition, customer, channel, revenue, costs, and moat|Identify fragile assumptions and leverage points|Recommend where the model should change. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Assess value proposition, customer, channel, revenue, costs, and moat. Use when evaluating or designing a business model, testing whether a model is viable and defensible, comparing model options, or diagnosing why unit economics do not work.
 ---
 
 # Business Model Analysis

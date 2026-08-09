@@ -1,6 +1,6 @@
 ---
 name: intune-management
-description: Review enrollment, compliance policies, configuration profiles, application deployment, and remediation|Distinguish device management policy from operating system constraint|Surface coverage gaps, exceptions, and stale assignments|Recommend simplified baselines and enforcement steps. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Review Intune enrollment, compliance policies, configuration profiles, app deployment, and remediation, distinguishing device-management policy from operating-system constraint. Use when assessing an Intune deployment, simplifying device baselines, diagnosing compliance or assignment drift, or cleaning up stale profiles and exceptions.
 ---
 
 # Intune Management
@@ -15,7 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. device management plan.
+1. Establish the enrolled population by platform and ownership.
+2. Review compliance policies, configuration profiles, and app deployment.
+3. Distinguish device-management policy from operating-system constraint.
+4. Surface coverage gaps, conflicting assignments, and stale profiles.
+5. Assess how exceptions are assigned and expired.
+6. Recommend simplified baselines and enforcement steps.
 
 ## Decision rules
 
@@ -26,7 +31,7 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **decision-ready brief** with:
+Default to a **device management plan** with:
 
 1. Bottom line
 2. Evidence and analysis
@@ -47,17 +52,17 @@ Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Failure modes
 
-- **Premature certainty:** use ranges or scenarios.
+- **Profile sprawl:** overlapping profiles create conflicts that silently fail to apply.
+- **Assignment rot:** stale group assignments drift out of the intended scope.
 - **Framework theater:** omit sections that do not change action.
-- **Fact–inference blending:** label the boundary.
-- **Generic advice:** connect recommendations to supplied context.
-- **Hidden trade-offs:** name what the preferred action sacrifices.
+- **Fact–inference blending:** separate a deliberate policy from an OS limitation.
+- **Compliance theater:** a compliance policy no device is assigned to proves nothing.
 
 ## Example
 
-**Request:** “Use intune-management to analyze this material.”
+**Request:** "Use $intune-management to simplify a tenant with 40 overlapping configuration profiles."
 
-Apply the workflow, expose evidence gaps, and deliver the default output with a clear bottom line.
+Segment the population, then map the profile conflicts and separate a genuine policy choice from an OS constraint the profile cannot override. Flag the stale assignments that no longer match their target groups, and recommend a consolidated baseline with a clean, documented assignment model.
 
 ## Evaluation
 
@@ -65,4 +70,4 @@ A strong result is accurate, traceable, decision-relevant, proportionate, and ac
 
 ## Related skills
 
-Combine with `evidence-validation` for contested claims, `risk-analysis` for uncertainty, `executive-writer` for senior audiences, and `quality-review` before publication.
+Pair with `endpoint-management` for the broader posture and `entra-id-governance` for compliance-driven conditional access.

@@ -1,6 +1,6 @@
 ---
 name: pricing-strategy
-description: Assess value metric, willingness to pay, packaging, and competitive context|Separate price from monetization model and adoption friction|Identify discounting and segmentation risk|Recommend a pricing hypothesis and test. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Assess value metric, willingness to pay, packaging, and competitive context. Use when setting or revising pricing, choosing a value metric or packaging tiers, responding to a competitor's price, or deciding how to monetize a new product.
 ---
 
 # Pricing Strategy

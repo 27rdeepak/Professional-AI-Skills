@@ -1,6 +1,6 @@
 ---
 name: roadmap-design
-description: Sequence capabilities by value, dependencies, uncertainty, and strategic fit|Avoid roadmap theater by tying items to outcomes|Identify opportunities to delay or delete work|Recommend a coherent sequence with decision points. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Sequence capabilities by value, dependencies, uncertainty, and strategic fit. Use when building or defending a product roadmap, sequencing what to build when, balancing quick wins against strategic bets, or communicating roadmap trade-offs to stakeholders.
 ---
 
 # Roadmap Design

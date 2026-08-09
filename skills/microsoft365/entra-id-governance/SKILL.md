@@ -1,6 +1,6 @@
 ---
 name: entra-id-governance
-description: Assess tenant structure, identity lifecycle, privileged access, conditional access, and guest control|Map identity risks to business and security impact|Separate policy intent from effective control|Recommend identity governance priorities and guardrails. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Assess Entra ID tenant structure, identity lifecycle, privileged access, conditional access, and guest control, separating policy intent from effective control. Use when reviewing Entra ID or Azure AD governance, hardening privileged access, auditing conditional access or guest sprawl, or mapping identity risk to business impact.
 ---
 
 # Entra ID Governance
@@ -15,7 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. identity governance review.
+1. Establish tenant structure, identity sources, and the governance objective.
+2. Review the identity lifecycle: joiner, mover, leaver, and service accounts.
+3. Assess privileged access — standing admin, PIM usage, and role sprawl.
+4. Review conditional access and guest or external control for gaps.
+5. Separate policy intent from effective, enforced control.
+6. Recommend identity governance priorities and guardrails.
 
 ## Decision rules
 
@@ -26,7 +31,7 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **decision-ready brief** with:
+Default to an **identity governance review** with:
 
 1. Bottom line
 2. Evidence and analysis
@@ -47,17 +52,17 @@ Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Failure modes
 
-- **Premature certainty:** use ranges or scenarios.
+- **Standing privilege:** permanent admin roles are the top identity risk — time-bound them.
+- **Intent is not enforcement:** a conditional-access policy in report-only mode enforces nothing.
 - **Framework theater:** omit sections that do not change action.
-- **Fact–inference blending:** label the boundary.
-- **Generic advice:** connect recommendations to supplied context.
-- **Hidden trade-offs:** name what the preferred action sacrifices.
+- **Fact–inference blending:** separate configured policy from its effective result.
+- **Guest sprawl blind spot:** stale external identities are standing access.
 
 ## Example
 
-**Request:** “Use entra-id-governance to analyze this material.”
+**Request:** "Use $entra-id-governance to review a tenant with many global admins and open guest access."
 
-Apply the workflow, expose evidence gaps, and deliver the default output with a clear bottom line.
+Map the tenant and lifecycle, then flag the standing global-admin roles for just-in-time PIM and audit the conditional-access exclusions and guest sprawl. Separate report-only policies from enforced ones, and prioritize the guardrails that most reduce identity risk.
 
 ## Evaluation
 
@@ -65,4 +70,4 @@ A strong result is accurate, traceable, decision-relevant, proportionate, and ac
 
 ## Related skills
 
-Combine with `evidence-validation` for contested claims, `risk-analysis` for uncertainty, `executive-writer` for senior audiences, and `quality-review` before publication.
+Build on `zero-trust-architecture` for the identity pillar and `incident-response` for compromise scenarios.

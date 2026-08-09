@@ -1,6 +1,6 @@
 ---
 name: executive-summarizer
-description: Condense long material into decision-relevant summaries without losing risk. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Condense long or scattered material into a decision-relevant summary that keeps the risks, numbers, and dissent intact. Use when you must compress a long report, email thread, research pack, transcript, or document set for a busy decision-maker who needs the situation, implications, and required action — not a précis.
 ---
 
 # Executive Summarizer
@@ -15,10 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. Extract situation, material facts, implications, risks, and actions.
-2. Preserve quantities, dates, conditions, and dissent.
-3. Remove repetition that does not affect a decision.
-4. Separate source facts from synthesis and recommendations.
+1. Identify the reader, the decision they face, and how much they already know.
+2. Extract the situation, material facts, implications, risks, and open actions.
+3. Preserve every quantity, date, condition, and point of dissent.
+4. Cut repetition and background that does not change a decision.
+5. Separate what the source states from your own synthesis.
+6. Lead with the bottom line and order the rest by decision relevance.
 
 ## Decision rules
 
@@ -50,17 +52,17 @@ Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Failure modes
 
-- **Premature certainty:** use ranges or scenarios.
+- **Risk laundering:** never drop caveats or dissent to make the summary read cleaner.
+- **Length as effort:** shorter that preserves the decision beats longer.
 - **Framework theater:** omit sections that do not change action.
-- **Fact–inference blending:** label the boundary.
-- **Generic advice:** connect recommendations to supplied context.
-- **Hidden trade-offs:** name what the preferred action sacrifices.
+- **Fact–inference blending:** separate the source's claims from your synthesis.
+- **Number loss:** carry quantities, dates, and baselines through verbatim.
 
 ## Example
 
-**Request:** “Use $executive-summarizer to analyze this material.”
+**Request:** "Use $executive-summarizer to condense a 30-page incident report into a CIO-ready summary."
 
-Apply the workflow, expose evidence gaps, and deliver the default output with a clear bottom line.
+Lead with what broke, the blast radius, and current status. Preserve the timeline, the affected-customer count, and any disputed root cause; separate confirmed facts from investigation still in progress; and end with the specific decisions the CIO must make.
 
 ## Evaluation
 
@@ -68,4 +70,4 @@ A strong result is accurate, traceable, decision-relevant, proportionate, and ac
 
 ## Related skills
 
-Combine with `evidence-validation` for contested claims, `risk-analysis` for uncertainty, `executive-writer` for senior audiences, and `quality-review` before publication.
+Pair with `executive-writer` to shape tone for the audience, `critical-thinking` when the source's claims are contested, and `risk-analysis` when the summary must foreground exposure.

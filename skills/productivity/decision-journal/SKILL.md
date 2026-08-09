@@ -1,6 +1,6 @@
 ---
 name: decision-journal
-description: Capture decision, context, assumptions, confidence, and expected outcome|Make reasoning auditable over time|Identify what changed versus what was merely uncertain|Recommend the next review date and learning loop. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Capture the decision, context, assumptions, confidence, and expected outcome. Use when recording a significant decision for later review, making assumptions and confidence explicit before acting, or building a habit of learning from past decisions.
 ---
 
 # Decision Journal

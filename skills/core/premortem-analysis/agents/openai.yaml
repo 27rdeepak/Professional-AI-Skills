@@ -1,4 +1,4 @@
 interface:
   display_name: "Premortem Analysis"
-  short_description: "Anticipate plausible failure modes and convert them into prev..."
-  default_prompt: "Use $premortem-analysis to produce a rigorous, decision-ready result."
+  short_description: "Assume the plan failed, rank the causes, assign preventive controls."
+  default_prompt: "Use $premortem-analysis to assume this plan failed, rank the likely causes, and assign a preventive control, warning signal, and owner to each."

@@ -1,6 +1,6 @@
 ---
 name: enterprise-asset-inventory
-description: Map business-critical hardware, software, services, and ownership to reveal coverage gaps and lifecycle risk|Separate discovered, registered, and authoritative records|Identify unsupported, duplicated, or orphaned assets|Recommend cleanup, governance, and monitoring actions. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Map business-critical hardware, software, services, and ownership to reveal coverage gaps and lifecycle risk, separating discovered, registered, and authoritative records. Use when building or auditing an asset inventory or CMDB, finding unsupported or orphaned assets, establishing ownership, or preparing for an audit or security baseline.
 ---
 
 # Enterprise Asset Inventory
@@ -15,7 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. asset inventory and remediation plan.
+1. Define scope and what "business-critical" means for this inventory.
+2. Reconcile discovered, registered, and authoritative records against each other.
+3. Assign ownership and lifecycle stage to each asset class.
+4. Identify unsupported, duplicated, or orphaned assets.
+5. Quantify coverage gaps and the risk they carry.
+6. Recommend cleanup, governance, and ongoing monitoring.
 
 ## Decision rules
 
@@ -26,7 +31,7 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **decision-ready brief** with:
+Default to an **asset inventory and remediation plan** with:
 
 1. Bottom line
 2. Evidence and analysis
@@ -47,17 +52,17 @@ Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Failure modes
 
-- **Premature certainty:** use ranges or scenarios.
+- **Single-source trust:** one system is never complete — reconcile across sources.
+- **Ownerless assets:** an asset with no owner will not be patched or retired.
 - **Framework theater:** omit sections that do not change action.
-- **Fact–inference blending:** label the boundary.
-- **Generic advice:** connect recommendations to supplied context.
-- **Hidden trade-offs:** name what the preferred action sacrifices.
+- **Fact–inference blending:** separate discovered fact from registered claim.
+- **Lifecycle blindness:** flag end-of-support assets, not just missing ones.
 
 ## Example
 
-**Request:** “Use enterprise-asset-inventory to analyze this material.”
+**Request:** "Use $enterprise-asset-inventory to reconcile a CMDB that disagrees with the endpoint and cloud discovery tools."
 
-Apply the workflow, expose evidence gaps, and deliver the default output with a clear bottom line.
+Define scope and reconcile the three sources against each other, flagging assets discovered but unregistered and registered but no longer present. Assign owners and lifecycle stages, surface the unsupported and orphaned assets, and recommend a reconciliation cadence that keeps the authoritative record honest.
 
 ## Evaluation
 
@@ -65,4 +70,4 @@ A strong result is accurate, traceable, decision-relevant, proportionate, and ac
 
 ## Related skills
 
-Combine with `evidence-validation` for contested claims, `risk-analysis` for uncertainty, `executive-writer` for senior audiences, and `quality-review` before publication.
+Pair with `endpoint-management` and `cloud-governance` for source data and `vulnerability-management` for the exposure view.

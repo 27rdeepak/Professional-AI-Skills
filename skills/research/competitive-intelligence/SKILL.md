@@ -1,6 +1,6 @@
 ---
 name: competitive-intelligence
-description: Compare products, positioning, signals, and strategy without overstating certainty|Separate observable facts from inference|Identify actionable differences and blind spots|Recommend a credible competitive view. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Compare products, positioning, signals, and strategy without overstating certainty. Use when analyzing competitors, building a competitive landscape, interpreting a rival's move, or informing positioning against alternatives.
 ---
 
 # Competitive Intelligence

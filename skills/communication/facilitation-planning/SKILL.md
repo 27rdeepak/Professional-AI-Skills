@@ -1,6 +1,6 @@
 ---
 name: facilitation-planning
-description: Design the agenda, participants, decisions, artifacts, and time boxes for a productive session|Identify friction points and decision constraints|Recommend a meeting plan that produces a result. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Design the agenda, participants, decisions, artifacts, and time boxes for a productive session. Use when planning a workshop, offsite, or decision meeting, designing an agenda that reaches a decision, choosing who to include, or rescuing meetings that never conclude.
 ---
 
 # Facilitation Planning

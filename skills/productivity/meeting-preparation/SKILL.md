@@ -1,6 +1,6 @@
 ---
 name: meeting-preparation
-description: Define desired outcome, stakeholders, decisions, risks, and prep materials|Identify the minimum prep that improves the meeting|Recommend talking points, questions, and follow-ups. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Define the desired outcome, stakeholders, decisions, risks, and prep materials for a meeting. Use when preparing for an important meeting, ensuring a meeting reaches a decision, briefing yourself before a high-stakes discussion, or prepping materials for participants.
 ---
 
 # Meeting Preparation

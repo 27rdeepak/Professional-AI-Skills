@@ -1,6 +1,6 @@
 ---
 name: code-review
-description: Inspect correctness, readability, maintainability, security, and test coverage|Separate style preferences from real defects|Identify regressions, edge cases, and missing invariants|Recommend concrete fixes and review gates. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Inspect correctness, readability, maintainability, security, and test coverage. Use when reviewing a pull request or code change, giving structured code feedback, gating a merge on quality, or auditing a module for defects and risk.
 ---
 
 # Code Review

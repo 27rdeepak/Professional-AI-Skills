@@ -1,6 +1,6 @@
 ---
 name: prompt-integration
-description: Assess how prompts, tools, and instructions interact across workflows|Identify coupling, prompt drift, and missing guardrails|Separate model capability from workflow design problems|Recommend a safer and more reusable prompt pattern. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Assess how prompts, tools, and instructions interact across a workflow. Use when integrating prompts into a larger system or pipeline, debugging conflicts between instructions and tools, designing multi-step LLM workflows, or reviewing prompt orchestration.
 ---
 
 # Prompt Integration

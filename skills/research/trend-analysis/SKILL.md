@@ -1,6 +1,6 @@
 ---
 name: trend-analysis
-description: Assess direction, strength, adoption stage, and uncertainty of a trend|Avoid confusing hype with durable movement|Identify leading indicators and counter-signals|Recommend the most defensible trend view. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Assess the direction, strength, adoption stage, and uncertainty of a trend. Use when evaluating whether a trend is real and durable, distinguishing signal from hype, timing a bet on an emerging shift, or informing strategy with trend evidence.
 ---
 
 # Trend Analysis

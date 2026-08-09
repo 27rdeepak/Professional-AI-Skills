@@ -1,6 +1,6 @@
 ---
 name: writing-editing
-description: Improve clarity, structure, tone, and brevity without changing meaning|Preserve facts, dates, and numbers|Recommend an edited version that is ready to use. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Improve clarity, structure, tone, and brevity without changing meaning. Use when editing a draft for clarity and concision, tightening wordy or tangled prose, adjusting tone, or preparing writing for a demanding reader.
 ---
 
 # Writing Editing

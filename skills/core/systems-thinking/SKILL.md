@@ -1,6 +1,6 @@
 ---
 name: systems-thinking
-description: Analyze feedback loops, dependencies, incentives, delays, and unintended effects. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Analyze feedback loops, dependencies, incentives, delays, and unintended consequences across a system. Use when a fix keeps failing or creating new problems elsewhere, when local optimization is hurting the whole, or when you need to find leverage points before intervening in an organization, process, or product.
 ---
 
 # Systems Thinking
@@ -15,10 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. Set the system boundary, actors, stocks, flows, and objective.
-2. Map reinforcing and balancing loops plus delays.
-3. Identify local optimizations that harm the whole.
-4. Recommend leverage points and monitoring signals.
+1. Set the system boundary, key actors, stocks, flows, and the objective.
+2. Map reinforcing and balancing loops, and mark the delays between cause and effect.
+3. Identify where local optimization degrades the whole.
+4. Locate leverage points, ranked by impact and feasibility.
+5. Trace the likely second- and third-order effects of intervening at each point.
+6. Recommend where to act and the signals that would show it working or backfiring.
 
 ## Decision rules
 
@@ -50,17 +52,17 @@ Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Failure modes
 
-- **Premature certainty:** use ranges or scenarios.
+- **Loop blindness:** account for delays — effects that lag look like non-effects.
+- **Leverage at the wrong level:** parameter tweaks rarely beat structural change.
 - **Framework theater:** omit sections that do not change action.
 - **Fact–inference blending:** label the boundary.
-- **Generic advice:** connect recommendations to supplied context.
-- **Hidden trade-offs:** name what the preferred action sacrifices.
+- **Boundary gerrymandering:** draw the boundary to include the actors that actually matter.
 
 ## Example
 
-**Request:** “Use $systems-thinking to analyze this material.”
+**Request:** "Use $systems-thinking to understand why hiring more support agents didn't reduce ticket backlog."
 
-Apply the workflow, expose evidence gaps, and deliver the default output with a clear bottom line.
+Map the loop — more agents raise reply speed, which raises expectations, which raises ticket volume, holding backlog steady. Mark the hiring-to-productivity delay, then identify the higher-leverage point: deflecting the root-cause tickets upstream. Name the signal that would confirm the shift and the second-order effect to watch.
 
 ## Evaluation
 
@@ -68,4 +70,4 @@ A strong result is accurate, traceable, decision-relevant, proportionate, and ac
 
 ## Related skills
 
-Combine with `evidence-validation` for contested claims, `risk-analysis` for uncertainty, `executive-writer` for senior audiences, and `quality-review` before publication.
+Pair with `root-cause-analysis` for the failure's origin and `trade-off-analysis` when a leverage point helps one loop but strains another.

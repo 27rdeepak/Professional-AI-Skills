@@ -1,6 +1,6 @@
 ---
 name: customer-segmentation
-description: Group customers by needs, behavior, value, or context with a reasoned basis|Avoid segments that are only demographic|Recommend segments that improve decisions. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Group customers by needs, behavior, value, or context with a reasoned basis. Use when defining or revising customer segments, choosing which segment to target, tailoring product or messaging by segment, or replacing demographic guesswork with a needs-based cut.
 ---
 
 # Customer Segmentation

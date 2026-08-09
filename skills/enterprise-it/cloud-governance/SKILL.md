@@ -1,6 +1,6 @@
 ---
 name: cloud-governance
-description: Define environment, guardrails, account structure, policy, and exception handling|Check whether controls are preventative, detective, and recoverable|Identify cost, identity, logging, and ownership drift|Recommend guardrails, review cadence, and escalation paths. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Define cloud guardrails, account structure, policy, and exception handling, and check whether controls are preventative, detective, and recoverable. Use when reviewing a cloud landing zone or governance model, addressing cost, identity, logging, or ownership drift, setting guardrails for multi-account estates, or preparing a cloud governance or audit review.
 ---
 
 # Cloud Governance
@@ -15,7 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. cloud governance brief.
+1. Establish the environment: accounts or subscriptions, ownership, and the governance objective.
+2. Review guardrails and policy — where they prevent, where they detect, and where they enable recovery.
+3. Find drift in cost, identity, logging, and ownership.
+4. Separate preventative controls from detective and recoverable ones, and flag the gaps.
+5. Assess exception handling and review cadence.
+6. Recommend guardrails, review cadence, and escalation paths.
 
 ## Decision rules
 
@@ -26,7 +31,7 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **decision-ready brief** with:
+Default to a **cloud governance assessment** with:
 
 1. Bottom line
 2. Evidence and analysis
@@ -47,17 +52,17 @@ Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Failure modes
 
-- **Premature certainty:** use ranges or scenarios.
+- **Detective-only posture:** detection without prevention lets misconfiguration ship first.
+- **Ungoverned exceptions:** an exception with no expiry becomes the standard.
 - **Framework theater:** omit sections that do not change action.
-- **Fact–inference blending:** label the boundary.
-- **Generic advice:** connect recommendations to supplied context.
-- **Hidden trade-offs:** name what the preferred action sacrifices.
+- **Fact–inference blending:** separate observed configuration from assumed policy.
+- **Ownership gaps:** an account with no owner drifts on cost and security.
 
 ## Example
 
-**Request:** “Use cloud-governance to analyze this material.”
+**Request:** "Use $cloud-governance to review a fast-growing AWS estate with 60 accounts and rising costs."
 
-Apply the workflow, expose evidence gaps, and deliver the default output with a clear bottom line.
+Establish the account structure and ownership, then check preventative guardrails such as SCPs and tagging policy against detective-only controls. Surface cost and logging drift, flag the ungoverned exceptions that have quietly become defaults, and recommend guardrails with a review cadence and escalation path.
 
 ## Evaluation
 
@@ -65,4 +70,4 @@ A strong result is accurate, traceable, decision-relevant, proportionate, and ac
 
 ## Related skills
 
-Combine with `evidence-validation` for contested claims, `risk-analysis` for uncertainty, `executive-writer` for senior audiences, and `quality-review` before publication.
+Pair with `security-architecture-review` for control design, `enterprise-asset-inventory` for coverage, and `financial-impact-analysis` for the cost picture.

@@ -1,4 +1,4 @@
 interface:
   display_name: "Executive Summarizer"
   short_description: "Condense long material into decision-relevant summaries witho..."
-  default_prompt: "Use $executive-summarizer to produce a rigorous, decision-ready result."
+  default_prompt: "Use $executive-summarizer to condense this into a decision-ready summary that preserves the risks, numbers, and dissent."

@@ -1,6 +1,6 @@
 ---
 name: first-principles-analysis
-description: Decompose ambiguous problems into constraints, facts, assumptions, and testable options. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Decompose a problem to its fundamental constraints and rebuild options without inherited assumptions. Use when "that's how it's always been done" is blocking progress, when cost or architecture seems fixed by convention rather than physics or economics, or when you need to test whether a long-held requirement is truly a constraint.
 ---
 
 # First Principles Analysis
@@ -15,10 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. Define the outcome independently of the current solution.
-2. Separate fundamental constraints from conventions.
-3. Break claims into falsifiable assumptions.
-4. Reconstruct options from validated primitives.
+1. Define the desired outcome independently of the current solution.
+2. List every stated requirement and constraint.
+3. Classify each as a fundamental constraint — physics, law, economics, contract — or a convention that can be questioned.
+4. Break the remaining claims into falsifiable assumptions and test the biggest ones.
+5. Rebuild candidate options from only the validated primitives.
+6. Compare the reconstructed options to the status quo and name what the convention was costing.
 
 ## Decision rules
 
@@ -50,17 +52,17 @@ Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Failure modes
 
-- **Premature certainty:** use ranges or scenarios.
+- **False bedrock:** do not accept a convention as a law without testing it.
+- **Rebuild theater:** reconstruction must yield a materially different option, or say so.
 - **Framework theater:** omit sections that do not change action.
 - **Fact–inference blending:** label the boundary.
-- **Generic advice:** connect recommendations to supplied context.
-- **Hidden trade-offs:** name what the preferred action sacrifices.
+- **Constraint denial:** do not wish away a real physical, legal, or economic limit.
 
 ## Example
 
-**Request:** “Use $first-principles-analysis to analyze this material.”
+**Request:** "Use $first-principles-analysis to question why our customer onboarding takes six weeks."
 
-Apply the workflow, expose evidence gaps, and deliver the default output with a clear bottom line.
+Define the real outcome — customer live and transacting — and separate true constraints (a regulatory KYC step) from conventions (sequential handoffs, weekly batch jobs). Test the assumption that steps must run in sequence, then rebuild a parallelized path that preserves the KYC dependency and name the weeks the convention was costing.
 
 ## Evaluation
 
@@ -68,4 +70,4 @@ A strong result is accurate, traceable, decision-relevant, proportionate, and ac
 
 ## Related skills
 
-Combine with `evidence-validation` for contested claims, `risk-analysis` for uncertainty, `executive-writer` for senior audiences, and `quality-review` before publication.
+Pair with `problem-framing` to fix the outcome, `systems-thinking` for the dependencies, and `trade-off-analysis` when the rebuilt option sacrifices something.

@@ -1,6 +1,6 @@
 ---
 name: mvp-scope
-description: Define the smallest product that can prove the core value hypothesis|Separate must-have evidence from nice-to-have features|Identify what is intentionally excluded and why|Recommend a launchable scope and learning plan. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Define the smallest product that can prove the core value hypothesis. Use when scoping an MVP or first release, cutting scope under a deadline, deciding what to build first to test demand, or resisting feature creep in an early product.
 ---
 
 # MVP Scope

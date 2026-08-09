@@ -1,6 +1,6 @@
 ---
 name: presentation-outline
-description: Organize content around the decision, narrative, and visual emphasis|Identify slide purpose and sequence|Remove content that does not support the message|Recommend a short deck outline. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Organize content around the decision, narrative, and visual emphasis. Use when outlining a presentation or deck, structuring a talk around one clear message, deciding what goes on each slide, or fixing a deck that buries its point.
 ---
 
 # Presentation Outline

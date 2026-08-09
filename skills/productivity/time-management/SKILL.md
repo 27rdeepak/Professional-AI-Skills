@@ -1,6 +1,6 @@
 ---
 name: time-management
-description: Assess goals, commitments, attention patterns, and constraints|Identify where calendar design, batching, and boundaries can create room|Differentiate urgent, important, and optional work|Recommend a realistic time structure. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Assess goals, commitments, attention patterns, and constraints. Use when a schedule is overcommitted, aligning time with priorities, diagnosing where time actually goes, or designing a workable weekly structure.
 ---
 
 # Time Management

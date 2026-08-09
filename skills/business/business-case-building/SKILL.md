@@ -1,6 +1,6 @@
 ---
 name: business-case-building
-description: Define the problem, options, costs, benefits, risks, timing, and decision criteria|Separate direct value from strategic and defensive value|Use ranges and assumptions transparently|Recommend the preferred option and the conditions for approval. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Build a decision-ready business case — problem, options, costs, benefits, risks, timing, and approval criteria — separating direct value from strategic and defensive value. Use when seeking funding or approval for an initiative, comparing investment options, preparing a proposal for a steering committee, or pressure-testing someone else's business case.
 ---
 
 # Business Case Building
@@ -15,7 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. business case memo.
+1. Define the problem and the cost of doing nothing.
+2. Lay out genuinely distinct options, including the base case.
+3. Quantify costs and benefits with explicit assumptions and ranges.
+4. Separate direct financial value from strategic and defensive value.
+5. Assess risks, timing, and what must be true for the benefits to land.
+6. Recommend the preferred option and the conditions for approval.
 
 ## Decision rules
 
@@ -26,7 +31,7 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **decision-ready brief** with:
+Default to a **business case memo** with:
 
 1. Bottom line
 2. Evidence and analysis
@@ -47,17 +52,17 @@ Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Failure modes
 
-- **Premature certainty:** use ranges or scenarios.
+- **Benefit inflation:** tie every benefit to an owner willing to commit to it.
+- **Single-option bias:** a case with no real alternative is a foregone conclusion, not a decision.
 - **Framework theater:** omit sections that do not change action.
-- **Fact–inference blending:** label the boundary.
-- **Generic advice:** connect recommendations to supplied context.
-- **Hidden trade-offs:** name what the preferred action sacrifices.
+- **Fact–inference blending:** label estimates as estimates.
+- **Cost-of-delay omission:** state what waiting or doing nothing costs.
 
 ## Example
 
-**Request:** “Use business-case-building to analyze this material.”
+**Request:** "Use $business-case-building to justify replacing a legacy billing system."
 
-Apply the workflow, expose evidence gaps, and deliver the default output with a clear bottom line.
+Frame the cost of the status quo, then compare replace, maintain, and re-platform with ranged assumptions. Separate hard savings from strategic agility and defensive risk reduction, assess timing and delivery risk, and recommend the preferred option with the approval conditions and the assumptions that would sink the case.
 
 ## Evaluation
 
@@ -65,4 +70,4 @@ A strong result is accurate, traceable, decision-relevant, proportionate, and ac
 
 ## Related skills
 
-Combine with `evidence-validation` for contested claims, `risk-analysis` for uncertainty, `executive-writer` for senior audiences, and `quality-review` before publication.
+Draw on `financial-impact-analysis` for the numbers, `decision-analysis` to compare options, and `executive-writer` for the approval memo.

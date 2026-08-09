@@ -1,6 +1,6 @@
 ---
 name: executive-communication
-description: Plan high-stakes communication around audience, decision, trust, and action. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Plan a high-stakes communication around audience authority, the decision, trust, and the action you need — message, channel, sequence, spokesperson, and escalation. Use when planning a sensitive announcement, bad-news delivery, reorg or layoff message, crisis update, or any communication where sequence and audience handling determine the outcome.
 ---
 
 # Executive Communication
@@ -15,10 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. Map audience authority, concerns, and objections.
-2. Choose message, channel, sequence, spokesperson, and escalation.
-3. Lead with relevance and state bad news plainly.
-4. Close with action and follow-up.
+1. Map each audience's authority, concerns, and likely objections.
+2. Define the decision or action you need from each.
+3. Choose message, channel, sequence, spokesperson, and escalation path.
+4. Lead with relevance to the audience and state bad news plainly and early.
+5. Anticipate reactions and prepare responses for the hardest ones.
+6. Close with the action and the follow-up cadence.
 
 ## Decision rules
 
@@ -29,7 +31,7 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **audience-specific communication plan** with:
+Default to an **audience-specific communication plan** with:
 
 1. Bottom line
 2. Evidence and analysis
@@ -50,17 +52,17 @@ Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Failure modes
 
-- **Premature certainty:** use ranges or scenarios.
+- **Burying bad news:** state it plainly and early; softening reads as spin.
+- **One-size message:** tailor to each audience's authority and stake, or lose the room.
 - **Framework theater:** omit sections that do not change action.
-- **Fact–inference blending:** label the boundary.
-- **Generic advice:** connect recommendations to supplied context.
-- **Hidden trade-offs:** name what the preferred action sacrifices.
+- **Fact–inference blending:** separate what is decided from what is still being worked.
+- **Sequence blindness:** who hears it first, and in what order, changes the reaction.
 
 ## Example
 
-**Request:** “Use $executive-communication to analyze this material.”
+**Request:** "Use $executive-communication to plan the rollout of a reorg that removes a management layer."
 
-Apply the workflow, expose evidence gaps, and deliver the default output with a clear bottom line.
+Map the affected groups and their concerns, then sequence the message — affected managers first, then their teams, then the wider org. Pick spokespeople, state the change and rationale plainly, prepare for the hardest reactions with responses ready, and set the follow-up cadence so the message does not end at the announcement.
 
 ## Evaluation
 
@@ -68,4 +70,4 @@ A strong result is accurate, traceable, decision-relevant, proportionate, and ac
 
 ## Related skills
 
-Combine with `evidence-validation` for contested claims, `risk-analysis` for uncertainty, `executive-writer` for senior audiences, and `quality-review` before publication.
+Pair with `stakeholder-mapping` to rate influence and stance and `difficult-conversations` for the individual conversations underneath.

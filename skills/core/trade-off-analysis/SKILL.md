@@ -1,6 +1,6 @@
 ---
 name: trade-off-analysis
-description: Make competing benefits, costs, constraints, and opportunity costs explicit. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Make competing benefits, costs, constraints, and opportunity costs explicit when they cannot all be maximized, and name the sacrifice. Use when every option gives something up — speed-vs-quality, cost-vs-resilience, scope-vs-deadline, or centralize-vs-distribute decisions where the trade must be made deliberately.
 ---
 
 # Trade-off Analysis
@@ -15,10 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. Define dimensions that cannot all be maximized.
-2. Set thresholds and remove dominated options.
-3. Compare marginal benefit, cost, risk, reversibility, and opportunity cost.
-4. Recommend a choice and name the sacrifice.
+1. Define the dimensions in genuine tension that cannot all be maximized.
+2. Set a minimum threshold per dimension and remove dominated options.
+3. Compare the survivors on marginal benefit, cost, risk, reversibility, and opportunity cost.
+4. Make the exchange rate explicit — what you give up on one axis to gain on another.
+5. Recommend a choice and name precisely what it sacrifices.
+6. State the conditions under which the better choice would flip.
 
 ## Decision rules
 
@@ -50,17 +52,17 @@ Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Failure modes
 
-- **Premature certainty:** use ranges or scenarios.
+- **Hidden sacrifice:** every recommendation must name what it gives up.
+- **False balance:** if one option dominates, say so — do not manufacture tension.
 - **Framework theater:** omit sections that do not change action.
 - **Fact–inference blending:** label the boundary.
-- **Generic advice:** connect recommendations to supplied context.
-- **Hidden trade-offs:** name what the preferred action sacrifices.
+- **Missing opportunity cost:** count the best alternative forgone, not just direct cost.
 
 ## Example
 
-**Request:** “Use $trade-off-analysis to analyze this material.”
+**Request:** "Use $trade-off-analysis to weigh shipping speed vs. reliability for this release."
 
-Apply the workflow, expose evidence gaps, and deliver the default output with a clear bottom line.
+Define the axes and set thresholds — a reliability floor below which speed is moot — and remove dominated options. Make the exchange rate explicit: each week of hardening buys some measurable reduction in expected incidents. Recommend a dated cut line, name the sacrifice, and state the condition that would flip it.
 
 ## Evaluation
 
@@ -68,4 +70,4 @@ A strong result is accurate, traceable, decision-relevant, proportionate, and ac
 
 ## Related skills
 
-Combine with `evidence-validation` for contested claims, `risk-analysis` for uncertainty, `executive-writer` for senior audiences, and `quality-review` before publication.
+Follows `decision-analysis` when criteria are already weighted, and pairs with `risk-analysis` to price the downside of the sacrificed dimension.

@@ -1,6 +1,6 @@
 ---
 name: premortem-analysis
-description: Anticipate plausible failure modes and convert them into preventive controls. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Imagine a plan has already failed and work backward to the plausible causes, then convert each into a preventive control, warning signal, and owner. Use when a plan is about to be committed — ahead of a launch, migration, reorg, investment, or major project — especially when confidence is high, the plan is hard to reverse, or dissent has gone quiet.
 ---
 
 # Premortem Analysis
@@ -15,10 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. Assume the initiative failed at a specified future date.
-2. Generate failure narratives across major domains.
-3. Rank likelihood, impact, detectability, and time-to-harm.
-4. Assign prevention, warning, contingency, and owner.
+1. Fix the decision and a specific future date at which it has already failed.
+2. Independently generate failure narratives across major domains: technical, adoption, market, execution, financial, and external.
+3. For each, state the mechanism — the concrete chain of events that produced the failure, not just the label.
+4. Rank by likelihood, impact, detectability, and time-to-harm.
+5. Assign a preventive control, an early-warning indicator, a contingency, and an owner to the top failures.
+6. Name the single failure that, if unaddressed, most threatens the objective.
 
 ## Decision rules
 
@@ -50,17 +52,17 @@ Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Failure modes
 
-- **Premature certainty:** use ranges or scenarios.
+- **Optimism capture:** generate failures before mitigations, or the list stays shallow.
+- **Undetectable risks:** prioritize the failures you cannot currently see coming.
 - **Framework theater:** omit sections that do not change action.
 - **Fact–inference blending:** label the boundary.
-- **Generic advice:** connect recommendations to supplied context.
-- **Hidden trade-offs:** name what the preferred action sacrifices.
+- **Label without mechanism:** name the causal chain, not just "adoption risk."
 
 ## Example
 
-**Request:** “Use $premortem-analysis to analyze this material.”
+**Request:** "Use $premortem-analysis on a planned Q4 platform migration the team is confident about."
 
-Apply the workflow, expose evidence gaps, and deliver the default output with a clear bottom line.
+Assume it failed by year-end. Generate failure narratives — data-integrity loss at cutover, adoption stall, an unmigrated dependency, an untested rollback — and state the mechanism for each. Rank by impact and detectability, then assign every top failure a preventive control, a warning signal, and an owner, flagging the untested rollback as the top undetected risk.
 
 ## Evaluation
 
@@ -68,4 +70,4 @@ A strong result is accurate, traceable, decision-relevant, proportionate, and ac
 
 ## Related skills
 
-Combine with `evidence-validation` for contested claims, `risk-analysis` for uncertainty, `executive-writer` for senior audiences, and `quality-review` before publication.
+Combine with `risk-analysis` to quantify and track the register, `decision-analysis` when the premortem should change a go/no-go, and `quality-review` on the resulting mitigation plan.

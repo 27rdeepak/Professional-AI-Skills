@@ -1,6 +1,6 @@
 ---
 name: rag-design
-description: Define retrieval needs, sources, chunking, ranking, citations, and freshness|Check whether retrieval actually improves the task|Identify hallucination, staleness, and missing-context risks|Recommend a retrieval pattern and evaluation approach. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Define retrieval needs, sources, chunking, ranking, citations, and freshness for a RAG system. Use when designing or debugging retrieval-augmented generation, choosing chunking or ranking strategy, adding citations or freshness controls, or diagnosing why answers miss or hallucinate context.
 ---
 
 # RAG Design

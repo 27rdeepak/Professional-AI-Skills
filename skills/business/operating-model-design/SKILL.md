@@ -1,6 +1,6 @@
 ---
 name: operating-model-design
-description: Describe decision rights, processes, roles, interfaces, service levels, and metrics|Identify mismatches between strategy and operating structure|Spot duplicated ownership, missing handoffs, and unclear accountability|Recommend a target operating model and transition sequence. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Describe decision rights, processes, roles, interfaces, service levels, and metrics, then design a target operating model that fits the strategy. Use when a reorg or scaling strain reveals unclear ownership, when strategy and structure are misaligned, when handoffs keep failing, or when designing how a function should operate.
 ---
 
 # Operating Model Design
@@ -15,7 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. target operating model brief.
+1. Restate the strategy and the outcomes the operating model must deliver.
+2. Map current decision rights, processes, roles, interfaces, and service levels.
+3. Find the mismatches: duplicated ownership, missing handoffs, unclear accountability.
+4. Design the target model — who decides what, how work flows, and where the interfaces sit.
+5. Define service levels and the few metrics that reveal whether it works.
+6. Recommend a transition sequence that avoids breaking live operations.
 
 ## Decision rules
 
@@ -26,7 +31,7 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **decision-ready brief** with:
+Default to a **target operating model and transition plan** with:
 
 1. Bottom line
 2. Evidence and analysis
@@ -47,17 +52,17 @@ Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Failure modes
 
-- **Premature certainty:** use ranges or scenarios.
+- **Org-chart substitution:** boxes and lines are not decision rights and flows.
+- **Accountability gaps:** every critical decision needs one accountable owner.
 - **Framework theater:** omit sections that do not change action.
-- **Fact–inference blending:** label the boundary.
-- **Generic advice:** connect recommendations to supplied context.
-- **Hidden trade-offs:** name what the preferred action sacrifices.
+- **Fact–inference blending:** separate the current state observed from the target proposed.
+- **Transition hand-wave:** name the sequence and what keeps running during the change.
 
 ## Example
 
-**Request:** “Use operating-model-design to analyze this material.”
+**Request:** "Use $operating-model-design for a product org where engineering and product keep clashing over roadmap ownership."
 
-Apply the workflow, expose evidence gaps, and deliver the default output with a clear bottom line.
+Restate the outcome, map current decision rights, and expose the duplicated roadmap ownership as the root mismatch. Design clear decision rights and a defined product–engineering interface, set the few metrics that show it working, and sequence the transition so delivery continues through the change.
 
 ## Evaluation
 
@@ -65,4 +70,4 @@ A strong result is accurate, traceable, decision-relevant, proportionate, and ac
 
 ## Related skills
 
-Combine with `evidence-validation` for contested claims, `risk-analysis` for uncertainty, `executive-writer` for senior audiences, and `quality-review` before publication.
+Pair with `systems-thinking` for the dependencies and `change-leadership` for adoption.

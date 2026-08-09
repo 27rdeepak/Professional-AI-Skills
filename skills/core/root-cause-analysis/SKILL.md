@@ -1,6 +1,6 @@
 ---
 name: root-cause-analysis
-description: Diagnose recurring failures using evidence, causal tests, and corrective actions. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Diagnose a recurring or high-impact failure by building an evidence-backed causal chain and proposing corrective and preventive actions. Use when a failure keeps recurring or symptom-level fixes have not held — incident postmortems, repeated defects, or process breakdowns that need a "why does this keep happening?" diagnosis.
 ---
 
 # Root Cause Analysis
@@ -15,10 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. Define failure, expected state, scope, and timeline.
-2. Build an evidence-backed causal chain.
-3. Separate root causes, contributors, triggers, and symptoms.
-4. Propose corrective and preventive actions with verification.
+1. Define the failure precisely: what happened, the expected state, scope, and timeline.
+2. Assemble the evidence and reconstruct the sequence of events.
+3. Build the causal chain, testing each link against the evidence — would removing it have prevented the failure?
+4. Separate root causes from contributors, triggers, and symptoms.
+5. Distinguish technical causes from process and systemic ones.
+6. Propose corrective actions for this instance and preventive actions against recurrence, each with a verification and owner.
 
 ## Decision rules
 
@@ -50,17 +52,17 @@ Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Failure modes
 
-- **Premature certainty:** use ranges or scenarios.
+- **Single-cause bias:** most failures are a chain, not one culprit.
+- **Blame termination:** "human error" is a symptom — ask what let it cause harm.
 - **Framework theater:** omit sections that do not change action.
-- **Fact–inference blending:** label the boundary.
-- **Generic advice:** connect recommendations to supplied context.
-- **Hidden trade-offs:** name what the preferred action sacrifices.
+- **Fact–inference blending:** label the boundary between evidence and hypothesis.
+- **Fix without verification:** every corrective action needs a way to confirm it worked.
 
 ## Example
 
-**Request:** “Use $root-cause-analysis to analyze this material.”
+**Request:** "Use $root-cause-analysis to diagnose why the same checkout error keeps recurring after each fix."
 
-Apply the workflow, expose evidence gaps, and deliver the default output with a clear bottom line.
+Define the error and its conditions, reconstruct the timeline, and test the causal chain — the prior fixes addressed the symptom, not the shared config path they all touched. Separate the root cause (no integration test guarding that path) from triggers, and propose a preventive action with a verification test that would fail if the path regresses.
 
 ## Evaluation
 
@@ -68,4 +70,4 @@ A strong result is accurate, traceable, decision-relevant, proportionate, and ac
 
 ## Related skills
 
-Combine with `evidence-validation` for contested claims, `risk-analysis` for uncertainty, `executive-writer` for senior audiences, and `quality-review` before publication.
+Feed the findings into `knowledge-distillation` for reusable prevention rules, and pair with `systems-thinking` when the causes are structural rather than local.

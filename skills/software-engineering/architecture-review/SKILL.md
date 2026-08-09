@@ -1,6 +1,6 @@
 ---
 name: architecture-review
-description: Assess components, boundaries, responsibilities, dependencies, and failure modes|Check scaling, resilience, maintainability, and operability|Identify where coupling, unclear ownership, or missing observability creates risk|Recommend a target architecture and phased changes. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Assess components, boundaries, responsibilities, dependencies, and failure modes. Use when reviewing a system or service architecture, evaluating a design before build, diagnosing coupling or scaling problems, or preparing an architecture decision record.
 ---
 
 # Architecture Review

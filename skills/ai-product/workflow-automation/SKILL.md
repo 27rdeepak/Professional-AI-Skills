@@ -1,6 +1,6 @@
 ---
 name: workflow-automation
-description: Map the trigger, steps, inputs, outputs, failure paths, and human review points|Distinguish automation opportunity from automation risk|Identify where latency, context, or permissions constrain design|Recommend a safe automation pattern. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Map the trigger, steps, inputs, outputs, failure paths, and human review points of a process. Use when automating a manual workflow, designing automation with safe failure and review points, deciding what to automate versus keep human, or debugging a brittle automated process.
 ---
 
 # Workflow Automation

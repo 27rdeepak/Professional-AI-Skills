@@ -1,6 +1,6 @@
 ---
 name: executive-brief
-description: Create one-page briefs that enable fast understanding and a clear decision. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Create a one-page brief that enables fast understanding and a clear decision — decision first, only decision-changing context, options, recommendation, risks, and next step. Use when a leader needs a single-page decision document, when a longer analysis must be distilled to one page for approval, or when preparing a pre-read for a committee or executive.
 ---
 
 # Executive Brief
@@ -15,10 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. State the decision or purpose first.
-2. Include only context that changes the choice.
-3. Present options, recommendation, evidence, risks, and next step.
-4. Keep detailed methods outside the brief.
+1. State the decision or purpose in the first line.
+2. Include only the context that changes the choice.
+3. Present the options, the recommendation, and the evidence behind it.
+4. State the risks, the key uncertainty, and what would change the call.
+5. Close with the next step, owner, and timing.
+6. Keep methods, appendices, and supporting detail off the one page.
 
 ## Decision rules
 
@@ -50,17 +52,17 @@ Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Failure modes
 
-- **Premature certainty:** use ranges or scenarios.
+- **Page-two creep:** if it needs a second page, it is not a brief — cut or appendix it.
+- **Context dump:** background that does not change the decision does not belong.
 - **Framework theater:** omit sections that do not change action.
-- **Fact–inference blending:** label the boundary.
-- **Generic advice:** connect recommendations to supplied context.
-- **Hidden trade-offs:** name what the preferred action sacrifices.
+- **Fact–inference blending:** label the boundary between evidence and recommendation.
+- **Buried ask:** the decision requested must be unmissable, not implied.
 
 ## Example
 
-**Request:** “Use $executive-brief to analyze this material.”
+**Request:** "Use $executive-brief to prepare a one-pager asking the exec team to approve a $2M tooling investment."
 
-Apply the workflow, expose evidence gaps, and deliver the default output with a clear bottom line.
+Open with the decision and the recommendation, give the two viable options and the evidence behind the pick, and state the top risk and the assumption it hinges on. Close with the ask, the owner, and the decision date — everything else moves to an appendix.
 
 ## Evaluation
 
@@ -68,4 +70,4 @@ A strong result is accurate, traceable, decision-relevant, proportionate, and ac
 
 ## Related skills
 
-Combine with `evidence-validation` for contested claims, `risk-analysis` for uncertainty, `executive-writer` for senior audiences, and `quality-review` before publication.
+Feed from `executive-summarizer` to compress the source and `decision-analysis` when the options need weighing; run `quality-review` before it goes up.

@@ -1,6 +1,6 @@
 ---
 name: swot-analysis
-description: Produce evidence-based SWOT analysis that leads to strategic choices. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Produce an evidence-based SWOT that classifies factors correctly and converts them, via TOWS, into strategic choices. Use when framing strategy for a business, product, or team; preparing a planning offsite; assessing competitive position; or turning a situation assessment into concrete strategic actions.
 ---
 
 # SWOT Analysis
@@ -15,10 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. Define objective, scope, horizon, and baseline.
-2. Classify internal and external factors correctly.
-3. Require evidence and remove duplicates.
-4. Convert intersections into prioritized actions.
+1. Define the objective, scope, horizon, and baseline the SWOT serves.
+2. Classify factors correctly — internal (strengths, weaknesses) versus external (opportunities, threats).
+3. Require evidence for each factor and remove duplicates and vague entries.
+4. Rank factors by materiality to the objective.
+5. Cross factors via TOWS (SO, ST, WO, WT) to generate strategic options.
+6. Convert the strongest intersections into prioritized, owned actions.
 
 ## Decision rules
 
@@ -29,7 +31,7 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **evidence-backed SWOT and TOWS actions** with:
+Default to an **evidence-backed SWOT and TOWS actions** with:
 
 1. Bottom line
 2. Evidence and analysis
@@ -50,17 +52,17 @@ Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Failure modes
 
-- **Premature certainty:** use ranges or scenarios.
+- **Misclassification:** an internal capability is not an external opportunity — sort correctly.
+- **List without strategy:** SWOT is worthless until TOWS turns it into choices.
 - **Framework theater:** omit sections that do not change action.
-- **Fact–inference blending:** label the boundary.
-- **Generic advice:** connect recommendations to supplied context.
-- **Hidden trade-offs:** name what the preferred action sacrifices.
+- **Fact–inference blending:** require evidence, not assertion, per factor.
+- **Materiality blindness:** rank factors; a long unranked list hides the decisive few.
 
 ## Example
 
-**Request:** “Use $swot-analysis to analyze this material.”
+**Request:** "Use $swot-analysis for a regional retailer facing a new online entrant."
 
-Apply the workflow, expose evidence gaps, and deliver the default output with a clear bottom line.
+Set the objective and horizon, classify each factor with evidence, and rank by materiality. Cross via TOWS — leverage the local physical presence against the entrant, fix the e-commerce weakness before it is exploited — and output prioritized actions with owners rather than four undifferentiated lists.
 
 ## Evaluation
 
@@ -68,4 +70,4 @@ A strong result is accurate, traceable, decision-relevant, proportionate, and ac
 
 ## Related skills
 
-Combine with `evidence-validation` for contested claims, `risk-analysis` for uncertainty, `executive-writer` for senior audiences, and `quality-review` before publication.
+Follow with `strategy-framing` to sharpen the choice and `decision-analysis` when the options compete.

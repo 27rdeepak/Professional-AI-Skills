@@ -1,4 +1,4 @@
 interface:
   display_name: "Endpoint Management"
   short_description: "Review device enrollment, configuration, patch posture, compliance, and support coverage|Separate policy gaps from de..."
-  default_prompt: "Use $endpoint-management to produce a rigorous, decision-ready result."
+  default_prompt: "Use $endpoint-management to review patch, compliance, and coverage, separate policy from deployment gaps, and recommend an enforced baseline."

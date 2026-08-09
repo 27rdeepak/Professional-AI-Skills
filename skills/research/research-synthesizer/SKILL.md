@@ -1,6 +1,6 @@
 ---
 name: research-synthesizer
-description: Combine multiple sources into a traceable synthesis with uncertainty and disagreement. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Combine multiple sources into a traceable synthesis organized by finding, surfacing agreement, disagreement, and uncertainty. Use when reconciling several studies, reports, or inputs into one view; when sources conflict and the disagreement must be shown; or when a decision needs a synthesized evidence base rather than a source-by-source summary.
 ---
 
 # Research Synthesizer
@@ -15,10 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. Frame the question and inclusion criteria.
-2. Extract claims, methods, recency, limits, and conflicts.
-3. Group evidence by finding rather than source.
-4. Calibrate conclusions and identify gaps.
+1. Frame the question and the inclusion criteria for sources.
+2. Extract each source's claims, method, recency, limits, and conflicts.
+3. Group evidence by finding, not by source.
+4. Show where sources agree, disagree, and why.
+5. Weight findings by evidence quality, not by source count.
+6. Calibrate the conclusion and name the gaps and the next evidence needed.
 
 ## Decision rules
 
@@ -50,17 +52,17 @@ Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Failure modes
 
-- **Premature certainty:** use ranges or scenarios.
+- **Vote counting:** weight by evidence quality, not the number of sources agreeing.
+- **False consensus:** show disagreement explicitly rather than averaging it away.
 - **Framework theater:** omit sections that do not change action.
-- **Fact–inference blending:** label the boundary.
-- **Generic advice:** connect recommendations to supplied context.
-- **Hidden trade-offs:** name what the preferred action sacrifices.
+- **Fact–inference blending:** separate source claims from your synthesis.
+- **Source-by-source recap:** organize by finding, or it is a list, not a synthesis.
 
 ## Example
 
-**Request:** “Use $research-synthesizer to analyze this material.”
+**Request:** "Use $research-synthesizer to reconcile four conflicting analyst reports on a market's growth rate."
 
-Apply the workflow, expose evidence gaps, and deliver the default output with a clear bottom line.
+Frame the question, extract each report's method and limits, and group by finding rather than by report. Show where they diverge and why, weight by method quality over count, and give a calibrated range with the specific gap that would resolve the disagreement.
 
 ## Evaluation
 
@@ -68,4 +70,4 @@ A strong result is accurate, traceable, decision-relevant, proportionate, and ac
 
 ## Related skills
 
-Combine with `evidence-validation` for contested claims, `risk-analysis` for uncertainty, `executive-writer` for senior audiences, and `quality-review` before publication.
+Pair with `evidence-validation` to grade the sources first and `executive-brief` to land the synthesis for a decision.

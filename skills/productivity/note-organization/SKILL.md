@@ -1,6 +1,6 @@
 ---
 name: note-organization
-description: Assess capture, retrieval, tagging, and synthesis needs|Identify duplication and weak structure|Distinguish archive from active working memory|Recommend a simpler system for recall and reuse. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Assess capture, retrieval, tagging, and synthesis needs for a note system. Use when designing or fixing a note-taking or knowledge system, improving retrieval of past notes, reducing capture friction, or turning scattered notes into usable knowledge.
 ---
 
 # Note Organization

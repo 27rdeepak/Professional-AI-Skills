@@ -1,6 +1,6 @@
 ---
 name: forecasting
-description: Define the variable, horizon, base rate, scenarios, and confidence intervals|Separate signal from noise and assumptions from evidence|Recommend a forecast with explicit uncertainty. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Define the variable, horizon, base rate, scenarios, and confidence intervals. Use when producing a forecast or projection, estimating an uncertain future value, building scenarios with explicit confidence, or challenging an overconfident prediction.
 ---
 
 # Forecasting

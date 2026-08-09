@@ -1,6 +1,6 @@
 ---
 name: learning-plan
-description: Assess target skill, baseline, time horizon, practice loop, and feedback source|Separate consumption from deliberate practice|Identify the smallest path to competence|Recommend a study and practice plan. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Assess target skill, baseline, time horizon, practice loop, and feedback source. Use when planning how to learn a skill, structuring deliberate practice, choosing what to study in a limited window, or setting up a feedback loop for improvement.
 ---
 
 # Learning Plan

@@ -1,6 +1,6 @@
 ---
 name: documentation-engineering
-description: Structure docs for task completion, discoverability, and maintenance|Check whether the document answers the user's immediate job to be done|Identify missing examples, assumptions, and boundaries|Recommend edits that improve comprehension and retention. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Structure docs for task completion, discoverability, and maintenance. Use when designing or overhauling documentation, fixing docs users cannot navigate, structuring content around real tasks, or setting up a maintainable docs system.
 ---
 
 # Documentation Engineering

@@ -1,6 +1,6 @@
 ---
 name: status-update-writing
-description: Summarize progress, blockers, decisions, and next actions with minimal friction|Prioritize what changed and what needs help|Recommend a crisp status note. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Summarize progress, blockers, decisions, and next actions with minimal friction. Use when writing a project or program status update, reporting progress to leadership, flagging blockers that need help, or standardizing a recurring update.
 ---
 
 # Status Update Writing

@@ -1,6 +1,6 @@
 ---
 name: cost-optimization
-description: Identify structural, operational, and discretionary cost drivers|Separate savings from deferral|Assess service impact and one-time effort|Recommend a savings plan with risk controls. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Identify structural, operational, and discretionary cost drivers. Use when reducing cost without cutting essential capability, finding the biggest cost levers, preparing a cost-reduction plan, or challenging where the budget actually goes.
 ---
 
 # Cost Optimization

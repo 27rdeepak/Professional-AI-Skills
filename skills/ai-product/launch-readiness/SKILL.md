@@ -1,6 +1,6 @@
 ---
 name: launch-readiness
-description: Assess product quality, support, documentation, messaging, and rollback options|Check whether the team can absorb incidents and feedback|Identify blockers and unclear ownership|Recommend go/no-go conditions and launch controls. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Assess product quality, support, documentation, messaging, and rollback options before launch. Use when deciding launch go/no-go, running a launch-readiness review, finding gaps that would block release, or preparing a rollback and support plan.
 ---
 
 # Launch Readiness

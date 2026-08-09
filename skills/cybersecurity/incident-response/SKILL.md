@@ -1,6 +1,6 @@
 ---
 name: incident-response
-description: Classify event scope, severity, containment needs, evidence, and communications|Separate detection, containment, eradication, recovery, and lessons learned|Track decisions, owners, timestamps, and dependencies|Recommend next actions and escalation boundaries. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Classify a security event's scope, severity, and containment needs, then drive it through detection, containment, eradication, recovery, and lessons learned with evidence preserved. Use when triaging a suspected breach or active incident, running an incident bridge, deciding containment and escalation, or writing the post-incident review.
 ---
 
 # Incident Response
@@ -15,7 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. incident response brief.
+1. Establish the facts: what was observed, when, on which assets, and the current status.
+2. Classify scope and severity, and decide whether to formally declare an incident.
+3. Contain to stop spread while preserving forensic evidence; log every action with a timestamp and owner.
+4. Eradicate the root cause and verify the threat and any persistence are removed.
+5. Recover services with validation and heightened monitoring.
+6. Capture the timeline, decisions, and lessons learned as concrete, owned follow-ups.
 
 ## Decision rules
 
@@ -26,7 +31,7 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **decision-ready brief** with:
+Default to an **incident brief and action log** with:
 
 1. Bottom line
 2. Evidence and analysis
@@ -47,17 +52,17 @@ Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Failure modes
 
-- **Premature certainty:** use ranges or scenarios.
+- **Evidence destruction:** contain without wiping the forensic trail.
+- **Premature all-clear:** confirm eradication before declaring recovery.
 - **Framework theater:** omit sections that do not change action.
-- **Fact–inference blending:** label the boundary.
-- **Generic advice:** connect recommendations to supplied context.
-- **Hidden trade-offs:** name what the preferred action sacrifices.
+- **Fact–inference blending:** separate what is confirmed from what is suspected.
+- **Silent timeline:** record decisions, owners, and timestamps as you go, not after.
 
 ## Example
 
-**Request:** “Use incident-response to analyze this material.”
+**Request:** "Use $incident-response to triage a suspected credential-compromise alert on a production admin account."
 
-Apply the workflow, expose evidence gaps, and deliver the default output with a clear bottom line.
+Establish the facts and current status, classify severity (privileged access makes it high), and contain by disabling the account and rotating keys while preserving the auth logs. Verify no persistence or lateral movement, recover under heightened monitoring, and log the timeline with owned follow-ups such as enforcing MFA on that account class.
 
 ## Evaluation
 
@@ -65,4 +70,4 @@ A strong result is accurate, traceable, decision-relevant, proportionate, and ac
 
 ## Related skills
 
-Combine with `evidence-validation` for contested claims, `risk-analysis` for uncertainty, `executive-writer` for senior audiences, and `quality-review` before publication.
+Use `threat-modeling` to anticipate the abuse paths, `root-cause-analysis` for the underlying cause, and `executive-writer` for the leadership update.

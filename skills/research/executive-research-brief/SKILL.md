@@ -1,6 +1,6 @@
 ---
 name: executive-research-brief
-description: Condense research into a concise, decision-oriented brief with sources, gaps, and implications|Separate the evidence from the recommendation|Recommend next steps when evidence is incomplete. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Condense research into a concise, decision-oriented brief with sources, gaps, and implications. Use when turning a body of research into an executive brief, distilling findings for a decision, surfacing evidence gaps for leaders, or preparing a decision-ready research summary.
 ---
 
 # Executive Research Brief

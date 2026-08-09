@@ -1,6 +1,6 @@
 ---
 name: endpoint-management
-description: Review device enrollment, configuration, patch posture, compliance, and support coverage|Separate policy gaps from deployment gaps and user exceptions|Identify drift by platform, population, and privilege level|Recommend standards, enforcement, and exception handling. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Review device enrollment, configuration, patch posture, compliance, and support coverage, separating policy gaps from deployment gaps and user exceptions. Use when assessing endpoint or MDM posture, diagnosing patch or compliance drift, standardizing device baselines, or preparing an endpoint security review.
 ---
 
 # Endpoint Management
@@ -15,7 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. endpoint control plan.
+1. Establish the device population by platform, ownership, and privilege level.
+2. Review enrollment, configuration, patch posture, compliance, and support coverage.
+3. Separate policy gaps from deployment gaps and user exceptions.
+4. Identify drift by platform, population, and privilege.
+5. Assess how exceptions are granted, tracked, and expired.
+6. Recommend baselines, enforcement, and exception handling.
 
 ## Decision rules
 
@@ -26,7 +31,7 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **decision-ready brief** with:
+Default to an **endpoint posture and remediation plan** with:
 
 1. Bottom line
 2. Evidence and analysis
@@ -47,17 +52,17 @@ Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Failure modes
 
-- **Premature certainty:** use ranges or scenarios.
+- **Enrolled is not compliant:** an enrolled device out of policy is still exposed.
+- **Exception sprawl:** untracked exceptions hollow out the baseline.
 - **Framework theater:** omit sections that do not change action.
-- **Fact–inference blending:** label the boundary.
-- **Generic advice:** connect recommendations to supplied context.
-- **Hidden trade-offs:** name what the preferred action sacrifices.
+- **Fact–inference blending:** separate reported compliance from verified state.
+- **Privilege blindness:** weight drift on admin and executive devices highest.
 
 ## Example
 
-**Request:** “Use endpoint-management to analyze this material.”
+**Request:** "Use $endpoint-management to assess why 15% of laptops are behind on patches."
 
-Apply the workflow, expose evidence gaps, and deliver the default output with a clear bottom line.
+Segment the fleet by platform and privilege, then separate a policy gap — no enforced patch deadline — from a deployment gap such as failed update rings. Flag the privileged-user exceptions that carry the most risk, and recommend an enforced baseline with a tracked, expiring exception path.
 
 ## Evaluation
 
@@ -65,4 +70,4 @@ A strong result is accurate, traceable, decision-relevant, proportionate, and ac
 
 ## Related skills
 
-Combine with `evidence-validation` for contested claims, `risk-analysis` for uncertainty, `executive-writer` for senior audiences, and `quality-review` before publication.
+Pair with `intune-management` for the tooling detail and `vulnerability-management` to prioritize the resulting exposure.

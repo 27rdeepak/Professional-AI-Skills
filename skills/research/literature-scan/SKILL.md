@@ -1,6 +1,6 @@
 ---
 name: literature-scan
-description: Map the key claims, recurring themes, methods, and disagreements in a topic area|Separate primary evidence from commentary|Identify open questions and strong references|Recommend the next best sources to read. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Map the key claims, recurring themes, methods, and disagreements in a topic area. Use when surveying the literature or prior work on a topic, orienting quickly in an unfamiliar area, mapping where sources agree and disagree, or scoping deeper research.
 ---
 
 # Literature Scan

@@ -1,6 +1,6 @@
 ---
 name: focus-planning
-description: Identify deep-work goals, interruptions, dependencies, and energy constraints|Separate protected focus time from reactive time|Recommend a realistic focus block and guardrails. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Identify deep-work goals, interruptions, dependencies, and energy constraints. Use when planning focused work, protecting deep-work time, diagnosing why a day fragments, or designing a schedule around energy and dependencies.
 ---
 
 # Focus Planning

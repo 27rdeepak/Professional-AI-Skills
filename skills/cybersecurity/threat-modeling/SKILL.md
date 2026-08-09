@@ -1,6 +1,6 @@
 ---
 name: threat-modeling
-description: Define assets, trust boundaries, entry points, actors, abuse cases, and controls|Map plausible attack paths and defensive gaps|Translate technical threats into business consequence|Recommend mitigations, tests, and residual-risk acceptance options. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Define assets, trust boundaries, entry points, actors, and abuse cases for a system, then map attack paths to controls and residual risk. Use when designing or changing a system, before a security design review, when adding a new integration or data flow, or to prioritize security work by realistic attack paths.
 ---
 
 # Threat Modeling
@@ -15,7 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. threat model and mitigation list.
+1. Define the assets worth protecting and the unacceptable outcomes.
+2. Draw components, data flows, trust boundaries, and entry points.
+3. Enumerate actors and their capabilities, from external attacker to malicious insider.
+4. Derive abuse cases per entry point (e.g. via STRIDE) and trace plausible attack paths.
+5. Map existing controls to each path and expose the gaps.
+6. Translate the top threats into business consequence and recommend mitigations, tests, or accepted residual risk.
 
 ## Decision rules
 
@@ -26,7 +31,7 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **decision-ready brief** with:
+Default to a **threat model and prioritized mitigations** with:
 
 1. Bottom line
 2. Evidence and analysis
@@ -47,17 +52,17 @@ Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Failure modes
 
-- **Premature certainty:** use ranges or scenarios.
+- **Checklist substitution:** model this system's flows, not a generic threat list.
+- **Severity by label:** rank by attack-path feasibility and consequence, not CVSS alone.
 - **Framework theater:** omit sections that do not change action.
-- **Fact–inference blending:** label the boundary.
-- **Generic advice:** connect recommendations to supplied context.
-- **Hidden trade-offs:** name what the preferred action sacrifices.
+- **Fact–inference blending:** separate observed design from assumed behavior.
+- **Boundary omission:** every trust boundary crossing is a candidate attack surface.
 
 ## Example
 
-**Request:** “Use threat-modeling to analyze this material.”
+**Request:** "Use $threat-modeling on a new webhook endpoint that lets partners push order updates."
 
-Apply the workflow, expose evidence gaps, and deliver the default output with a clear bottom line.
+Define the asset (order integrity), draw the flow and the trust boundary at the partner edge, and enumerate actors — a spoofed partner, a replayed request. Derive abuse cases, map the current auth and validation controls to each path, and recommend signature verification and replay protection, each with a test that would fail if the control regresses.
 
 ## Evaluation
 
@@ -65,4 +70,4 @@ A strong result is accurate, traceable, decision-relevant, proportionate, and ac
 
 ## Related skills
 
-Combine with `evidence-validation` for contested claims, `risk-analysis` for uncertainty, `executive-writer` for senior audiences, and `quality-review` before publication.
+Feed into `security-architecture-review` for the full design and `vulnerability-management` to prioritize the resulting findings.

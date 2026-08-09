@@ -1,6 +1,6 @@
 ---
 name: board-communication
-description: Frame issues as choices, risk, consequence, and ask|Avoid excessive detail that does not change oversight decisions|Identify where the board needs assurance versus action|Recommend a board-ready message. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Frame issues as choices, risk, consequence, and the ask for a board audience. Use when preparing a board paper or update, framing a decision for directors, presenting risk to a board, or turning an operational topic into a board-level choice.
 ---
 
 # Board Communication

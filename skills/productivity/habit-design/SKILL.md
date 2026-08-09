@@ -1,6 +1,6 @@
 ---
 name: habit-design
-description: Define cue, routine, reward, environment, and reinforcement|Check whether the habit is too large or too vague|Identify friction that prevents repetition|Recommend a smaller habit and tracking method. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Define cue, routine, reward, environment, and reinforcement for a habit. Use when building a new habit or breaking an old one, designing a sustainable routine, diagnosing why a habit keeps failing, or setting up environmental reinforcement.
 ---
 
 # Habit Design

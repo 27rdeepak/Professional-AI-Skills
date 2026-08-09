@@ -1,6 +1,6 @@
 ---
 name: data-model-review
-description: Assess entities, relationships, constraints, lifecycle, and usage patterns|Check whether the model supports the business and operational questions|Identify ambiguity, duplication, or missing keys|Recommend a cleaner schema or contract. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Assess entities, relationships, constraints, lifecycle, and usage patterns. Use when reviewing or designing a data model or schema, diagnosing integrity or performance issues, planning a schema change, or evaluating whether a model fits its access patterns.
 ---
 
 # Data Model Review

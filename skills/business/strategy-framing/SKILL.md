@@ -1,6 +1,6 @@
 ---
 name: strategy-framing
-description: Define where to play, how to win, what not to do, and what resources matter|Separate aspiration from executable strategy|Recommend a coherent strategic choice. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Define where to play, how to win, what not to do, and what resources matter. Use when framing a strategy, sharpening a fuzzy strategic choice, deciding what to say no to, or converting a situation assessment into a defensible strategic direction.
 ---
 
 # Strategy Framing

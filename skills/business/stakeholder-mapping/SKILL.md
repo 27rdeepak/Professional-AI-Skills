@@ -1,6 +1,6 @@
 ---
 name: stakeholder-mapping
-description: Map influence, interest, support, risks, and messaging needs by stakeholder group|Separate power from proximity and loudness|Identify likely blockers, sponsors, and neutral parties|Recommend sequencing, messaging, and engagement actions. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Map stakeholders by influence, interest, and stance, separating power from proximity and loudness, then plan sequencing and engagement. Use when driving a change, decision, or initiative that needs buy-in; identifying blockers and sponsors; planning who to engage in what order; or diagnosing why an initiative is stalling politically.
 ---
 
 # Stakeholder Mapping
@@ -15,7 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. stakeholder map and plan.
+1. List the stakeholders and groups touched by the decision or change.
+2. Rate each on influence, interest, and current stance — support, neutral, or oppose.
+3. Separate real power from proximity and volume — the loudest is not always decisive.
+4. Identify likely blockers, sponsors, and swing parties, and what each actually cares about.
+5. Plan engagement: who to move, in what sequence, with what message.
+6. Recommend the first moves and the coalition needed to carry the decision.
 
 ## Decision rules
 
@@ -26,7 +31,7 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **decision-ready brief** with:
+Default to a **stakeholder map and engagement plan** with:
 
 1. Bottom line
 2. Evidence and analysis
@@ -47,17 +52,17 @@ Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Failure modes
 
-- **Premature certainty:** use ranges or scenarios.
+- **Loudness bias:** weight decision power, not who emails most.
+- **Static map:** stances shift — note what would move each key party.
 - **Framework theater:** omit sections that do not change action.
-- **Fact–inference blending:** label the boundary.
-- **Generic advice:** connect recommendations to supplied context.
-- **Hidden trade-offs:** name what the preferred action sacrifices.
+- **Fact–inference blending:** separate a known position from an assumed one.
+- **Ignoring the silent decisive:** a quiet approver can outweigh a vocal objector.
 
 ## Example
 
-**Request:** “Use stakeholder-mapping to analyze this material.”
+**Request:** "Use $stakeholder-mapping for a policy change opposed by a vocal team lead but backed by two silent VPs."
 
-Apply the workflow, expose evidence gaps, and deliver the default output with a clear bottom line.
+Rate influence and stance, and distinguish the loud opponent from the decisive but quiet VPs. Identify the swing managers and what each cares about, then plan a sequence that locks in the VP sponsors first and addresses the opponent's real underlying concern rather than the surface objection.
 
 ## Evaluation
 
@@ -65,4 +70,4 @@ A strong result is accurate, traceable, decision-relevant, proportionate, and ac
 
 ## Related skills
 
-Combine with `evidence-validation` for contested claims, `risk-analysis` for uncertainty, `executive-writer` for senior audiences, and `quality-review` before publication.
+Pair with `change-leadership` for adoption and `stakeholder-messaging` for the tailored communications.

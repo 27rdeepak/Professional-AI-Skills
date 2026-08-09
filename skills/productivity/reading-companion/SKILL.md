@@ -1,6 +1,6 @@
 ---
 name: reading-companion
-description: Extract purpose, key claims, evidence, and open questions from a text|Distinguish summary from interpretation|Identify what matters for action or recall|Recommend a reading note or follow-up step. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Extract purpose, key claims, evidence, and open questions from a text. Use when reading a dense article, paper, or book actively, deciding whether a text is worth deep reading, extracting the argument and evidence, or preparing notes for later use.
 ---
 
 # Reading Companion

@@ -1,6 +1,6 @@
 ---
 name: decision-analysis
-description: Structure consequential choices with criteria, uncertainty, reversibility, and sensitivity. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Structure a consequential choice among options using weighted criteria, uncertainty, reversibility, and sensitivity. Use when choosing among options — build-vs-buy, vendor or platform selection, go/no-go, hire, or investment — where multiple criteria compete, outcomes are uncertain, and reversing the choice is costly.
 ---
 
 # Decision Analysis
@@ -15,10 +15,13 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. Frame the decision, owner, deadline, and constraints.
-2. Define weighted criteria before scoring.
-3. Use ranges and test sensitivity.
-4. Recommend an option, conditions, and review trigger.
+1. Frame the decision, owner, deadline, budget, and what "do nothing" means.
+2. Enumerate genuinely distinct options, including a base case.
+3. Define and weight criteria against the objective before scoring any option.
+4. Score with ranges, not point values, and record the evidence behind each score.
+5. Test sensitivity: find which criterion or assumption flips the ranking.
+6. Assess reversibility and the cost of being wrong for the leading options.
+7. Recommend an option with the conditions under which you would revisit it.
 
 ## Decision rules
 
@@ -50,17 +53,17 @@ Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Failure modes
 
-- **Premature certainty:** use ranges or scenarios.
+- **Criteria after scoring:** fix weights before you see option scores.
+- **False precision:** carry ranges through to the recommendation.
 - **Framework theater:** omit sections that do not change action.
 - **Fact–inference blending:** label the boundary.
-- **Generic advice:** connect recommendations to supplied context.
-- **Hidden trade-offs:** name what the preferred action sacrifices.
+- **Reversibility blindness:** weight a hard-to-undo option more cautiously.
 
 ## Example
 
-**Request:** “Use $decision-analysis to analyze this material.”
+**Request:** "Use $decision-analysis to choose between three payroll vendors given cost, integration risk, and switching cost."
 
-Apply the workflow, expose evidence gaps, and deliver the default output with a clear bottom line.
+Weight the criteria to the objective, score each vendor with ranges, and run sensitivity to see whether integration risk or three-year cost drives the ranking. Flag the reversibility gap — switching cost locks you in — and recommend an option with a review trigger tied to the assumption most likely to change.
 
 ## Evaluation
 
@@ -68,4 +71,4 @@ A strong result is accurate, traceable, decision-relevant, proportionate, and ac
 
 ## Related skills
 
-Combine with `evidence-validation` for contested claims, `risk-analysis` for uncertainty, `executive-writer` for senior audiences, and `quality-review` before publication.
+Use `trade-off-analysis` to expose the sacrifice in the leading option, `risk-analysis` for the downside of the chosen path, and `executive-writer` to brief the approver.

@@ -1,6 +1,6 @@
 ---
 name: commercial-negotiation
-description: Frame goals, walk-away points, concession strategy, and leverage|Separate price from terms, scope, service, and timing|Identify hidden trade-offs and second-order effects|Recommend a negotiation plan and fallback position. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Frame negotiation goals, walk-away points, leverage, and concession strategy across price, terms, scope, service, and timing — not price alone. Use when preparing for a vendor, contract, partnership, or renewal negotiation; setting a BATNA and target; planning concessions; or reviewing a counterpart's likely position.
 ---
 
 # Commercial Negotiation
@@ -15,7 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. negotiation strategy brief.
+1. Define your objective, target, and walk-away (BATNA) on each dimension.
+2. Separate price from terms, scope, service levels, and timing — and value each.
+3. Assess both sides' leverage and the counterpart's likely priorities and constraints.
+4. Plan concessions: what you trade, in what order, and what you require in return.
+5. Identify hidden trade-offs and second-order effects — precedent, lock-in, relationship.
+6. Recommend an opening position, a concession path, and a fallback.
 
 ## Decision rules
 
@@ -26,7 +31,7 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **decision-ready brief** with:
+Default to a **negotiation strategy and concession plan** with:
 
 1. Bottom line
 2. Evidence and analysis
@@ -47,17 +52,17 @@ Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Failure modes
 
-- **Premature certainty:** use ranges or scenarios.
+- **Price tunnel vision:** terms, exit rights, and service can outweigh headline price.
+- **Concession without capture:** never give a concession without a defined return.
 - **Framework theater:** omit sections that do not change action.
-- **Fact–inference blending:** label the boundary.
-- **Generic advice:** connect recommendations to supplied context.
-- **Hidden trade-offs:** name what the preferred action sacrifices.
+- **Fact–inference blending:** separate the counterpart's stated position from your inference.
+- **No BATNA:** without a walk-away, you are accepting, not negotiating.
 
 ## Example
 
-**Request:** “Use commercial-negotiation to analyze this material.”
+**Request:** "Use $commercial-negotiation to prepare for a SaaS renewal where the vendor proposed a 20% increase."
 
-Apply the workflow, expose evidence gaps, and deliver the default output with a clear bottom line.
+Set your target and BATNA, including switching cost and alternatives, then unbundle price from term length and support tier and value each. Assess leverage, and plan a concession path that trades a longer commitment for a price hold plus improved exit rights, with a fallback if they refuse.
 
 ## Evaluation
 
@@ -65,4 +70,4 @@ A strong result is accurate, traceable, decision-relevant, proportionate, and ac
 
 ## Related skills
 
-Combine with `evidence-validation` for contested claims, `risk-analysis` for uncertainty, `executive-writer` for senior audiences, and `quality-review` before publication.
+Pair with `third-party-risk` to value the contractual controls and `trade-off-analysis` to weigh price against terms.

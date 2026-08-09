@@ -1,6 +1,6 @@
 ---
 name: prioritization
-description: Rank work transparently using value, urgency, effort, risk, and dependencies. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Rank competing work transparently using value, urgency, effort, risk, and dependencies, and produce a defensible sequence with an explicit cut line. Use when a backlog or roadmap has more demand than capacity, when stakeholders disagree on what comes first, when planning a quarter or sprint, or when you must justify what gets cut.
 ---
 
 # Prioritization
@@ -15,10 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. Define objective, horizon, capacity, and mandatory work.
-2. Choose criteria and weights.
-3. Score with evidence ranges.
-4. Sequence using dependencies, cost of delay, and confidence.
+1. Define the objective, horizon, capacity, and the mandatory, non-negotiable work.
+2. Choose criteria and weights before scoring — value, urgency, effort, risk, confidence.
+3. Score items with evidence-based ranges, not gut single points.
+4. Sequence using dependencies, cost of delay, and confidence — not score alone.
+5. Draw the cut line explicitly and state what is deliberately not being done.
+6. Note what would change the order: new evidence, capacity, or a deadline shift.
 
 ## Decision rules
 
@@ -50,17 +52,17 @@ Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Failure modes
 
-- **Premature certainty:** use ranges or scenarios.
+- **Everything is P1:** a list with no cut line is not a priority list.
+- **Effort blindness:** weigh cost of delay against effort, not value in isolation.
 - **Framework theater:** omit sections that do not change action.
-- **Fact–inference blending:** label the boundary.
-- **Generic advice:** connect recommendations to supplied context.
-- **Hidden trade-offs:** name what the preferred action sacrifices.
+- **Fact–inference blending:** separate measured value from assumed value.
+- **Dependency denial:** a high-value item blocked by an unbuilt one cannot go first.
 
 ## Example
 
-**Request:** “Use $prioritization to analyze this material.”
+**Request:** "Use $prioritization to sequence 15 roadmap items against one quarter of capacity."
 
-Apply the workflow, expose evidence gaps, and deliver the default output with a clear bottom line.
+Set capacity and the mandatory work, weight the criteria before scoring, and score items with ranges. Sequence by cost of delay and dependencies rather than raw score, draw the cut line at capacity, and name exactly what is being dropped and the condition that would pull it back above the line.
 
 ## Evaluation
 
@@ -68,4 +70,4 @@ A strong result is accurate, traceable, decision-relevant, proportionate, and ac
 
 ## Related skills
 
-Combine with `evidence-validation` for contested claims, `risk-analysis` for uncertainty, `executive-writer` for senior audiences, and `quality-review` before publication.
+Pair with `decision-analysis` for high-stakes single choices and `trade-off-analysis` when two top items compete for the same slot.

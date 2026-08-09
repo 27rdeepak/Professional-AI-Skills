@@ -1,6 +1,6 @@
 ---
 name: incident-postmortem
-description: Reconstruct timeline, cause chain, impact, detection, response, and recovery|Separate contributing factors from root causes and symptoms|Identify learning, follow-up actions, and owner accountability|Recommend prevention and detection improvements. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Reconstruct timeline, cause chain, impact, detection, response, and recovery. Use when writing a blameless postmortem after an incident, analyzing how a failure unfolded and was handled, extracting preventive actions, or reviewing detection and response gaps.
 ---
 
 # Incident Postmortem

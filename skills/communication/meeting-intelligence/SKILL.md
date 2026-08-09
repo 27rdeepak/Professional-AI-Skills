@@ -1,6 +1,6 @@
 ---
 name: meeting-intelligence
-description: Convert meeting material into decisions, actions, risks, and follow-through. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Convert meeting material — notes, transcript, or recording — into decisions, actions, risks, and follow-through, separating discussion from what was actually decided. Use when turning a meeting into a decision-and-action record, reconciling who owns what, or extracting commitments and open questions from a long or messy discussion.
 ---
 
 # Meeting Intelligence
@@ -15,10 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. Separate discussion, decisions, and unresolved questions.
-2. Record owner, rationale, scope, and effective date.
-3. Write actions with one owner and due date.
-4. Surface dependencies, risks, and confirmation needs.
+1. Separate discussion from decisions and from unresolved questions.
+2. Record each decision with its owner, rationale, scope, and effective date.
+3. Write each action with a single owner and a due date.
+4. Surface dependencies, risks, and what still needs confirmation.
+5. Flag decisions made without clear authority or evidence.
+6. Produce a record short enough that people will actually read it.
 
 ## Decision rules
 
@@ -50,17 +52,17 @@ Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Failure modes
 
-- **Premature certainty:** use ranges or scenarios.
+- **Discussion as decision:** do not record debated-but-undecided items as decisions.
+- **Ownerless actions:** an action without one named owner will not happen.
 - **Framework theater:** omit sections that do not change action.
-- **Fact–inference blending:** label the boundary.
-- **Generic advice:** connect recommendations to supplied context.
-- **Hidden trade-offs:** name what the preferred action sacrifices.
+- **Fact–inference blending:** separate what was said from your interpretation.
+- **Transcript regurgitation:** distill to decisions and actions, not a replay.
 
 ## Example
 
-**Request:** “Use $meeting-intelligence to analyze this material.”
+**Request:** "Use $meeting-intelligence to turn a 90-minute planning transcript into a decision log."
 
-Apply the workflow, expose evidence gaps, and deliver the default output with a clear bottom line.
+Separate what was decided from what was merely discussed, capture each decision with its owner and effective date, and write actions with single owners and due dates. Surface the dependencies and flag the two items that were assumed decided but never actually confirmed in the room.
 
 ## Evaluation
 
@@ -68,4 +70,4 @@ A strong result is accurate, traceable, decision-relevant, proportionate, and ac
 
 ## Related skills
 
-Combine with `evidence-validation` for contested claims, `risk-analysis` for uncertainty, `executive-writer` for senior audiences, and `quality-review` before publication.
+Pair with `executive-summarizer` when leadership needs the digest and `prioritization` when the resulting actions exceed capacity.

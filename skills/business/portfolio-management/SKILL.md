@@ -1,6 +1,6 @@
 ---
 name: portfolio-management
-description: Balance investments, dependencies, risk, and strategic fit across a set of work|Identify overcommitment and weak alignment|Recommend an adjusted portfolio mix. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Balance investments, dependencies, risk, and strategic fit across a set of work. Use when managing a portfolio of projects or products, deciding what to fund, pause, or kill, rebalancing across risk and horizon, or resolving competition for shared resources.
 ---
 
 # Portfolio Management

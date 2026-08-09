@@ -1,6 +1,6 @@
 ---
 name: release-management
-description: Assess scope, readiness, dependencies, rollback, communications, and support coverage|Identify release blockers and hidden operational risk|Distinguish build completion from production readiness|Recommend go/no-go and rollback conditions. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Assess scope, readiness, dependencies, rollback, communications, and support coverage. Use when planning a release, running a release-readiness check, coordinating a rollout, or ensuring rollback and support are in place before shipping.
 ---
 
 # Release Management

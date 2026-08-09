@@ -1,6 +1,6 @@
 ---
 name: test-strategy
-description: Define what must be true, what can fail, and which tests prove it|Separate unit, integration, end-to-end, and regression concerns|Prioritize tests by risk and release consequence|Recommend a minimal high-value test suite. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Define what must be true, what can fail, and which tests prove it. Use when designing a test strategy for a feature or system, deciding what and how to test under time limits, closing coverage gaps by risk, or justifying a testing approach.
 ---
 
 # Test Strategy

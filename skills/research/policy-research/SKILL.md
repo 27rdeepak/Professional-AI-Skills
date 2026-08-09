@@ -1,6 +1,6 @@
 ---
 name: policy-research
-description: Assess policy goals, trade-offs, stakeholders, implementation constraints, and unintended effects|Separate intended impact from plausible side effects|Recommend a balanced policy option or next test. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Assess policy goals, trade-offs, stakeholders, implementation constraints, and unintended effects. Use when analyzing a policy or regulation, weighing policy options, anticipating second-order effects, or preparing a policy recommendation.
 ---
 
 # Policy Research

@@ -1,6 +1,6 @@
 ---
 name: prompt-optimization
-description: Improve clarity, constraints, examples, and output shape without overfitting|Check whether the prompt is the right control lever|Identify prompt brittleness and context cost|Recommend a smaller, stronger prompt and test plan. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Improve a prompt's clarity, constraints, examples, and output shape without overfitting. Use when a prompt gives inconsistent or wrong-format output, when tightening an LLM instruction, when adding examples or guardrails, or when iterating on a prompt that fails on edge cases.
 ---
 
 # Prompt Optimization

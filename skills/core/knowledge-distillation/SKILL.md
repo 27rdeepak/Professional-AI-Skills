@@ -1,6 +1,6 @@
 ---
 name: knowledge-distillation
-description: Extract reusable principles, models, and practices from dense material. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Extract reusable principles, mental models, and decision rules from dense material so they can be applied later. Use when turning postmortems, research, expert interviews, or documentation into an internal playbook, checklist, or guide — separating durable principles from context-specific detail.
 ---
 
 # Knowledge Distillation
@@ -15,10 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. Define the future use case.
-2. Extract concepts, rules, exceptions, examples, and conditions.
-3. Separate durable principles from local detail.
-4. Organize for retrieval with labels and cross-links.
+1. Define the future use case and who will apply the result.
+2. Extract concepts, rules, exceptions, worked examples, and the conditions under which each holds.
+3. Separate durable principles from local, situation-specific detail.
+4. Resolve or flag contradictions across sources.
+5. Compress each principle to its trigger, action, and rationale.
+6. Organize for retrieval with labels, cross-links, and one worked example per principle.
 
 ## Decision rules
 
@@ -50,17 +52,17 @@ Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Failure modes
 
-- **Premature certainty:** use ranges or scenarios.
+- **Context stripping:** keep the conditions under which a principle applies, or it misleads.
+- **Summary masquerade:** distillation yields reusable rules, not a shorter recap.
 - **Framework theater:** omit sections that do not change action.
-- **Fact–inference blending:** label the boundary.
-- **Generic advice:** connect recommendations to supplied context.
-- **Hidden trade-offs:** name what the preferred action sacrifices.
+- **Fact–inference blending:** mark which principles are evidenced versus inferred.
+- **Contradiction burial:** surface where sources disagree instead of averaging them away.
 
 ## Example
 
-**Request:** “Use $knowledge-distillation to analyze this material.”
+**Request:** "Use $knowledge-distillation to turn three incident postmortems into reusable operating principles."
 
-Apply the workflow, expose evidence gaps, and deliver the default output with a clear bottom line.
+Extract the recurring failure patterns and the controls that worked, and separate incident-specific detail from durable rules such as "gate config changes behind a canary." Flag where the postmortems disagree, then produce a labeled principle set, each with a trigger, an action, and a worked example.
 
 ## Evaluation
 
@@ -68,4 +70,4 @@ A strong result is accurate, traceable, decision-relevant, proportionate, and ac
 
 ## Related skills
 
-Combine with `evidence-validation` for contested claims, `risk-analysis` for uncertainty, `executive-writer` for senior audiences, and `quality-review` before publication.
+Feed from `root-cause-analysis` for the source diagnoses, and pair with `quality-review` to check the distilled rules against real cases.

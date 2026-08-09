@@ -1,6 +1,6 @@
 ---
 name: risk-analysis
-description: Identify, assess, prioritize, and treat uncertainty against stated objectives. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Identify, assess, prioritize, and treat uncertainty against a stated objective, producing a risk register with owners and indicators. Use when a plan, investment, vendor, or change needs its downside made explicit — to build or review a risk register, separating inherent from residual exposure.
 ---
 
 # Risk Analysis
@@ -15,10 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. Define objectives, scope, horizon, appetite, and scales.
-2. Write cause–event–impact risk statements.
-3. Assess inherent and residual exposure separately.
-4. Assign treatment, owner, due date, and indicator.
+1. Define the objective, scope, time horizon, risk appetite, and the scales for likelihood and impact.
+2. Write cause–event–impact statements so each risk is specific and testable.
+3. Assess inherent exposure, then residual exposure after existing controls, as separate figures.
+4. Prioritize by exposure and by the proximity and velocity of each risk.
+5. Assign a treatment — avoid, reduce, transfer, or accept — with an owner, due date, and leading indicator.
+6. Note interactions where one risk triggers or amplifies another.
 
 ## Decision rules
 
@@ -50,17 +52,17 @@ Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Failure modes
 
+- **Inherent/residual conflation:** score exposure before and after controls separately.
+- **Register rot:** every risk needs an owner and an indicator, or it will not be tracked.
 - **Premature certainty:** use ranges or scenarios.
-- **Framework theater:** omit sections that do not change action.
-- **Fact–inference blending:** label the boundary.
-- **Generic advice:** connect recommendations to supplied context.
-- **Hidden trade-offs:** name what the preferred action sacrifices.
+- **Generic advice:** connect treatments to the supplied context.
+- **Hidden trade-offs:** name what accepting or transferring a risk sacrifices.
 
 ## Example
 
-**Request:** “Use $risk-analysis to analyze this material.”
+**Request:** "Use $risk-analysis to assess the risks of outsourcing our data pipeline to a single vendor."
 
-Apply the workflow, expose evidence gaps, and deliver the default output with a clear bottom line.
+Set the objective and appetite, then write cause–event–impact risks — vendor outage → pipeline halt → reporting gap; concentration → weak exit leverage. Score inherent versus residual exposure after current controls, and assign treatments, owners, and indicators, flagging concentration as the top residual risk with a next test to price the exit path.
 
 ## Evaluation
 
@@ -68,4 +70,4 @@ A strong result is accurate, traceable, decision-relevant, proportionate, and ac
 
 ## Related skills
 
-Combine with `evidence-validation` for contested claims, `risk-analysis` for uncertainty, `executive-writer` for senior audiences, and `quality-review` before publication.
+Pair with `premortem-analysis` to surface failure modes the register missed, `decision-analysis` when the risk should shape the choice, and `third-party-risk` for vendor-specific exposure.

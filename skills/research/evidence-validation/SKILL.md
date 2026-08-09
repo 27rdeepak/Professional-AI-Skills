@@ -1,6 +1,6 @@
 ---
 name: evidence-validation
-description: Assess whether sources and claims are reliable enough for a decision. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Assess whether sources and claims are reliable enough to base a decision on — authority, method, directness, recency, independence, and conflicts. Use when checking whether cited evidence supports a conclusion, vetting sources before relying on them, grading claim confidence, or deciding what additional evidence a decision needs.
 ---
 
 # Evidence Validation
@@ -15,10 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. Inventory material claims and sources.
-2. Assess authority, method, directness, recency, independence, and conflicts.
-3. Check that sources entail claims and numbers retain context.
-4. Rate confidence and name evidence needed.
+1. Inventory the material claims and the sources offered for each.
+2. Assess each source on authority, method, directness, recency, independence, and conflicts of interest.
+3. Check that the source actually entails the claim and that numbers keep their context.
+4. Distinguish primary evidence from secondary reporting and opinion.
+5. Rate confidence per claim and name the evidence that would raise it.
+6. State which claims are strong enough to act on and which are not.
 
 ## Decision rules
 
@@ -29,7 +31,7 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **claim-evidence-confidence table** with:
+Default to a **claim–evidence–confidence table** with:
 
 1. Bottom line
 2. Evidence and analysis
@@ -50,17 +52,17 @@ Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Failure modes
 
-- **Premature certainty:** use ranges or scenarios.
+- **Citation as proof:** a source cited is not a claim supported — check entailment.
+- **Independence blindness:** three sources tracing to one origin are one source.
 - **Framework theater:** omit sections that do not change action.
-- **Fact–inference blending:** label the boundary.
-- **Generic advice:** connect recommendations to supplied context.
-- **Hidden trade-offs:** name what the preferred action sacrifices.
+- **Fact–inference blending:** separate what the source states from what you infer.
+- **Recency without relevance:** new is not the same as applicable — check both.
 
 ## Example
 
-**Request:** “Use $evidence-validation to analyze this material.”
+**Request:** "Use $evidence-validation to check whether a strategy deck's market-size claims are decision-grade."
 
-Apply the workflow, expose evidence gaps, and deliver the default output with a clear bottom line.
+Inventory the claims, grade each source on method and independence, and check that the cited reports actually entail the numbers used. Flag the two figures that trace back to a single vendor estimate, rate confidence per claim, and state which are safe to act on and what evidence would raise the rest.
 
 ## Evaluation
 
@@ -68,4 +70,4 @@ A strong result is accurate, traceable, decision-relevant, proportionate, and ac
 
 ## Related skills
 
-Combine with `evidence-validation` for contested claims, `risk-analysis` for uncertainty, `executive-writer` for senior audiences, and `quality-review` before publication.
+Feed `research-synthesizer` for multi-source work and `critical-thinking` when a single claim drives the decision.

@@ -1,6 +1,6 @@
 ---
 name: teams-administration
-description: Assess meeting, chat, calling, policy, retention, and support settings against user needs|Spot fragmented policy, sprawl, and unmanaged exceptions|Distinguish productivity friction from governance risk|Recommend policy simplification and operating standards. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Assess Teams meeting, chat, calling, policy, retention, and support settings against user needs, distinguishing productivity friction from governance risk. Use when reviewing Teams administration, rationalizing fragmented policies, addressing team or channel sprawl, or balancing user experience against governance.
 ---
 
 # Teams Administration
@@ -15,7 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. teams operations brief.
+1. Establish the Teams estate, the policies in force, and the user needs they serve.
+2. Review meeting, chat, calling, retention, and support settings.
+3. Spot fragmented policy, team or channel sprawl, and unmanaged exceptions.
+4. Distinguish productivity friction from genuine governance risk.
+5. Assess lifecycle and provisioning controls.
+6. Recommend policy simplification and operating standards.
 
 ## Decision rules
 
@@ -26,7 +31,7 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **decision-ready brief** with:
+Default to a **Teams operations brief** with:
 
 1. Bottom line
 2. Evidence and analysis
@@ -47,17 +52,17 @@ Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Failure modes
 
-- **Premature certainty:** use ranges or scenarios.
+- **Policy fragmentation:** many overlapping policies produce unpredictable effective settings.
+- **Sprawl without lifecycle:** teams created freely and never archived become clutter and risk.
 - **Framework theater:** omit sections that do not change action.
-- **Fact–inference blending:** label the boundary.
-- **Generic advice:** connect recommendations to supplied context.
-- **Hidden trade-offs:** name what the preferred action sacrifices.
+- **Fact–inference blending:** separate measured usage from assumed need.
+- **Friction mistaken for risk:** not every user complaint is a governance problem.
 
 ## Example
 
-**Request:** “Use teams-administration to analyze this material.”
+**Request:** "Use $teams-administration to rationalize a tenant with dozens of custom meeting policies."
 
-Apply the workflow, expose evidence gaps, and deliver the default output with a clear bottom line.
+Map the policies against actual user needs, then flag the fragmentation and channel sprawl. Separate real governance risk — uncontrolled external meetings — from mere friction, and recommend a simplified policy set with a provisioning and archival standard so the estate stays manageable.
 
 ## Evaluation
 
@@ -65,4 +70,4 @@ A strong result is accurate, traceable, decision-relevant, proportionate, and ac
 
 ## Related skills
 
-Combine with `evidence-validation` for contested claims, `risk-analysis` for uncertainty, `executive-writer` for senior audiences, and `quality-review` before publication.
+Pair with `sharepoint-governance` for the Teams-connected sites and `purview-compliance` for retention.

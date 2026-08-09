@@ -1,6 +1,6 @@
 ---
 name: market-analysis
-description: Define segment, buyer, workflow, alternatives, and market dynamics|Separate TAM optimism from reachable demand|Identify which assumptions matter most to the business case|Recommend the most credible market wedge. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Define segment, buyer, workflow, alternatives, and market dynamics. Use when sizing or entering a market, assessing a segment's attractiveness, mapping buyers and alternatives, or grounding a product or go-to-market decision in market reality.
 ---
 
 # Market Analysis

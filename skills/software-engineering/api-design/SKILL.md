@@ -1,6 +1,6 @@
 ---
 name: api-design
-description: Define the purpose, users, verbs, objects, constraints, error handling, and compatibility rules|Check consistency, naming, and evolution risk|Identify backward-compatibility and security trade-offs|Recommend a stable, discoverable API shape. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Define the purpose, users, verbs, objects, constraints, error handling, and compatibility rules of an API. Use when designing a new API or endpoint, reviewing an API for consistency and compatibility, planning versioning and error semantics, or fixing an API that is hard to consume.
 ---
 
 # API Design

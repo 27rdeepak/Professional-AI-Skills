@@ -1,6 +1,6 @@
 ---
 name: migration-planning
-description: Define source, target, cutover approach, dependencies, and rollback path|Separate technical readiness from organizational readiness|Identify data, permission, and communication risks|Recommend phased migration steps and exit criteria. Use when a user asks for this professional analysis or needs a structured, evidence-aware judgment in this domain.
+description: Define source, target, cutover approach, dependencies, and rollback path. Use when planning a system, data, or platform migration, designing a safe cutover with rollback, sequencing migration dependencies, or de-risking a large move.
 ---
 
 # Migration Planning
