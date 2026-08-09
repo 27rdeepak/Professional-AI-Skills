@@ -15,7 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. Combine with `root-cause-analysis` and `risk-analysis`..
+1. Reconstruct the timeline from detection to recovery.
+2. Establish the cause chain, not a single culprit.
+3. Quantify impact on users and the business.
+4. Assess detection, response, and recovery for gaps.
+5. Separate contributing factors from the trigger.
+6. Recommend preventive and detective actions with owners.
 
 ## Decision rules
 
@@ -26,13 +31,15 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **decision-ready brief** with:
+Default to a **blameless postmortem** with:
 
 1. Bottom line
 2. Evidence and analysis
 3. Risks, uncertainties, and alternatives
 4. Recommendation or next test
 5. Actions, owners, and timing when known
+
+Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Quality check
 
@@ -43,6 +50,23 @@ Default to a **decision-ready brief** with:
 - Ensure the recommendation follows from the analysis.
 - Keep the result concise enough for its audience.
 
+## Failure modes
+
+- **Blame termination:** 'human error' is a starting point — ask what let it cause harm.
+- **Single root cause:** most incidents are a chain; address the contributing factors too.
+- **Framework theater:** omit sections that do not change action.
+- **Fact–inference blending:** label the boundary between evidence and recommendation.
+
+## Example
+
+**Request:** "Use $incident-postmortem to write a postmortem for a two-hour outage."
+
+Reconstruct the timeline, build the cause chain (a config change plus a missing canary), quantify the customer impact, assess why detection lagged, separate the trigger from the contributing gaps, and recommend the canary and alerting actions with owners.
+
+## Evaluation
+
+A strong result is accurate, traceable, decision-relevant, proportionate, and actionable. It remains useful if the reader sees only the bottom line, risks, and next action.
+
 ## Related skills
 
-Combine with `quality-review`, `risk-analysis`, and `executive-writer` as needed.
+Pair with `root-cause-analysis` for the cause chain and `risk-analysis` for residual exposure.

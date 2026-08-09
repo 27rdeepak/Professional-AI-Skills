@@ -15,7 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. Combine with `quality-review` and `evidence-validation`..
+1. Establish what the change is meant to do and its risk.
+2. Check correctness against the intent and edge cases.
+3. Assess readability, maintainability, and consistency.
+4. Check security, error handling, and resource use.
+5. Verify tests actually cover the change and its edges.
+6. Report findings ranked by severity with a clear verdict.
 
 ## Decision rules
 
@@ -26,13 +31,15 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **decision-ready brief** with:
+Default to a **code review with ranked findings** with:
 
 1. Bottom line
 2. Evidence and analysis
 3. Risks, uncertainties, and alternatives
 4. Recommendation or next test
 5. Actions, owners, and timing when known
+
+Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Quality check
 
@@ -43,6 +50,23 @@ Default to a **decision-ready brief** with:
 - Ensure the recommendation follows from the analysis.
 - Keep the result concise enough for its audience.
 
+## Failure modes
+
+- **Nit flood:** rank by consequence so real defects are not buried under style notes.
+- **Rubber-stamp:** verify the change does what it claims, do not skim for style only.
+- **Framework theater:** omit sections that do not change action.
+- **Fact–inference blending:** label the boundary between evidence and recommendation.
+
+## Example
+
+**Request:** "Use $code-review to review a pull request that adds a payment retry."
+
+Establish the intent and its risk, check correctness on the retry edge cases (double-charge), assess readability and consistency, check idempotency and error handling, verify the tests cover the retry path, and report findings ranked with an approve-with-changes verdict.
+
+## Evaluation
+
+A strong result is accurate, traceable, decision-relevant, proportionate, and actionable. It remains useful if the reader sees only the bottom line, risks, and next action.
+
 ## Related skills
 
-Combine with `quality-review`, `risk-analysis`, and `executive-writer` as needed.
+Pair with `quality-review` for the broader deliverable and `test-strategy` for coverage.

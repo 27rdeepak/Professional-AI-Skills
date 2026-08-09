@@ -15,7 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. Combine with `meeting-intelligence` and `executive-brief`..
+1. Define the desired outcome and the decisions the meeting must reach.
+2. Identify who is needed and what each cares about.
+3. Anticipate the risks, objections, and open questions.
+4. Prepare the materials and pre-reads participants need.
+5. Plan your own position and the concession room.
+6. Recommend the prep and the opening that sets the frame.
 
 ## Decision rules
 
@@ -26,13 +31,15 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **decision-ready brief** with:
+Default to a **meeting prep brief** with:
 
 1. Bottom line
 2. Evidence and analysis
 3. Risks, uncertainties, and alternatives
 4. Recommendation or next test
 5. Actions, owners, and timing when known
+
+Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Quality check
 
@@ -43,6 +50,23 @@ Default to a **decision-ready brief** with:
 - Ensure the recommendation follows from the analysis.
 - Keep the result concise enough for its audience.
 
+## Failure modes
+
+- **Meeting without an outcome:** define the decision before the meeting, not during it.
+- **Unprepared ask:** know what you need and the objections before walking in.
+- **Framework theater:** omit sections that do not change action.
+- **Fact–inference blending:** label the boundary between evidence and recommendation.
+
+## Example
+
+**Request:** "Use $meeting-preparation to prepare for a negotiation meeting with a key vendor."
+
+Define the outcome (agreed renewal terms), identify who decides and their priorities, anticipate the price objection, prepare the usage data and alternatives as pre-reads, plan your target and walk-away, and recommend an opening that frames value before price.
+
+## Evaluation
+
+A strong result is accurate, traceable, decision-relevant, proportionate, and actionable. It remains useful if the reader sees only the bottom line, risks, and next action.
+
 ## Related skills
 
-Combine with `quality-review`, `risk-analysis`, and `executive-writer` as needed.
+Pair with `meeting-intelligence` for capture and `commercial-negotiation` for the strategy.

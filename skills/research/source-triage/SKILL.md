@@ -15,7 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. Combine with `evidence-validation` and `research-synthesizer`..
+1. Define the question the sources must serve.
+2. Screen each source for relevance to that question.
+3. Assess authority, method, and recency quickly.
+4. Flag conflicts of interest and provenance.
+5. Rank sources into read-deep, skim, and discard.
+6. Recommend the shortlist and why each made the cut.
 
 ## Decision rules
 
@@ -26,13 +31,15 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **decision-ready brief** with:
+Default to a **triaged source shortlist** with:
 
 1. Bottom line
 2. Evidence and analysis
 3. Risks, uncertainties, and alternatives
 4. Recommendation or next test
 5. Actions, owners, and timing when known
+
+Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Quality check
 
@@ -43,6 +50,23 @@ Default to a **decision-ready brief** with:
 - Ensure the recommendation follows from the analysis.
 - Keep the result concise enough for its audience.
 
+## Failure modes
+
+- **Volume over quality:** a shortlist of strong sources beats a long list of weak ones.
+- **Authority by appearance:** judge method and provenance, not polish or brand.
+- **Framework theater:** omit sections that do not change action.
+- **Fact–inference blending:** label the boundary between evidence and recommendation.
+
+## Example
+
+**Request:** "Use $source-triage to triage 40 search results before a deep dive."
+
+Define the question, screen the 40 for relevance, assess authority and method quickly, flag the vendor-funded pieces, rank into read-deep, skim, and discard, and recommend the eight-source shortlist with the reason each qualified.
+
+## Evaluation
+
+A strong result is accurate, traceable, decision-relevant, proportionate, and actionable. It remains useful if the reader sees only the bottom line, risks, and next action.
+
 ## Related skills
 
-Combine with `quality-review`, `risk-analysis`, and `executive-writer` as needed.
+Pair with `evidence-validation` to grade the survivors and `research-synthesizer` to combine them.

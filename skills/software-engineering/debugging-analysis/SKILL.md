@@ -15,7 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. Combine with `root-cause-analysis` and `decision-analysis`..
+1. Reconstruct the symptom, expected state, and observed state.
+2. Establish a reliable reproduction or the closest available.
+3. Form hypotheses and rank them by likelihood and cheapness to test.
+4. Narrow the fault with discriminating tests, not guesses.
+5. Confirm the cause and the exact conditions that trigger it.
+6. Recommend the fix and a test that would catch a regression.
 
 ## Decision rules
 
@@ -26,13 +31,15 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **decision-ready brief** with:
+Default to a **debugging analysis** with:
 
 1. Bottom line
 2. Evidence and analysis
 3. Risks, uncertainties, and alternatives
 4. Recommendation or next test
 5. Actions, owners, and timing when known
+
+Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Quality check
 
@@ -43,6 +50,23 @@ Default to a **decision-ready brief** with:
 - Ensure the recommendation follows from the analysis.
 - Keep the result concise enough for its audience.
 
+## Failure modes
+
+- **Guess-and-patch:** narrow with discriminating tests, do not change code hoping it helps.
+- **Symptom fix:** confirm the cause; a masked symptom recurs.
+- **Framework theater:** omit sections that do not change action.
+- **Fact–inference blending:** label the boundary between evidence and recommendation.
+
+## Example
+
+**Request:** "Use $debugging-analysis to diagnose an intermittent 500 error under load."
+
+Reconstruct the symptom and expected state, find the load condition that reproduces it, rank hypotheses (connection-pool exhaustion first), run a discriminating test on pool metrics, confirm the exhaustion and its trigger, and recommend the fix with a load test that would catch the regression.
+
+## Evaluation
+
+A strong result is accurate, traceable, decision-relevant, proportionate, and actionable. It remains useful if the reader sees only the bottom line, risks, and next action.
+
 ## Related skills
 
-Combine with `quality-review`, `risk-analysis`, and `executive-writer` as needed.
+Pair with `root-cause-analysis` for recurring faults and `incident-postmortem` after an outage.

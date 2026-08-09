@@ -15,7 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. Combine with `prioritization` and `decision-analysis`..
+1. Frame the objective as a qualitative, time-bound outcome.
+2. Write key results as measurable outcomes, not tasks.
+3. Set a baseline and a realistic stretch for each.
+4. Check that the key results, if met, prove the objective.
+5. Test for over-scoping and conflicting incentives.
+6. Recommend the OKR set and the check-in cadence.
 
 ## Decision rules
 
@@ -26,13 +31,15 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **decision-ready brief** with:
+Default to a **OKR set with measurable key results** with:
 
 1. Bottom line
 2. Evidence and analysis
 3. Risks, uncertainties, and alternatives
 4. Recommendation or next test
 5. Actions, owners, and timing when known
+
+Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Quality check
 
@@ -43,6 +50,23 @@ Default to a **decision-ready brief** with:
 - Ensure the recommendation follows from the analysis.
 - Keep the result concise enough for its audience.
 
+## Failure modes
+
+- **Task-list OKRs:** key results are outcomes, not a list of things to do.
+- **Sandbagged or fantasy stretch:** calibrate stretch to be hard but achievable.
+- **Framework theater:** omit sections that do not change action.
+- **Fact–inference blending:** label the boundary between evidence and recommendation.
+
+## Example
+
+**Request:** "Use $okr-design to write quarterly OKRs for a growth team."
+
+Frame the objective (make onboarding convert), write key results as measurable outcomes (activation rate from X to Y), set baselines and stretch, verify the results prove the objective, check they do not incentivize low-quality signups, and set a weekly check-in.
+
+## Evaluation
+
+A strong result is accurate, traceable, decision-relevant, proportionate, and actionable. It remains useful if the reader sees only the bottom line, risks, and next action.
+
 ## Related skills
 
-Combine with `quality-review`, `risk-analysis`, and `executive-writer` as needed.
+Pair with `prioritization` to fund the work and `decision-analysis` for trade-offs.

@@ -27,4 +27,4 @@ Quality gates take precedence over file counts.
 - [x] Add delegation, conflict mediation, executive presence, and human-in-the-loop design
 - [x] Replace shallow legacy workflows with domain-specific procedures (44 skills rewritten; concrete triggers on 56 more; 0 validator warnings)
 - [x] Add validator quality-lint for generic descriptions, placeholder examples, and self-referential links
-- [ ] Expand representative forward tests
+- [x] Expand representative forward tests (executable per-skill runner in scripts/run_checks.py, wired into CI; 112/112 skills pass)

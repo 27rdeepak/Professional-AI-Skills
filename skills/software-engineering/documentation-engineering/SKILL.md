@@ -15,7 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. Combine with `executive-writer` and `knowledge-distillation`..
+1. Identify the readers and the tasks they need docs to complete.
+2. Assess where current docs fail: findability, accuracy, or maintenance.
+3. Structure content around tasks, not the code's internal shape.
+4. Design for discoverability with clear entry points and search.
+5. Plan ownership and a process that keeps docs current.
+6. Recommend the structure and the first content to fix.
 
 ## Decision rules
 
@@ -26,13 +31,15 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **decision-ready brief** with:
+Default to a **documentation plan** with:
 
 1. Bottom line
 2. Evidence and analysis
 3. Risks, uncertainties, and alternatives
 4. Recommendation or next test
 5. Actions, owners, and timing when known
+
+Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Quality check
 
@@ -43,6 +50,23 @@ Default to a **decision-ready brief** with:
 - Ensure the recommendation follows from the analysis.
 - Keep the result concise enough for its audience.
 
+## Failure modes
+
+- **Code-shaped docs:** organize around user tasks, not the module structure.
+- **Write-once rot:** docs without an ownership and update process go stale.
+- **Framework theater:** omit sections that do not change action.
+- **Fact–inference blending:** label the boundary between evidence and recommendation.
+
+## Example
+
+**Request:** "Use $documentation-engineering to overhaul docs users say they cannot navigate."
+
+Identify the readers and their tasks, diagnose that content is accurate but unfindable, restructure around tasks with clear entry points, add search and a getting-started path, assign ownership and an update trigger, and recommend the top task-based page to write first.
+
+## Evaluation
+
+A strong result is accurate, traceable, decision-relevant, proportionate, and actionable. It remains useful if the reader sees only the bottom line, risks, and next action.
+
 ## Related skills
 
-Combine with `quality-review`, `risk-analysis`, and `executive-writer` as needed.
+Pair with `executive-writer` for clarity and `knowledge-distillation` to capture principles.

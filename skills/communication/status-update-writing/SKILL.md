@@ -15,7 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. Combine with `project-charter` and `meeting-intelligence`..
+1. Lead with overall status and any change since last update.
+2. State progress against the plan in outcome terms.
+3. Flag blockers that need a decision or help, with the ask.
+4. Record decisions made and their owners.
+5. List the next actions and dates.
+6. Keep it short enough to be read in full.
 
 ## Decision rules
 
@@ -26,13 +31,15 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **decision-ready brief** with:
+Default to a **status update** with:
 
 1. Bottom line
 2. Evidence and analysis
 3. Risks, uncertainties, and alternatives
 4. Recommendation or next test
 5. Actions, owners, and timing when known
+
+Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Quality check
 
@@ -43,6 +50,23 @@ Default to a **decision-ready brief** with:
 - Ensure the recommendation follows from the analysis.
 - Keep the result concise enough for its audience.
 
+## Failure modes
+
+- **Activity theater:** report outcomes and status, not a list of everything touched.
+- **Silent blockers:** surface what needs help; a green status hiding a blocker is a lie.
+- **Framework theater:** omit sections that do not change action.
+- **Fact–inference blending:** label the boundary between evidence and recommendation.
+
+## Example
+
+**Request:** "Use $status-update-writing to write a weekly status update for a program running slightly behind."
+
+Lead with amber status and the slip, state progress against milestones in outcome terms, flag the dependency blocker with a specific ask, record the scope decision made this week, list next actions with dates, and keep it to a screen.
+
+## Evaluation
+
+A strong result is accurate, traceable, decision-relevant, proportionate, and actionable. It remains useful if the reader sees only the bottom line, risks, and next action.
+
 ## Related skills
 
-Combine with `quality-review`, `risk-analysis`, and `executive-writer` as needed.
+Pair with `meeting-intelligence` for the source and `executive-brief` when leadership needs the decision.

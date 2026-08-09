@@ -15,7 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. Combine with `prioritization` and `stakeholder-management`..
+1. Clarify goals and the commitments that actually matter.
+2. Map where time currently goes against those goals.
+3. Find the misalignment between attention and priority.
+4. Design a workable weekly structure around real constraints.
+5. Build in buffer and a way to say no.
+6. Recommend the structure and the first thing to drop.
 
 ## Decision rules
 
@@ -26,13 +31,15 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **decision-ready brief** with:
+Default to a **time plan** with:
 
 1. Bottom line
 2. Evidence and analysis
 3. Risks, uncertainties, and alternatives
 4. Recommendation or next test
 5. Actions, owners, and timing when known
+
+Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Quality check
 
@@ -43,6 +50,23 @@ Default to a **decision-ready brief** with:
 - Ensure the recommendation follows from the analysis.
 - Keep the result concise enough for its audience.
 
+## Failure modes
+
+- **Overcommitment:** a plan with no buffer or 'no' collapses on the first surprise.
+- **Priority-attention gap:** align time with the few things that matter, not the urgent many.
+- **Framework theater:** omit sections that do not change action.
+- **Fact–inference blending:** label the boundary between evidence and recommendation.
+
+## Example
+
+**Request:** "Use $time-management to restructure an overcommitted week around real priorities."
+
+Clarify the few goals that matter, map where the week actually goes, expose the gap where low-priority urgent work crowds out the important, design a structure that protects priority time, add buffer, and recommend the recurring commitment to drop.
+
+## Evaluation
+
+A strong result is accurate, traceable, decision-relevant, proportionate, and actionable. It remains useful if the reader sees only the bottom line, risks, and next action.
+
 ## Related skills
 
-Combine with `quality-review`, `risk-analysis`, and `executive-writer` as needed.
+Pair with `prioritization` to choose and `focus-planning` to protect deep work.

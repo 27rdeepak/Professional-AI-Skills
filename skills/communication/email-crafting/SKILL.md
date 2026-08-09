@@ -15,7 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. Combine with `executive-communication` and `executive-brief`..
+1. Identify the recipient, the purpose, and the action you need.
+2. State the ask and any deadline in the first two lines.
+3. Give only the context needed to act.
+4. Set the tone for the relationship and the stakes.
+5. Make the next step and owner explicit.
+6. Cut anything that does not move the recipient to act.
 
 ## Decision rules
 
@@ -26,13 +31,15 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **decision-ready brief** with:
+Default to a **email drafted for a clear action** with:
 
 1. Bottom line
 2. Evidence and analysis
 3. Risks, uncertainties, and alternatives
 4. Recommendation or next test
 5. Actions, owners, and timing when known
+
+Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Quality check
 
@@ -43,6 +50,23 @@ Default to a **decision-ready brief** with:
 - Ensure the recommendation follows from the analysis.
 - Keep the result concise enough for its audience.
 
+## Failure modes
+
+- **Buried ask:** the action must not hide in paragraph three.
+- **Context dump:** include only what the recipient needs to decide or act.
+- **Framework theater:** omit sections that do not change action.
+- **Fact–inference blending:** label the boundary between evidence and recommendation.
+
+## Example
+
+**Request:** "Use $email-crafting to write an email asking a busy exec to approve a hire by Friday."
+
+Open with the ask and the Friday deadline, give the two facts that justify the hire, set a respectful but direct tone, make the approval action explicit, and cut the background that does not change the decision.
+
+## Evaluation
+
+A strong result is accurate, traceable, decision-relevant, proportionate, and actionable. It remains useful if the reader sees only the bottom line, risks, and next action.
+
 ## Related skills
 
-Combine with `quality-review`, `risk-analysis`, and `executive-writer` as needed.
+Pair with `executive-communication` for high-stakes sequencing and `executive-brief` for an attached one-pager.

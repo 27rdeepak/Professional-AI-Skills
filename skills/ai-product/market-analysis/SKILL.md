@@ -15,7 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. Combine with `research-synthesizer` and `business-case-building`..
+1. Define the segment, the buyer, and the job they hire a product to do.
+2. Map the current alternatives and their switching costs.
+3. Size the segment and its growth with explicit assumptions.
+4. Assess dynamics: demand drivers, competition, and structural shifts.
+5. Identify where a wedge is defensible.
+6. Recommend whether and where to play, and the evidence still needed.
 
 ## Decision rules
 
@@ -26,13 +31,15 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **decision-ready brief** with:
+Default to a **market assessment** with:
 
 1. Bottom line
 2. Evidence and analysis
 3. Risks, uncertainties, and alternatives
 4. Recommendation or next test
 5. Actions, owners, and timing when known
+
+Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Quality check
 
@@ -43,6 +50,23 @@ Default to a **decision-ready brief** with:
 - Ensure the recommendation follows from the analysis.
 - Keep the result concise enough for its audience.
 
+## Failure modes
+
+- **TAM theater:** a big top-down number is not demand — ground it in the buyer and job.
+- **Alternative blindness:** the real competitor is often the status quo.
+- **Framework theater:** omit sections that do not change action.
+- **Fact–inference blending:** label the boundary between evidence and recommendation.
+
+## Example
+
+**Request:** "Use $market-analysis to assess entering the SMB expense-management market."
+
+Define the SMB buyer and the job, map incumbents and status-quo spreadsheets, size bottom-up with explicit assumptions, assess demand drivers and competition, identify the defensible wedge, and name the evidence still needed before committing.
+
+## Evaluation
+
+A strong result is accurate, traceable, decision-relevant, proportionate, and actionable. It remains useful if the reader sees only the bottom line, risks, and next action.
+
 ## Related skills
 
-Combine with `quality-review`, `risk-analysis`, and `executive-writer` as needed.
+Pair with `competitive-intelligence` for rivals and `business-case-building` for the investment.

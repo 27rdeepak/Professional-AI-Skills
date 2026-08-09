@@ -15,7 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. Combine with `risk-analysis` and `decision-analysis`..
+1. Map the current process: trigger, steps, inputs, outputs, and actors.
+2. Identify what is safe to automate versus what needs human judgment.
+3. Design the automated flow with explicit inputs, outputs, and idempotency.
+4. Define failure paths, retries, and human review or approval points.
+5. Add monitoring and an audit trail.
+6. Recommend the design and a staged rollout.
 
 ## Decision rules
 
@@ -26,13 +31,15 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **decision-ready brief** with:
+Default to a **automation design with failure and review points** with:
 
 1. Bottom line
 2. Evidence and analysis
 3. Risks, uncertainties, and alternatives
 4. Recommendation or next test
 5. Actions, owners, and timing when known
+
+Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Quality check
 
@@ -43,6 +50,23 @@ Default to a **decision-ready brief** with:
 - Ensure the recommendation follows from the analysis.
 - Keep the result concise enough for its audience.
 
+## Failure modes
+
+- **Automating the mess:** fix the process before automating it, or you scale the defect.
+- **No failure path:** an automation without defined failure handling breaks silently.
+- **Framework theater:** omit sections that do not change action.
+- **Fact–inference blending:** label the boundary between evidence and recommendation.
+
+## Example
+
+**Request:** "Use $workflow-automation to automate invoice approval routing."
+
+Map the trigger and steps, keep the spend-threshold judgment human, design the routing with idempotent steps, define retries and an approval checkpoint above a limit, add an audit trail, and stage the rollout behind a monitored pilot.
+
+## Evaluation
+
+A strong result is accurate, traceable, decision-relevant, proportionate, and actionable. It remains useful if the reader sees only the bottom line, risks, and next action.
+
 ## Related skills
 
-Combine with `quality-review`, `risk-analysis`, and `executive-writer` as needed.
+Pair with `risk-analysis` for failure impact and `operational-excellence` for the underlying process.

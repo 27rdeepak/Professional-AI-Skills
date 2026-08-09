@@ -15,7 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. Combine with `decision-analysis` and `risk-analysis`..
+1. State the core value hypothesis the MVP must prove.
+2. Identify the single riskiest assumption behind it.
+3. Define the smallest build that tests that assumption with real users.
+4. Cut everything not needed to run that test.
+5. Define the success signal and the decision it informs.
+6. Recommend the scope and what is explicitly deferred.
 
 ## Decision rules
 
@@ -26,13 +31,15 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **decision-ready brief** with:
+Default to a **MVP scope and value hypothesis** with:
 
 1. Bottom line
 2. Evidence and analysis
 3. Risks, uncertainties, and alternatives
 4. Recommendation or next test
 5. Actions, owners, and timing when known
+
+Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Quality check
 
@@ -43,6 +50,23 @@ Default to a **decision-ready brief** with:
 - Ensure the recommendation follows from the analysis.
 - Keep the result concise enough for its audience.
 
+## Failure modes
+
+- **Feature MVP:** an MVP tests a hypothesis; it is not a small pile of features.
+- **Unfalsifiable success:** define the signal that would tell you the bet is wrong.
+- **Framework theater:** omit sections that do not change action.
+- **Fact–inference blending:** label the boundary between evidence and recommendation.
+
+## Example
+
+**Request:** "Use $mvp-scope to scope the first release of an AI meeting-notes product."
+
+State the value hypothesis (people trust auto-notes enough to stop taking their own), isolate the riskiest assumption (accuracy), scope the smallest build that tests it on real meetings, defer integrations, and define the retention signal that confirms or kills the bet.
+
+## Evaluation
+
+A strong result is accurate, traceable, decision-relevant, proportionate, and actionable. It remains useful if the reader sees only the bottom line, risks, and next action.
+
 ## Related skills
 
-Combine with `quality-review`, `risk-analysis`, and `executive-writer` as needed.
+Pair with `product-discovery` for demand evidence and `decision-analysis` for the build decision.

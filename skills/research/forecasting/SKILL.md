@@ -15,7 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. Combine with `risk-analysis` and `decision-analysis`..
+1. Define the variable, the horizon, and the decision it informs.
+2. Establish the base rate and the reference class.
+3. Build scenarios spanning plausible outcomes.
+4. State assumptions and the drivers each scenario depends on.
+5. Give calibrated ranges, not false point precision.
+6. Recommend the planning view and what would update it.
 
 ## Decision rules
 
@@ -26,13 +31,15 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **decision-ready brief** with:
+Default to a **forecast with scenarios and intervals** with:
 
 1. Bottom line
 2. Evidence and analysis
 3. Risks, uncertainties, and alternatives
 4. Recommendation or next test
 5. Actions, owners, and timing when known
+
+Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Quality check
 
@@ -43,6 +50,23 @@ Default to a **decision-ready brief** with:
 - Ensure the recommendation follows from the analysis.
 - Keep the result concise enough for its audience.
 
+## Failure modes
+
+- **Point-estimate overconfidence:** give a calibrated range and its drivers, not a single number.
+- **Base-rate neglect:** anchor on the reference class before adjusting for this case.
+- **Framework theater:** omit sections that do not change action.
+- **Fact–inference blending:** label the boundary between evidence and recommendation.
+
+## Example
+
+**Request:** "Use $forecasting to forecast next quarter's demand for capacity planning."
+
+Define the variable and horizon, anchor on the historical base rate, build low/expected/high scenarios, state the drivers each depends on, give a calibrated range, and recommend the planning number with the leading indicator that would move it.
+
+## Evaluation
+
+A strong result is accurate, traceable, decision-relevant, proportionate, and actionable. It remains useful if the reader sees only the bottom line, risks, and next action.
+
 ## Related skills
 
-Combine with `quality-review`, `risk-analysis`, and `executive-writer` as needed.
+Pair with `risk-analysis` for downside and `decision-analysis` when the forecast drives a choice.

@@ -15,7 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. Combine with `financial-impact-analysis` and `stakeholder-mapping`..
+1. Identify the value metric that scales with customer value.
+2. Assess willingness to pay by segment with evidence.
+3. Design packaging and tiers around the value metric.
+4. Position against competitor pricing and the status quo.
+5. Model the revenue and adoption effects of the options.
+6. Recommend a price and packaging with the assumptions to monitor.
 
 ## Decision rules
 
@@ -26,13 +31,15 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **decision-ready brief** with:
+Default to a **pricing and packaging recommendation** with:
 
 1. Bottom line
 2. Evidence and analysis
 3. Risks, uncertainties, and alternatives
 4. Recommendation or next test
 5. Actions, owners, and timing when known
+
+Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Quality check
 
@@ -43,6 +50,23 @@ Default to a **decision-ready brief** with:
 - Ensure the recommendation follows from the analysis.
 - Keep the result concise enough for its audience.
 
+## Failure modes
+
+- **Cost-plus reflex:** price to value, not to cost, where value is defensible.
+- **Metric mismatch:** a value metric that does not track usage value breaks trust.
+- **Framework theater:** omit sections that do not change action.
+- **Fact–inference blending:** label the boundary between evidence and recommendation.
+
+## Example
+
+**Request:** "Use $pricing-strategy to price a new usage-based API product."
+
+Choose a value metric that scales with customer benefit (successful calls, not raw requests), estimate willingness to pay by segment, design tiers around it, position against the status quo, model revenue under adoption scenarios, and recommend a price with the assumption to watch.
+
+## Evaluation
+
+A strong result is accurate, traceable, decision-relevant, proportionate, and actionable. It remains useful if the reader sees only the bottom line, risks, and next action.
+
 ## Related skills
 
-Combine with `quality-review`, `risk-analysis`, and `executive-writer` as needed.
+Pair with `financial-impact-analysis` for the revenue model and `customer-segmentation` for willingness to pay.

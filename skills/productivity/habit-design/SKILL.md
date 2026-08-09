@@ -15,7 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. Combine with `change-leadership` and `coaching-plan`..
+1. Define the target behavior and the outcome it serves.
+2. Identify the cue, routine, and reward loop.
+3. Shrink the routine to a version too small to skip.
+4. Shape the environment to make it easy.
+5. Add reinforcement and a way to track streaks.
+6. Recommend the design and how to recover from a lapse.
 
 ## Decision rules
 
@@ -26,13 +31,15 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **decision-ready brief** with:
+Default to a **habit design** with:
 
 1. Bottom line
 2. Evidence and analysis
 3. Risks, uncertainties, and alternatives
 4. Recommendation or next test
 5. Actions, owners, and timing when known
+
+Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Quality check
 
@@ -43,6 +50,23 @@ Default to a **decision-ready brief** with:
 - Ensure the recommendation follows from the analysis.
 - Keep the result concise enough for its audience.
 
+## Failure modes
+
+- **Willpower reliance:** design the environment and cue, do not depend on motivation.
+- **All-or-nothing:** a missed day is normal; plan the recovery, not a restart.
+- **Framework theater:** omit sections that do not change action.
+- **Fact–inference blending:** label the boundary between evidence and recommendation.
+
+## Example
+
+**Request:** "Use $habit-design to build a daily writing habit that survives busy days."
+
+Define the behavior and its purpose, tie it to an existing cue (after morning coffee), shrink it to one paragraph, put the doc open the night before, track the streak, and plan the two-line recovery for a missed day.
+
+## Evaluation
+
+A strong result is accurate, traceable, decision-relevant, proportionate, and actionable. It remains useful if the reader sees only the bottom line, risks, and next action.
+
 ## Related skills
 
-Combine with `quality-review`, `risk-analysis`, and `executive-writer` as needed.
+Pair with `change-leadership` for team habits and `learning-plan` for skill practice loops.

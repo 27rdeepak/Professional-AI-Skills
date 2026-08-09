@@ -15,7 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. Combine with `risk-analysis` and `zero-trust-architecture`..
+1. Inventory AI use cases and classify each by risk tier and impact.
+2. Define the policy: permitted uses, prohibited uses, and required disclosures.
+3. Set review and approval gates proportionate to each risk tier.
+4. Assign ownership and accountability for each control.
+5. Define monitoring, incident handling, and the audit evidence to retain.
+6. Recommend the rollout and the review cadence.
 
 ## Decision rules
 
@@ -26,13 +31,15 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **decision-ready brief** with:
+Default to a **AI governance policy and control map** with:
 
 1. Bottom line
 2. Evidence and analysis
 3. Risks, uncertainties, and alternatives
 4. Recommendation or next test
 5. Actions, owners, and timing when known
+
+Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Quality check
 
@@ -43,6 +50,23 @@ Default to a **decision-ready brief** with:
 - Ensure the recommendation follows from the analysis.
 - Keep the result concise enough for its audience.
 
+## Failure modes
+
+- **One-tier-fits-all:** match control weight to risk; do not gate low-risk uses like high-risk ones.
+- **Ownerless policy:** a control with no owner is not enforced.
+- **Framework theater:** omit sections that do not change action.
+- **Fact–inference blending:** label the boundary between evidence and recommendation.
+
+## Example
+
+**Request:** "Use $ai-governance to set up oversight for teams adopting generative AI tools."
+
+Inventory and tier the use cases (customer-facing versus internal drafting), write permitted and prohibited uses, gate high-risk uses behind human approval, assign control owners, and define the audit evidence and review cadence.
+
+## Evaluation
+
+A strong result is accurate, traceable, decision-relevant, proportionate, and actionable. It remains useful if the reader sees only the bottom line, risks, and next action.
+
 ## Related skills
 
-Combine with `quality-review`, `risk-analysis`, and `executive-writer` as needed.
+Pair with `risk-analysis` for use-case exposure and `human-in-the-loop-design` for the oversight controls.

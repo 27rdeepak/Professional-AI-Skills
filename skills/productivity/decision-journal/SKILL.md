@@ -15,7 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. Combine with `decision-analysis` and `risk-analysis`..
+1. Record the decision and the context that forced it.
+2. State the options considered and the one chosen.
+3. Make the assumptions and expected outcome explicit.
+4. Rate confidence and note what would prove it wrong.
+5. Set a review date to compare outcome to expectation.
+6. Capture the entry in a retrievable form.
 
 ## Decision rules
 
@@ -26,13 +31,15 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **decision-ready brief** with:
+Default to a **decision journal entry** with:
 
 1. Bottom line
 2. Evidence and analysis
 3. Risks, uncertainties, and alternatives
 4. Recommendation or next test
 5. Actions, owners, and timing when known
+
+Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Quality check
 
@@ -43,6 +50,23 @@ Default to a **decision-ready brief** with:
 - Ensure the recommendation follows from the analysis.
 - Keep the result concise enough for its audience.
 
+## Failure modes
+
+- **Hindsight contamination:** record reasoning before the outcome is known, or learning is lost.
+- **Vague expectation:** state a concrete expected outcome you can later check.
+- **Framework theater:** omit sections that do not change action.
+- **Fact–inference blending:** label the boundary between evidence and recommendation.
+
+## Example
+
+**Request:** "Use $decision-journal to log a decision to adopt a new framework for a project."
+
+Record the decision and why it was forced now, the options and the choice, the assumptions (team can ramp in a sprint) and expected outcome, a confidence rating with a disconfirming signal, and a review date to compare reality to expectation.
+
+## Evaluation
+
+A strong result is accurate, traceable, decision-relevant, proportionate, and actionable. It remains useful if the reader sees only the bottom line, risks, and next action.
+
 ## Related skills
 
-Combine with `quality-review`, `risk-analysis`, and `executive-writer` as needed.
+Pair with `decision-analysis` for the choice and `personal-retrospective` for the review.

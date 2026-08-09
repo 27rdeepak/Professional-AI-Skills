@@ -15,7 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. Combine with `release-management` and `change-leadership`..
+1. Define the source, target, and what 'done' means.
+2. Map dependencies and the order they must move in.
+3. Choose a cutover approach and design the rollback path.
+4. Plan data validation before, during, and after.
+5. Define the go/no-go criteria and the freeze window.
+6. Recommend the plan and a rehearsal before the real cutover.
 
 ## Decision rules
 
@@ -26,13 +31,15 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **decision-ready brief** with:
+Default to a **migration plan with rollback** with:
 
 1. Bottom line
 2. Evidence and analysis
 3. Risks, uncertainties, and alternatives
 4. Recommendation or next test
 5. Actions, owners, and timing when known
+
+Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Quality check
 
@@ -43,6 +50,23 @@ Default to a **decision-ready brief** with:
 - Ensure the recommendation follows from the analysis.
 - Keep the result concise enough for its audience.
 
+## Failure modes
+
+- **Untested rollback:** a rollback that has never been rehearsed is not a safety net.
+- **Big-bang cutover:** prefer incremental or reversible cutover where the risk allows.
+- **Framework theater:** omit sections that do not change action.
+- **Fact–inference blending:** label the boundary between evidence and recommendation.
+
+## Example
+
+**Request:** "Use $migration-planning to plan a database migration for a live service."
+
+Define source, target, and done, map the dependency order, choose a dual-write cutover with a tested rollback, plan validation at each stage, set go/no-go criteria and a freeze window, and recommend a full rehearsal on a copy before the real cutover.
+
+## Evaluation
+
+A strong result is accurate, traceable, decision-relevant, proportionate, and actionable. It remains useful if the reader sees only the bottom line, risks, and next action.
+
 ## Related skills
 
-Combine with `quality-review`, `risk-analysis`, and `executive-writer` as needed.
+Pair with `release-management` for the rollout and `change-leadership` for adoption.

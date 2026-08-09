@@ -15,7 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. Combine with `executive-writer` and `risk-analysis`..
+1. State the decision or issue and the ask in the first lines.
+2. Frame it as options with consequence and risk, not a status dump.
+3. Give the few facts that change the board's view.
+4. Separate management recommendation from open questions.
+5. Surface the risks and what would change the recommendation.
+6. Close with the specific decision requested.
 
 ## Decision rules
 
@@ -26,13 +31,15 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **decision-ready brief** with:
+Default to a **board paper framed as a choice** with:
 
 1. Bottom line
 2. Evidence and analysis
 3. Risks, uncertainties, and alternatives
 4. Recommendation or next test
 5. Actions, owners, and timing when known
+
+Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Quality check
 
@@ -43,6 +50,23 @@ Default to a **decision-ready brief** with:
 - Ensure the recommendation follows from the analysis.
 - Keep the result concise enough for its audience.
 
+## Failure modes
+
+- **Status dump:** a board paper drives a choice; it is not an operational update.
+- **Buried ask:** directors should see the decision requested within seconds.
+- **Framework theater:** omit sections that do not change action.
+- **Fact–inference blending:** label the boundary between evidence and recommendation.
+
+## Example
+
+**Request:** "Use $board-communication to prepare a board paper on a proposed acquisition."
+
+Open with the decision and the ask, frame proceed-versus-walk with consequence and price, give the few facts that matter (synergy basis, integration risk), separate the recommendation from open diligence questions, surface the top risk, and state exactly what approval is sought.
+
+## Evaluation
+
+A strong result is accurate, traceable, decision-relevant, proportionate, and actionable. It remains useful if the reader sees only the bottom line, risks, and next action.
+
 ## Related skills
 
-Combine with `quality-review`, `risk-analysis`, and `executive-writer` as needed.
+Pair with `executive-writer` for the prose and `risk-analysis` for the exposure.

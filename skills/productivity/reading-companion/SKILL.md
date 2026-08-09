@@ -15,7 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. Combine with `research-synthesizer` and `executive-summarizer`..
+1. State why you are reading this and what you need from it.
+2. Extract the central claim and the argument structure.
+3. Separate the evidence from assertion and opinion.
+4. Note the open questions and what the text does not settle.
+5. Decide whether deeper reading is warranted.
+6. Recommend the takeaways and what to do with them.
 
 ## Decision rules
 
@@ -26,13 +31,15 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **decision-ready brief** with:
+Default to a **active-reading notes** with:
 
 1. Bottom line
 2. Evidence and analysis
 3. Risks, uncertainties, and alternatives
 4. Recommendation or next test
 5. Actions, owners, and timing when known
+
+Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Quality check
 
@@ -43,6 +50,23 @@ Default to a **decision-ready brief** with:
 - Ensure the recommendation follows from the analysis.
 - Keep the result concise enough for its audience.
 
+## Failure modes
+
+- **Passive highlighting:** extract the argument and evidence, not just marked sentences.
+- **Uncritical absorption:** separate what is shown from what is merely asserted.
+- **Framework theater:** omit sections that do not change action.
+- **Fact–inference blending:** label the boundary between evidence and recommendation.
+
+## Example
+
+**Request:** "Use $reading-companion to read a dense strategy article and pull what matters."
+
+State the purpose (decide if the framework applies to us), extract the central claim and its structure, separate the evidenced parts from the assertions, note what it leaves unresolved, judge whether to read deeper, and recommend the two takeaways worth acting on.
+
+## Evaluation
+
+A strong result is accurate, traceable, decision-relevant, proportionate, and actionable. It remains useful if the reader sees only the bottom line, risks, and next action.
+
 ## Related skills
 
-Combine with `quality-review`, `risk-analysis`, and `executive-writer` as needed.
+Pair with `research-synthesizer` across sources and `executive-summarizer` for a digest.

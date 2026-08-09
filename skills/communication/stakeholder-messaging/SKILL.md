@@ -15,7 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. Combine with `stakeholder-mapping` and `executive-communication`..
+1. Identify each audience's power, interest, and likely objection.
+2. Define the core message and what must stay consistent across all.
+3. Tailor emphasis and framing to each audience's stake.
+4. Anticipate the strongest objection per audience and address it.
+5. Sequence and time the messages to build support.
+6. Recommend the message set and delivery order.
 
 ## Decision rules
 
@@ -26,13 +31,15 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **decision-ready brief** with:
+Default to a **tailored message set by audience** with:
 
 1. Bottom line
 2. Evidence and analysis
 3. Risks, uncertainties, and alternatives
 4. Recommendation or next test
 5. Actions, owners, and timing when known
+
+Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Quality check
 
@@ -43,6 +50,23 @@ Default to a **decision-ready brief** with:
 - Ensure the recommendation follows from the analysis.
 - Keep the result concise enough for its audience.
 
+## Failure modes
+
+- **One message for all:** tailor emphasis to each stake while keeping the core consistent.
+- **Inconsistent core:** tailoring must not become contradictory messages that collide.
+- **Framework theater:** omit sections that do not change action.
+- **Fact–inference blending:** label the boundary between evidence and recommendation.
+
+## Example
+
+**Request:** "Use $stakeholder-messaging to craft messages for a pricing change across customers, sales, and support."
+
+Map each audience's stake and objection, fix the consistent core (why the change), tailor emphasis (value for customers, quota impact for sales, scripts for support), address each group's top objection, sequence sales enablement before the customer announcement, and recommend the delivery order.
+
+## Evaluation
+
+A strong result is accurate, traceable, decision-relevant, proportionate, and actionable. It remains useful if the reader sees only the bottom line, risks, and next action.
+
 ## Related skills
 
-Combine with `quality-review`, `risk-analysis`, and `executive-writer` as needed.
+Pair with `stakeholder-mapping` for influence and `executive-communication` for high-stakes rollout.

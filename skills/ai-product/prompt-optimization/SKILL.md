@@ -15,7 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. Combine with `quality-review` and `knowledge-distillation`..
+1. Define the task, the desired output shape, and the failure the prompt shows.
+2. Diagnose whether the issue is clarity, constraints, examples, or format.
+3. Tighten the instructions and make the output contract explicit.
+4. Add targeted examples that cover the failing cases without overfitting.
+5. Test against held-out and edge inputs.
+6. Recommend the revision and what to monitor.
 
 ## Decision rules
 
@@ -26,13 +31,15 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **decision-ready brief** with:
+Default to a **improved prompt and rationale** with:
 
 1. Bottom line
 2. Evidence and analysis
 3. Risks, uncertainties, and alternatives
 4. Recommendation or next test
 5. Actions, owners, and timing when known
+
+Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Quality check
 
@@ -43,6 +50,23 @@ Default to a **decision-ready brief** with:
 - Ensure the recommendation follows from the analysis.
 - Keep the result concise enough for its audience.
 
+## Failure modes
+
+- **Overfitting to examples:** examples should generalize, not memorize the test cases.
+- **Instruction bloat:** more words can dilute; cut what does not change the output.
+- **Framework theater:** omit sections that do not change action.
+- **Fact–inference blending:** label the boundary between evidence and recommendation.
+
+## Example
+
+**Request:** "Use $prompt-optimization to fix a prompt that sometimes returns prose instead of JSON."
+
+Define the required JSON contract, diagnose the missing format constraint, make the schema explicit, add one example covering the failing case, test on held-out inputs, and recommend the revision with a check for format regressions.
+
+## Evaluation
+
+A strong result is accurate, traceable, decision-relevant, proportionate, and actionable. It remains useful if the reader sees only the bottom line, risks, and next action.
+
 ## Related skills
 
-Combine with `quality-review`, `risk-analysis`, and `executive-writer` as needed.
+Pair with `evaluation-design` to measure it and `quality-review` for output checks.

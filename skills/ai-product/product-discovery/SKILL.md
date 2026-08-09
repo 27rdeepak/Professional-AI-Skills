@@ -15,7 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. Combine with `problem-framing` and `prioritization`..
+1. Frame the problem, the user, and the context in which it bites.
+2. State the current evidence of demand and its quality.
+3. Identify the riskiest assumptions across problem, value, usability, and viability.
+4. Design the discovery activities that would test them.
+5. Define what evidence would justify building versus stopping.
+6. Recommend proceed, pivot, or park with the next test.
 
 ## Decision rules
 
@@ -26,13 +31,15 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **decision-ready brief** with:
+Default to a **discovery brief with demand evidence** with:
 
 1. Bottom line
 2. Evidence and analysis
 3. Risks, uncertainties, and alternatives
 4. Recommendation or next test
 5. Actions, owners, and timing when known
+
+Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Quality check
 
@@ -43,6 +50,23 @@ Default to a **decision-ready brief** with:
 - Ensure the recommendation follows from the analysis.
 - Keep the result concise enough for its audience.
 
+## Failure modes
+
+- **Solution-first discovery:** validate the problem before designing the fix.
+- **Confirmation research:** design tests that could disprove the idea, not only support it.
+- **Framework theater:** omit sections that do not change action.
+- **Fact–inference blending:** label the boundary between evidence and recommendation.
+
+## Example
+
+**Request:** "Use $product-discovery to decide whether a requested 'AI assistant' feature is worth building."
+
+Frame the user problem behind the request, assess the thin demand evidence, name the riskiest assumption (that users want AI here at all), design a lightweight test, and set the evidence bar for proceeding versus parking.
+
+## Evaluation
+
+A strong result is accurate, traceable, decision-relevant, proportionate, and actionable. It remains useful if the reader sees only the bottom line, risks, and next action.
+
 ## Related skills
 
-Combine with `quality-review`, `risk-analysis`, and `executive-writer` as needed.
+Pair with `problem-framing` to sharpen the problem and `prioritization` to place it against other bets.

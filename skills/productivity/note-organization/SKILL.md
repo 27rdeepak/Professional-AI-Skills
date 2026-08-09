@@ -15,7 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. Combine with `knowledge-distillation` and `documentation-engineering`..
+1. Define what the notes are for and how they will be retrieved.
+2. Assess current capture friction and retrieval failure.
+3. Design a capture flow that is fast enough to actually use.
+4. Choose a tagging or linking scheme tied to retrieval needs.
+5. Add a periodic synthesis step so notes become knowledge.
+6. Recommend the system and the one routine that sustains it.
 
 ## Decision rules
 
@@ -26,13 +31,15 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **decision-ready brief** with:
+Default to a **note-system design** with:
 
 1. Bottom line
 2. Evidence and analysis
 3. Risks, uncertainties, and alternatives
 4. Recommendation or next test
 5. Actions, owners, and timing when known
+
+Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Quality check
 
@@ -43,6 +50,23 @@ Default to a **decision-ready brief** with:
 - Ensure the recommendation follows from the analysis.
 - Keep the result concise enough for its audience.
 
+## Failure modes
+
+- **Capture without retrieval:** a note you cannot find later is wasted effort.
+- **Over-elaborate system:** a scheme too heavy to maintain collapses — favor the lightest that works.
+- **Framework theater:** omit sections that do not change action.
+- **Fact–inference blending:** label the boundary between evidence and recommendation.
+
+## Example
+
+**Request:** "Use $note-organization to fix a note system where nothing can be found later."
+
+Define the retrieval need, diagnose that capture is easy but untagged, design a fast capture with a small fixed tag set, add a weekly synthesis into topic notes, and recommend the ten-minute weekly review that keeps it usable.
+
+## Evaluation
+
+A strong result is accurate, traceable, decision-relevant, proportionate, and actionable. It remains useful if the reader sees only the bottom line, risks, and next action.
+
 ## Related skills
 
-Combine with `quality-review`, `risk-analysis`, and `executive-writer` as needed.
+Pair with `knowledge-distillation` to extract principles and `documentation-engineering` for shared docs.

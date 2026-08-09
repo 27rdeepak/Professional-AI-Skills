@@ -15,7 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. Combine with `financial-impact-analysis` and `trade-off-analysis`..
+1. Establish the baseline and where the money actually goes.
+2. Separate structural, operational, and discretionary cost drivers.
+3. Size the savings and the effort for each lever.
+4. Test each cut against the capability it supports.
+5. Sequence cuts by savings, risk, and reversibility.
+6. Recommend the cuts and the ones to avoid, with owners.
 
 ## Decision rules
 
@@ -26,13 +31,15 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **decision-ready brief** with:
+Default to a **cost-reduction plan** with:
 
 1. Bottom line
 2. Evidence and analysis
 3. Risks, uncertainties, and alternatives
 4. Recommendation or next test
 5. Actions, owners, and timing when known
+
+Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Quality check
 
@@ -43,6 +50,23 @@ Default to a **decision-ready brief** with:
 - Ensure the recommendation follows from the analysis.
 - Keep the result concise enough for its audience.
 
+## Failure modes
+
+- **Across-the-board cuts:** blunt percentage cuts damage the capabilities that matter most.
+- **Saving that costs more:** a cut that raises failure or churn is not a saving.
+- **Framework theater:** omit sections that do not change action.
+- **Fact–inference blending:** label the boundary between evidence and recommendation.
+
+## Example
+
+**Request:** "Use $cost-optimization to reduce cloud spend without hurting reliability."
+
+Establish the spend baseline, separate structural cost (over-provisioned instances) from discretionary (idle environments), size each lever, test cuts against reliability headroom, sequence the low-risk savings first, and flag the reserved-capacity cut to avoid.
+
+## Evaluation
+
+A strong result is accurate, traceable, decision-relevant, proportionate, and actionable. It remains useful if the reader sees only the bottom line, risks, and next action.
+
 ## Related skills
 
-Combine with `quality-review`, `risk-analysis`, and `executive-writer` as needed.
+Pair with `financial-impact-analysis` for the numbers and `trade-off-analysis` when a cut risks capability.

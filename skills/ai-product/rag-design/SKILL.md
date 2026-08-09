@@ -15,7 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. Combine with `evidence-validation` and `quality-review`..
+1. Define the questions the system must answer and the freshness they need.
+2. Identify sources, their authority, and update frequency.
+3. Design chunking and indexing for the query patterns.
+4. Choose retrieval and ranking, and set citation requirements.
+5. Define freshness, deduplication, and stale-content handling.
+6. Recommend evaluation for retrieval quality and answer faithfulness.
 
 ## Decision rules
 
@@ -26,13 +31,15 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **decision-ready brief** with:
+Default to a **RAG design and retrieval plan** with:
 
 1. Bottom line
 2. Evidence and analysis
 3. Risks, uncertainties, and alternatives
 4. Recommendation or next test
 5. Actions, owners, and timing when known
+
+Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Quality check
 
@@ -43,6 +50,23 @@ Default to a **decision-ready brief** with:
 - Ensure the recommendation follows from the analysis.
 - Keep the result concise enough for its audience.
 
+## Failure modes
+
+- **Retrieval blind spot:** most RAG failures are retrieval, not generation — measure it.
+- **Citation theater:** a citation that does not support the sentence is worse than none.
+- **Framework theater:** omit sections that do not change action.
+- **Fact–inference blending:** label the boundary between evidence and recommendation.
+
+## Example
+
+**Request:** "Use $rag-design to design retrieval for a support assistant over a product knowledge base."
+
+Define the question types and freshness needs, inventory the KB sources, chunk around how questions are actually asked, set ranking and mandatory citations, handle stale articles, and recommend separate evals for retrieval hit-rate and answer faithfulness.
+
+## Evaluation
+
+A strong result is accurate, traceable, decision-relevant, proportionate, and actionable. It remains useful if the reader sees only the bottom line, risks, and next action.
+
 ## Related skills
 
-Combine with `quality-review`, `risk-analysis`, and `executive-writer` as needed.
+Pair with `evidence-validation` for citation quality and `evaluation-design` for the eval.

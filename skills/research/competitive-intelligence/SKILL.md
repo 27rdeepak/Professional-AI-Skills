@@ -15,7 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. Combine with `market-analysis` and `research-synthesizer`..
+1. Define the competitive question the analysis must answer.
+2. Identify the real competitors, including the status quo.
+3. Compare products, positioning, and go-to-market with evidence.
+4. Read the signals — hiring, pricing, launches — without overreading them.
+5. Assess each rival's likely next move and its threat.
+6. Recommend the implication for our positioning.
 
 ## Decision rules
 
@@ -26,13 +31,15 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **decision-ready brief** with:
+Default to a **competitive landscape analysis** with:
 
 1. Bottom line
 2. Evidence and analysis
 3. Risks, uncertainties, and alternatives
 4. Recommendation or next test
 5. Actions, owners, and timing when known
+
+Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Quality check
 
@@ -43,6 +50,23 @@ Default to a **decision-ready brief** with:
 - Ensure the recommendation follows from the analysis.
 - Keep the result concise enough for its audience.
 
+## Failure modes
+
+- **Signal overreading:** one job posting is weak evidence — weight it accordingly.
+- **Feature-checklist trap:** compare on the value that wins deals, not every feature.
+- **Framework theater:** omit sections that do not change action.
+- **Fact–inference blending:** label the boundary between evidence and recommendation.
+
+## Example
+
+**Request:** "Use $competitive-intelligence to analyze a competitor that just raised a large round."
+
+Define the question (does the raise threaten our segment), place the rival against us and the status quo, compare positioning with evidence, read the hiring and pricing signals cautiously, assess their likely expansion, and recommend how our positioning should respond.
+
+## Evaluation
+
+A strong result is accurate, traceable, decision-relevant, proportionate, and actionable. It remains useful if the reader sees only the bottom line, risks, and next action.
+
 ## Related skills
 
-Combine with `quality-review`, `risk-analysis`, and `executive-writer` as needed.
+Pair with `market-analysis` for the landscape and `trend-analysis` for direction.

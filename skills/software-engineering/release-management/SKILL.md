@@ -15,7 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. Combine with `risk-analysis` and `meeting-intelligence`..
+1. Define the release scope and the readiness bar.
+2. Assess dependencies, sequencing, and coordination needs.
+3. Verify rollback, feature flags, and support coverage.
+4. Plan communications for internal and external audiences.
+5. Set go/no-go criteria and the decision owner.
+6. Recommend go, go-with-conditions, or hold with the gating items.
 
 ## Decision rules
 
@@ -26,13 +31,15 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **decision-ready brief** with:
+Default to a **release plan and readiness check** with:
 
 1. Bottom line
 2. Evidence and analysis
 3. Risks, uncertainties, and alternatives
 4. Recommendation or next test
 5. Actions, owners, and timing when known
+
+Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Quality check
 
@@ -43,6 +50,23 @@ Default to a **decision-ready brief** with:
 - Ensure the recommendation follows from the analysis.
 - Keep the result concise enough for its audience.
 
+## Failure modes
+
+- **Ship-and-pray:** verify rollback and support before release, not after an incident.
+- **Silent release:** coordinate communications; a surprise release breaks trust.
+- **Framework theater:** omit sections that do not change action.
+- **Fact–inference blending:** label the boundary between evidence and recommendation.
+
+## Example
+
+**Request:** "Use $release-management to plan the release of a major version with breaking changes."
+
+Define the scope and readiness bar, sequence the dependent services, verify the rollback and flags, plan customer and support communications for the breaking changes, set go/no-go criteria with an owner, and recommend a go-with-conditions gated on the migration guide.
+
+## Evaluation
+
+A strong result is accurate, traceable, decision-relevant, proportionate, and actionable. It remains useful if the reader sees only the bottom line, risks, and next action.
+
 ## Related skills
 
-Combine with `quality-review`, `risk-analysis`, and `executive-writer` as needed.
+Pair with `risk-analysis` for release risk and `migration-planning` for breaking changes.

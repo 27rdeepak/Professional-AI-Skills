@@ -15,7 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. Combine with `architecture-review` and `quality-review`..
+1. Define the domain and the access patterns the model must serve.
+2. Map entities, relationships, keys, and constraints.
+3. Check integrity: what the schema does and does not enforce.
+4. Assess the model against real query and write patterns.
+5. Evaluate lifecycle, history, and migration implications.
+6. Recommend changes ranked by integrity and performance risk.
 
 ## Decision rules
 
@@ -26,13 +31,15 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **decision-ready brief** with:
+Default to a **data-model review** with:
 
 1. Bottom line
 2. Evidence and analysis
 3. Risks, uncertainties, and alternatives
 4. Recommendation or next test
 5. Actions, owners, and timing when known
+
+Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Quality check
 
@@ -43,6 +50,23 @@ Default to a **decision-ready brief** with:
 - Ensure the recommendation follows from the analysis.
 - Keep the result concise enough for its audience.
 
+## Failure modes
+
+- **Normalization dogma:** fit the model to access patterns, not to a rulebook.
+- **Silent integrity gaps:** enforce invariants in the schema, not only in application code.
+- **Framework theater:** omit sections that do not change action.
+- **Fact–inference blending:** label the boundary between evidence and recommendation.
+
+## Example
+
+**Request:** "Use $data-model-review to review a schema before it goes to production."
+
+Define the access patterns, map entities and keys, flag the missing foreign-key constraint that lets orphans form, assess it against the hot read path, evaluate the migration cost, and recommend the constraint and index changes ranked by integrity risk.
+
+## Evaluation
+
+A strong result is accurate, traceable, decision-relevant, proportionate, and actionable. It remains useful if the reader sees only the bottom line, risks, and next action.
+
 ## Related skills
 
-Combine with `quality-review`, `risk-analysis`, and `executive-writer` as needed.
+Pair with `architecture-review` for the system and `quality-review` for the change.

@@ -15,7 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. Combine with `quality-review` and `evidence-validation`..
+1. Define what the system must do and what 'good enough to ship' means.
+2. Choose metrics tied to the real user outcome, not proxy convenience.
+3. Build datasets: representative, edge, and adversarial cases.
+4. Write rubrics and pass thresholds per metric.
+5. Separate offline evaluation from production monitoring.
+6. Define what a failing evaluation triggers.
 
 ## Decision rules
 
@@ -26,13 +31,15 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **decision-ready brief** with:
+Default to a **evaluation plan and rubric** with:
 
 1. Bottom line
 2. Evidence and analysis
 3. Risks, uncertainties, and alternatives
 4. Recommendation or next test
 5. Actions, owners, and timing when known
+
+Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Quality check
 
@@ -43,6 +50,23 @@ Default to a **decision-ready brief** with:
 - Ensure the recommendation follows from the analysis.
 - Keep the result concise enough for its audience.
 
+## Failure modes
+
+- **Proxy metric drift:** optimize the outcome, not a metric that diverges from it.
+- **Happy-path only:** include edge and adversarial cases, or the eval lies.
+- **Framework theater:** omit sections that do not change action.
+- **Fact–inference blending:** label the boundary between evidence and recommendation.
+
+## Example
+
+**Request:** "Use $evaluation-design to build an eval for a summarization feature before launch."
+
+Define ship criteria, pick metrics tied to reader usefulness, assemble representative and adversarial documents, write a rubric with thresholds, separate offline scores from production monitoring, and state what a fail blocks.
+
+## Evaluation
+
+A strong result is accurate, traceable, decision-relevant, proportionate, and actionable. It remains useful if the reader sees only the bottom line, risks, and next action.
+
 ## Related skills
 
-Combine with `quality-review`, `risk-analysis`, and `executive-writer` as needed.
+Pair with `quality-review` for the rubric and `evidence-validation` for factuality checks.

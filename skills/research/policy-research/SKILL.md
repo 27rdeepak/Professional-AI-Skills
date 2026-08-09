@@ -15,7 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. Combine with `systems-thinking` and `trade-off-analysis`..
+1. Define the policy goal and the problem it addresses.
+2. Map the options and their mechanisms.
+3. Assess trade-offs, affected stakeholders, and distributional effects.
+4. Surface implementation constraints and feasibility.
+5. Anticipate second-order and unintended effects.
+6. Recommend an option and the evidence to monitor.
 
 ## Decision rules
 
@@ -26,13 +31,15 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **decision-ready brief** with:
+Default to a **policy analysis** with:
 
 1. Bottom line
 2. Evidence and analysis
 3. Risks, uncertainties, and alternatives
 4. Recommendation or next test
 5. Actions, owners, and timing when known
+
+Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Quality check
 
@@ -43,6 +50,23 @@ Default to a **decision-ready brief** with:
 - Ensure the recommendation follows from the analysis.
 - Keep the result concise enough for its audience.
 
+## Failure modes
+
+- **Intent over effect:** judge a policy by its likely effects, not its stated goal.
+- **Second-order blindness:** trace the incentives the policy creates, not just its direct aim.
+- **Framework theater:** omit sections that do not change action.
+- **Fact–inference blending:** label the boundary between evidence and recommendation.
+
+## Example
+
+**Request:** "Use $policy-research to analyze options for a return-to-office policy."
+
+Define the goal and problem, map the options (mandate, hybrid, team-choice) and their mechanisms, assess trade-offs and who bears them, surface enforcement feasibility, anticipate the attrition and equity effects, and recommend an option with the metric to monitor.
+
+## Evaluation
+
+A strong result is accurate, traceable, decision-relevant, proportionate, and actionable. It remains useful if the reader sees only the bottom line, risks, and next action.
+
 ## Related skills
 
-Combine with `quality-review`, `risk-analysis`, and `executive-writer` as needed.
+Pair with `systems-thinking` for effects and `trade-off-analysis` for the choice.

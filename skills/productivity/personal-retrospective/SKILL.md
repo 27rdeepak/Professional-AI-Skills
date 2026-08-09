@@ -15,7 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. Combine with `decision-journal` and `learning-plan`..
+1. Set the period and the goals it was meant to serve.
+2. Review what worked, what failed, and the evidence for each.
+3. Separate what you controlled from what you did not.
+4. Extract the few lessons that generalize.
+5. Turn each lesson into one concrete change.
+6. Recommend the changes and how to check they stuck.
 
 ## Decision rules
 
@@ -26,13 +31,15 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **decision-ready brief** with:
+Default to a **retrospective with changes** with:
 
 1. Bottom line
 2. Evidence and analysis
 3. Risks, uncertainties, and alternatives
 4. Recommendation or next test
 5. Actions, owners, and timing when known
+
+Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Quality check
 
@@ -43,6 +50,23 @@ Default to a **decision-ready brief** with:
 - Ensure the recommendation follows from the analysis.
 - Keep the result concise enough for its audience.
 
+## Failure modes
+
+- **Blameless becomes lessons-less:** name real causes, not just 'be better next time'.
+- **Too many changes:** pick the few changes you will actually make.
+- **Framework theater:** omit sections that do not change action.
+- **Fact–inference blending:** label the boundary between evidence and recommendation.
+
+## Example
+
+**Request:** "Use $personal-retrospective to run a retrospective after a project that shipped late."
+
+Set the period and goal, review what worked and what slipped with evidence, separate the controllable (scope creep) from the not (a vendor delay), extract the estimation lesson, turn it into one concrete change to scoping, and set a check for the next project.
+
+## Evaluation
+
+A strong result is accurate, traceable, decision-relevant, proportionate, and actionable. It remains useful if the reader sees only the bottom line, risks, and next action.
+
 ## Related skills
 
-Combine with `quality-review`, `risk-analysis`, and `executive-writer` as needed.
+Pair with `decision-journal` for the record and `learning-plan` for skill gaps.

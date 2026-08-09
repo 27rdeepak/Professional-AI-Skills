@@ -15,7 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. Combine with `system-design` and `quality-review` for release decisions..
+1. Define the API's purpose, consumers, and the tasks it must support.
+2. Model the resources or verbs and their relationships.
+3. Design consistent naming, pagination, and error semantics.
+4. Specify compatibility and versioning rules.
+5. Define auth, rate limits, and idempotency for unsafe operations.
+6. Recommend the contract and the review before it ships.
 
 ## Decision rules
 
@@ -26,13 +31,15 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **decision-ready brief** with:
+Default to a **API design and contract** with:
 
 1. Bottom line
 2. Evidence and analysis
 3. Risks, uncertainties, and alternatives
 4. Recommendation or next test
 5. Actions, owners, and timing when known
+
+Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Quality check
 
@@ -43,6 +50,23 @@ Default to a **decision-ready brief** with:
 - Ensure the recommendation follows from the analysis.
 - Keep the result concise enough for its audience.
 
+## Failure modes
+
+- **Implementation leakage:** design for the consumer's task, not your internal model.
+- **Breaking-change creep:** version deliberately; do not silently break existing clients.
+- **Framework theater:** omit sections that do not change action.
+- **Fact–inference blending:** label the boundary between evidence and recommendation.
+
+## Example
+
+**Request:** "Use $api-design to design an endpoint for partners to submit and query orders."
+
+Define the partner tasks, model the order resource, design consistent naming and error codes, set the versioning rule, make submission idempotent with a client key, add auth and rate limits, and recommend the contract for review before release.
+
+## Evaluation
+
+A strong result is accurate, traceable, decision-relevant, proportionate, and actionable. It remains useful if the reader sees only the bottom line, risks, and next action.
+
 ## Related skills
 
-Combine with `quality-review`, `risk-analysis`, and `executive-writer` as needed.
+Pair with `architecture-review` for the surrounding system and `quality-review` for the contract.

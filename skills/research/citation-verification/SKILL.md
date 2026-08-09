@@ -15,7 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. Combine with `evidence-validation` and `quality-review`..
+1. Inventory the quotes, statistics, and claims with citations.
+2. Locate each cited source and the specific passage.
+3. Check that the source actually states what is claimed.
+4. Check that numbers keep their original context and units.
+5. Flag misquotes, overreach, and missing or wrong citations.
+6. Recommend fixes and which claims cannot stand.
 
 ## Decision rules
 
@@ -26,13 +31,15 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **decision-ready brief** with:
+Default to a **citation verification report** with:
 
 1. Bottom line
 2. Evidence and analysis
 3. Risks, uncertainties, and alternatives
 4. Recommendation or next test
 5. Actions, owners, and timing when known
+
+Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Quality check
 
@@ -43,6 +50,23 @@ Default to a **decision-ready brief** with:
 - Ensure the recommendation follows from the analysis.
 - Keep the result concise enough for its audience.
 
+## Failure modes
+
+- **Citation presence as proof:** a citation existing is not the claim being supported.
+- **Context stripping:** a figure quoted without its qualifiers can reverse its meaning.
+- **Framework theater:** omit sections that do not change action.
+- **Fact–inference blending:** label the boundary between evidence and recommendation.
+
+## Example
+
+**Request:** "Use $citation-verification to verify the citations in a report before it is published."
+
+Inventory the cited claims, locate each source passage, check that each source states what the report claims, verify the statistics keep their context, flag the two figures that overreach their source, and recommend corrections before publication.
+
+## Evaluation
+
+A strong result is accurate, traceable, decision-relevant, proportionate, and actionable. It remains useful if the reader sees only the bottom line, risks, and next action.
+
 ## Related skills
 
-Combine with `quality-review`, `risk-analysis`, and `executive-writer` as needed.
+Pair with `evidence-validation` to grade sources and `quality-review` before release.

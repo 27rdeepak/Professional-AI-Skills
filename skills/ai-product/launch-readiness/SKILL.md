@@ -15,7 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. Combine with `release-management` and `change-management`..
+1. Define the launch scope and the bar for go.
+2. Assess product quality, support readiness, documentation, and messaging.
+3. Verify rollback and incident response are in place and tested.
+4. Separate must-fix blockers from acceptable-with-mitigation gaps.
+5. Confirm ownership for launch-day decisions.
+6. Recommend go, go-with-conditions, or hold with the gating items.
 
 ## Decision rules
 
@@ -26,13 +31,15 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **decision-ready brief** with:
+Default to a **launch-readiness assessment and go/no-go** with:
 
 1. Bottom line
 2. Evidence and analysis
 3. Risks, uncertainties, and alternatives
 4. Recommendation or next test
 5. Actions, owners, and timing when known
+
+Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Quality check
 
@@ -43,6 +50,23 @@ Default to a **decision-ready brief** with:
 - Ensure the recommendation follows from the analysis.
 - Keep the result concise enough for its audience.
 
+## Failure modes
+
+- **Feature-complete is not launch-ready:** support, docs, and rollback gate the launch too.
+- **Untested rollback:** a rollback that has never run is not a safety net.
+- **Framework theater:** omit sections that do not change action.
+- **Fact–inference blending:** label the boundary between evidence and recommendation.
+
+## Example
+
+**Request:** "Use $launch-readiness to decide go/no-go for a payments feature shipping Friday."
+
+Set the go bar, assess quality and support readiness, confirm the rollback is tested, separate the one must-fix blocker from acceptable gaps, name the launch-day decision owner, and give a go-with-conditions verdict.
+
+## Evaluation
+
+A strong result is accurate, traceable, decision-relevant, proportionate, and actionable. It remains useful if the reader sees only the bottom line, risks, and next action.
+
 ## Related skills
 
-Combine with `quality-review`, `risk-analysis`, and `executive-writer` as needed.
+Pair with `release-management` for the rollout and `premortem-analysis` for what could fail.

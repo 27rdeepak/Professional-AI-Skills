@@ -15,7 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. Combine with `executive-writer` and `quality-review`..
+1. Identify the reader, purpose, and the meaning that must survive.
+2. Fix structure so the main point leads.
+3. Cut redundancy, hedging, and filler.
+4. Tighten sentences for clarity without changing meaning.
+5. Adjust tone to the audience and stakes.
+6. Recommend the edit and flag any meaning that needs the author's call.
 
 ## Decision rules
 
@@ -26,13 +31,15 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **decision-ready brief** with:
+Default to a **edited text with change rationale** with:
 
 1. Bottom line
 2. Evidence and analysis
 3. Risks, uncertainties, and alternatives
 4. Recommendation or next test
 5. Actions, owners, and timing when known
+
+Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Quality check
 
@@ -43,6 +50,23 @@ Default to a **decision-ready brief** with:
 - Ensure the recommendation follows from the analysis.
 - Keep the result concise enough for its audience.
 
+## Failure modes
+
+- **Meaning drift:** tighten wording without altering the claim or its caveats.
+- **Over-editing voice:** clarity is the goal, not homogenized prose.
+- **Framework theater:** omit sections that do not change action.
+- **Fact–inference blending:** label the boundary between evidence and recommendation.
+
+## Example
+
+**Request:** "Use $writing-editing to edit a dense two-page memo down to something a busy reader will finish."
+
+Identify the reader and the core message, restructure so the recommendation leads, cut the hedging and repetition, tighten sentences without changing meaning, match the tone to a senior reader, and flag the one ambiguous claim for the author to confirm.
+
+## Evaluation
+
+A strong result is accurate, traceable, decision-relevant, proportionate, and actionable. It remains useful if the reader sees only the bottom line, risks, and next action.
+
 ## Related skills
 
-Combine with `quality-review`, `risk-analysis`, and `executive-writer` as needed.
+Pair with `executive-writer` for decision-first structure and `quality-review` before it ships.

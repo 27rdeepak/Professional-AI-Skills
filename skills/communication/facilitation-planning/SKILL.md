@@ -15,7 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. Combine with `meeting-intelligence` and `decision-analysis`..
+1. Define the session's desired outcome and the decisions it must reach.
+2. Choose the participants who can decide, and exclude the rest.
+3. Design the agenda backward from the decisions.
+4. Assign artifacts, pre-reads, and time boxes per segment.
+5. Plan how divergence converges to a decision.
+6. Recommend the plan and the follow-up capture.
 
 ## Decision rules
 
@@ -26,13 +31,15 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **decision-ready brief** with:
+Default to a **session plan with decisions and time boxes** with:
 
 1. Bottom line
 2. Evidence and analysis
 3. Risks, uncertainties, and alternatives
 4. Recommendation or next test
 5. Actions, owners, and timing when known
+
+Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Quality check
 
@@ -43,6 +50,23 @@ Default to a **decision-ready brief** with:
 - Ensure the recommendation follows from the analysis.
 - Keep the result concise enough for its audience.
 
+## Failure modes
+
+- **Meeting without a decision:** design backward from the decision, or it becomes a discussion.
+- **Wrong room:** include the deciders; a room of observers cannot conclude.
+- **Framework theater:** omit sections that do not change action.
+- **Fact–inference blending:** label the boundary between evidence and recommendation.
+
+## Example
+
+**Request:** "Use $facilitation-planning to plan a workshop to choose a technical direction across three teams."
+
+Define the decision to reach, invite the deciders from each team, build the agenda backward from the choice, assign a pre-read and time boxes, plan a convergence step (dot-vote then owner decides), and set who captures the decision and actions.
+
+## Evaluation
+
+A strong result is accurate, traceable, decision-relevant, proportionate, and actionable. It remains useful if the reader sees only the bottom line, risks, and next action.
+
 ## Related skills
 
-Combine with `quality-review`, `risk-analysis`, and `executive-writer` as needed.
+Pair with `decision-analysis` for the choice and `meeting-intelligence` for the capture.

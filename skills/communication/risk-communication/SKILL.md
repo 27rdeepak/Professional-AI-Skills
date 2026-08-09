@@ -15,7 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. Combine with `risk-analysis` and `executive-brief`..
+1. State the risk in terms of consequence, not mechanism.
+2. Give likelihood and impact in plain, calibrated terms.
+3. Separate what is known from what is uncertain.
+4. Present the mitigation options and their cost.
+5. State the decision the audience must make.
+6. Recommend the message and the framing to avoid panic or complacency.
 
 ## Decision rules
 
@@ -26,13 +31,15 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **decision-ready brief** with:
+Default to a **risk message for decision-makers** with:
 
 1. Bottom line
 2. Evidence and analysis
 3. Risks, uncertainties, and alternatives
 4. Recommendation or next test
 5. Actions, owners, and timing when known
+
+Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Quality check
 
@@ -43,6 +50,23 @@ Default to a **decision-ready brief** with:
 - Ensure the recommendation follows from the analysis.
 - Keep the result concise enough for its audience.
 
+## Failure modes
+
+- **Jargon shield:** translate the technical risk into business consequence.
+- **False precision or false calm:** calibrate likelihood; do not over- or under-state it.
+- **Framework theater:** omit sections that do not change action.
+- **Fact–inference blending:** label the boundary between evidence and recommendation.
+
+## Example
+
+**Request:** "Use $risk-communication to brief leadership on a newly discovered security exposure."
+
+State the consequence (customer data could be accessed), give calibrated likelihood and impact, separate confirmed from unconfirmed, present the mitigation options with cost and time, state the decision needed (patch window), and frame it to prompt action without panic.
+
+## Evaluation
+
+A strong result is accurate, traceable, decision-relevant, proportionate, and actionable. It remains useful if the reader sees only the bottom line, risks, and next action.
+
 ## Related skills
 
-Combine with `quality-review`, `risk-analysis`, and `executive-writer` as needed.
+Pair with `risk-analysis` for the assessment and `executive-brief` for the one-pager.

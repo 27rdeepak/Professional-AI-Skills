@@ -15,7 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. Combine with `market-analysis` and `prioritization`..
+1. Define the decision the segmentation must serve.
+2. Choose a segmentation basis — needs, behavior, value, or context — and justify it.
+3. Build segments that are distinct, sizable, and reachable.
+4. Profile each segment's needs, value, and willingness to act.
+5. Identify the priority segment and why.
+6. Recommend how product or messaging should differ by segment.
 
 ## Decision rules
 
@@ -26,13 +31,15 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **decision-ready brief** with:
+Default to a **segmentation with a reasoned basis** with:
 
 1. Bottom line
 2. Evidence and analysis
 3. Risks, uncertainties, and alternatives
 4. Recommendation or next test
 5. Actions, owners, and timing when known
+
+Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Quality check
 
@@ -43,6 +50,23 @@ Default to a **decision-ready brief** with:
 - Ensure the recommendation follows from the analysis.
 - Keep the result concise enough for its audience.
 
+## Failure modes
+
+- **Demographic default:** segment by need or behavior when that drives the decision, not by age or size alone.
+- **Unactionable segments:** a segment you cannot reach or serve differently is not useful.
+- **Framework theater:** omit sections that do not change action.
+- **Fact–inference blending:** label the boundary between evidence and recommendation.
+
+## Example
+
+**Request:** "Use $customer-segmentation to segment users for a productivity app to focus the roadmap."
+
+Define the roadmap decision, segment by job-to-be-done rather than company size, build distinct and reachable groups, profile each group's value and needs, name the priority segment, and recommend the features that segment needs first.
+
+## Evaluation
+
+A strong result is accurate, traceable, decision-relevant, proportionate, and actionable. It remains useful if the reader sees only the bottom line, risks, and next action.
+
 ## Related skills
 
-Combine with `quality-review`, `risk-analysis`, and `executive-writer` as needed.
+Pair with `market-analysis` for the landscape and `prioritization` to focus effort.

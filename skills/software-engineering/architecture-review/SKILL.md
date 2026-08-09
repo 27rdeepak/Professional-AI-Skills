@@ -15,7 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. Combine with `systems-thinking` and `risk-analysis`..
+1. Restate the system's purpose and quality requirements.
+2. Map components, boundaries, responsibilities, and dependencies.
+3. Assess coupling, cohesion, and where responsibilities blur.
+4. Trace the failure modes and how the system degrades.
+5. Evaluate scalability, evolvability, and operability against the requirements.
+6. Recommend changes ranked by risk and cost.
 
 ## Decision rules
 
@@ -26,13 +31,15 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **decision-ready brief** with:
+Default to a **architecture review** with:
 
 1. Bottom line
 2. Evidence and analysis
 3. Risks, uncertainties, and alternatives
 4. Recommendation or next test
 5. Actions, owners, and timing when known
+
+Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Quality check
 
@@ -43,6 +50,23 @@ Default to a **decision-ready brief** with:
 - Ensure the recommendation follows from the analysis.
 - Keep the result concise enough for its audience.
 
+## Failure modes
+
+- **Diagram-as-truth:** review the system as built and operated, not the idealized diagram.
+- **Gold-plating:** match the architecture to the requirements, not to maximal robustness.
+- **Framework theater:** omit sections that do not change action.
+- **Fact–inference blending:** label the boundary between evidence and recommendation.
+
+## Example
+
+**Request:** "Use $architecture-review to review a service architecture before a scaling push."
+
+Restate the purpose and the scaling requirement, map the components and dependencies, flag the shared database as a coupling and failure point, trace how it degrades under load, evaluate the evolvability cost, and recommend the decoupling change ranked against the deadline.
+
+## Evaluation
+
+A strong result is accurate, traceable, decision-relevant, proportionate, and actionable. It remains useful if the reader sees only the bottom line, risks, and next action.
+
 ## Related skills
 
-Combine with `quality-review`, `risk-analysis`, and `executive-writer` as needed.
+Pair with `systems-thinking` for dependencies and `risk-analysis` for failure impact.

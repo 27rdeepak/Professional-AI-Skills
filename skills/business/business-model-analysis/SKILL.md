@@ -15,7 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. Combine with `business-case-building` and `strategy`..
+1. Restate the value proposition and the customer it serves.
+2. Map the channel, revenue model, and cost structure.
+3. Test whether the unit economics work at realistic scale.
+4. Assess the moat: what stops a competitor copying it.
+5. Identify the assumptions the model is most fragile to.
+6. Recommend whether the model is viable, and what to fix or test.
 
 ## Decision rules
 
@@ -26,13 +31,15 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **decision-ready brief** with:
+Default to a **business model assessment** with:
 
 1. Bottom line
 2. Evidence and analysis
 3. Risks, uncertainties, and alternatives
 4. Recommendation or next test
 5. Actions, owners, and timing when known
+
+Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Quality check
 
@@ -43,6 +50,23 @@ Default to a **decision-ready brief** with:
 - Ensure the recommendation follows from the analysis.
 - Keep the result concise enough for its audience.
 
+## Failure modes
+
+- **Unit-economics denial:** a model that loses money per unit does not fix itself at scale.
+- **Moat by assertion:** name the specific barrier, not 'brand' or 'network effects' in the abstract.
+- **Framework theater:** omit sections that do not change action.
+- **Fact–inference blending:** label the boundary between evidence and recommendation.
+
+## Example
+
+**Request:** "Use $business-model-analysis to assess whether a freemium-to-paid model is viable for a new tool."
+
+Restate the value and customer, map the free-to-paid funnel and cost to serve free users, test whether paid conversion covers it at scale, assess the switching cost that forms the moat, and flag the conversion-rate assumption the model hinges on.
+
+## Evaluation
+
+A strong result is accurate, traceable, decision-relevant, proportionate, and actionable. It remains useful if the reader sees only the bottom line, risks, and next action.
+
 ## Related skills
 
-Combine with `quality-review`, `risk-analysis`, and `executive-writer` as needed.
+Pair with `financial-impact-analysis` for the economics and `strategy-framing` for the positioning.

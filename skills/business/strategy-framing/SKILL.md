@@ -15,7 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. Combine with `stakeholder-mapping` and `trade-off-analysis`..
+1. Define the winning aspiration and the outcome that counts.
+2. Decide where to play: markets, segments, and boundaries.
+3. Decide how to win: the differentiated way you create value.
+4. Name what you will deliberately not do.
+5. Identify the capabilities and resources the choice requires.
+6. Recommend the strategic direction and the assumption to test first.
 
 ## Decision rules
 
@@ -26,13 +31,15 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **decision-ready brief** with:
+Default to a **strategy statement and choices** with:
 
 1. Bottom line
 2. Evidence and analysis
 3. Risks, uncertainties, and alternatives
 4. Recommendation or next test
 5. Actions, owners, and timing when known
+
+Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Quality check
 
@@ -43,6 +50,23 @@ Default to a **decision-ready brief** with:
 - Ensure the recommendation follows from the analysis.
 - Keep the result concise enough for its audience.
 
+## Failure modes
+
+- **Strategy as aspiration:** a goal is not a strategy — name the where-to-play and how-to-win choices.
+- **No sacrifice:** a strategy that says no to nothing is a wish list.
+- **Framework theater:** omit sections that do not change action.
+- **Fact–inference blending:** label the boundary between evidence and recommendation.
+
+## Example
+
+**Request:** "Use $strategy-framing to frame strategy for a product losing ground to a cheaper rival."
+
+Define the aspiration, choose the segment where the product can win, decide how to win (depth for power users, not price), name what to stop chasing, identify the capabilities required, and recommend the direction with the demand assumption to test first.
+
+## Evaluation
+
+A strong result is accurate, traceable, decision-relevant, proportionate, and actionable. It remains useful if the reader sees only the bottom line, risks, and next action.
+
 ## Related skills
 
-Combine with `quality-review`, `risk-analysis`, and `executive-writer` as needed.
+Pair with `trade-off-analysis` for the sacrifice and `stakeholder-mapping` to align the coalition.

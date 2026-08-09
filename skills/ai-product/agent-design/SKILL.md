@@ -15,7 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. Combine with `systems-thinking` and `risk-analysis`..
+1. Define the agent's job, success criteria, and the outcomes it must never produce.
+2. Specify the tools and actions it can take, and the scope limit on each.
+3. Set the autonomy level and the decision points that require human approval or handoff.
+4. Design memory and context: what it retains, retrieves, and forgets, and why.
+5. Add guardrails — input validation, output checks, rate and cost limits, and stop conditions.
+6. Define evaluation, monitoring, and the fallback when the agent is uncertain or fails.
 
 ## Decision rules
 
@@ -26,13 +31,15 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **decision-ready brief** with:
+Default to a **agent design and guardrail spec** with:
 
 1. Bottom line
 2. Evidence and analysis
 3. Risks, uncertainties, and alternatives
 4. Recommendation or next test
 5. Actions, owners, and timing when known
+
+Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Quality check
 
@@ -43,6 +50,24 @@ Default to a **decision-ready brief** with:
 - Ensure the recommendation follows from the analysis.
 - Keep the result concise enough for its audience.
 
+## Failure modes
+
+- **Autonomy overreach:** grant the least autonomy that does the job and escalate the rest.
+- **Guardrail afterthought:** design stop conditions and limits with the capability, not after.
+- **Context hoarding:** unbounded memory degrades reasoning and leaks state.
+- **Framework theater:** omit sections that do not change action.
+- **Fact–inference blending:** label the boundary between evidence and recommendation.
+
+## Example
+
+**Request:** "Use $agent-design to design a support agent that can issue refunds up to a limit."
+
+Define the job and the never-do outcomes (no refund above policy), scope the refund tool with a hard cap, require human approval above it, bound memory to the current ticket, add output checks and a cost limit, and define the fallback when confidence is low.
+
+## Evaluation
+
+A strong result is accurate, traceable, decision-relevant, proportionate, and actionable. It remains useful if the reader sees only the bottom line, risks, and next action.
+
 ## Related skills
 
-Combine with `quality-review`, `risk-analysis`, and `executive-writer` as needed.
+Combine with `evaluation-design` to test it, `workflow-automation` for the surrounding process, and `risk-analysis` for failure impact.

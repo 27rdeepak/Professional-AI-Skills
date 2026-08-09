@@ -15,7 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. Combine with `knowledge-distillation` and `executive-coaching`..
+1. Define the target skill and what proficiency looks like.
+2. Assess the baseline and the gap to close.
+3. Design a deliberate-practice loop with fast feedback.
+4. Sequence sub-skills from foundational to advanced.
+5. Fit the plan to the available time honestly.
+6. Recommend the plan and the first checkpoint.
 
 ## Decision rules
 
@@ -26,13 +31,15 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **decision-ready brief** with:
+Default to a **learning plan** with:
 
 1. Bottom line
 2. Evidence and analysis
 3. Risks, uncertainties, and alternatives
 4. Recommendation or next test
 5. Actions, owners, and timing when known
+
+Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Quality check
 
@@ -43,6 +50,23 @@ Default to a **decision-ready brief** with:
 - Ensure the recommendation follows from the analysis.
 - Keep the result concise enough for its audience.
 
+## Failure modes
+
+- **Passive consumption:** practice and feedback build skill, not reading or watching alone.
+- **No feedback loop:** without a way to check, practice reinforces mistakes.
+- **Framework theater:** omit sections that do not change action.
+- **Fact–inference blending:** label the boundary between evidence and recommendation.
+
+## Example
+
+**Request:** "Use $learning-plan to plan how to learn data analysis in eight weeks part-time."
+
+Define the proficiency target, assess the baseline, design a weekly practice loop on real datasets with a feedback source, sequence from spreadsheets to querying to visualization, fit it to a few hours a week, and set a week-four checkpoint.
+
+## Evaluation
+
+A strong result is accurate, traceable, decision-relevant, proportionate, and actionable. It remains useful if the reader sees only the bottom line, risks, and next action.
+
 ## Related skills
 
-Combine with `quality-review`, `risk-analysis`, and `executive-writer` as needed.
+Pair with `knowledge-distillation` to capture principles and `executive-coaching` for accountability.

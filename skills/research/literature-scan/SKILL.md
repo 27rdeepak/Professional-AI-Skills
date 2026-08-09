@@ -15,7 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. Combine with `source-triage` and `knowledge-distillation`..
+1. Frame the question and the scope of the scan.
+2. Identify the key sources, schools, and seminal work.
+3. Map the recurring themes, methods, and claims.
+4. Show where the field agrees and where it disputes.
+5. Note gaps, dated findings, and open questions.
+6. Recommend what to read deeply and the next step.
 
 ## Decision rules
 
@@ -26,13 +31,15 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **decision-ready brief** with:
+Default to a **literature map** with:
 
 1. Bottom line
 2. Evidence and analysis
 3. Risks, uncertainties, and alternatives
 4. Recommendation or next test
 5. Actions, owners, and timing when known
+
+Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Quality check
 
@@ -43,6 +50,23 @@ Default to a **decision-ready brief** with:
 - Ensure the recommendation follows from the analysis.
 - Keep the result concise enough for its audience.
 
+## Failure modes
+
+- **False consensus:** surface the disagreements, do not smooth them into agreement.
+- **Recency or citation bias:** weight by relevance and method, not just what is new or cited most.
+- **Framework theater:** omit sections that do not change action.
+- **Fact–inference blending:** label the boundary between evidence and recommendation.
+
+## Example
+
+**Request:** "Use $literature-scan to scan the literature on remote-work productivity before a policy decision."
+
+Frame the question and scope, identify the key studies and reviews, map the themes and methods, show where findings conflict and why (measurement differences), note the gaps, and recommend the few sources to read deeply for the decision.
+
+## Evaluation
+
+A strong result is accurate, traceable, decision-relevant, proportionate, and actionable. It remains useful if the reader sees only the bottom line, risks, and next action.
+
 ## Related skills
 
-Combine with `quality-review`, `risk-analysis`, and `executive-writer` as needed.
+Pair with `source-triage` to filter and `knowledge-distillation` to extract principles.

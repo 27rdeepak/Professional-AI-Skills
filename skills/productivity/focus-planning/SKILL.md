@@ -15,7 +15,12 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Workflow
 
-1. Combine with `time-management` and `prioritization`..
+1. Identify the deep-work goals that need protected time.
+2. Map the interruptions and dependencies that fragment the day.
+3. Match demanding work to peak-energy windows.
+4. Block and defend focus time; batch shallow work.
+5. Plan for the predictable interruptions rather than pretending they vanish.
+6. Recommend the plan and the one habit that protects it.
 
 ## Decision rules
 
@@ -26,13 +31,15 @@ Obtain the objective, audience, scope, decision deadline, evidence, constraints,
 
 ## Output
 
-Default to a **decision-ready brief** with:
+Default to a **focus plan** with:
 
 1. Bottom line
 2. Evidence and analysis
 3. Risks, uncertainties, and alternatives
 4. Recommendation or next test
 5. Actions, owners, and timing when known
+
+Adapt to the requested format. Use tables only when they improve comparison.
 
 ## Quality check
 
@@ -43,6 +50,23 @@ Default to a **decision-ready brief** with:
 - Ensure the recommendation follows from the analysis.
 - Keep the result concise enough for its audience.
 
+## Failure modes
+
+- **Fantasy calendar:** plan around real interruptions, not an idealized empty day.
+- **Energy blindness:** put the hard work in peak windows, not whenever a slot is free.
+- **Framework theater:** omit sections that do not change action.
+- **Fact–inference blending:** label the boundary between evidence and recommendation.
+
+## Example
+
+**Request:** "Use $focus-planning to plan a week to make progress on a project amid heavy meetings."
+
+Identify the deep-work goal, map the meeting load and dependencies, place focused work in the morning peak, block two defended sessions, batch email into set windows, plan for the standing interruptions, and recommend the one boundary that protects the plan.
+
+## Evaluation
+
+A strong result is accurate, traceable, decision-relevant, proportionate, and actionable. It remains useful if the reader sees only the bottom line, risks, and next action.
+
 ## Related skills
 
-Combine with `quality-review`, `risk-analysis`, and `executive-writer` as needed.
+Pair with `time-management` for the wider schedule and `prioritization` to choose the goal.
