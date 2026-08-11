@@ -1,4 +1,4 @@
 interface:
   display_name: "Evidence Validation"
   short_description: "Assess whether sources and claims are reliable enough for a d..."
-  default_prompt: "Use $evidence-validation to produce a rigorous, decision-ready result."
+  default_prompt: "Use $evidence-validation to grade each source, check that it entails its claim, and rate what is decision-grade."

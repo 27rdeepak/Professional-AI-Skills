@@ -1,4 +1,4 @@
 interface:
   display_name: "Quality Review"
   short_description: "Review deliverables against explicit requirements, evidence,..."
-  default_prompt: "Use $quality-review to produce a rigorous, decision-ready result."
+  default_prompt: "Use $quality-review to check this deliverable against acceptance criteria, rank findings by severity, and state release readiness."

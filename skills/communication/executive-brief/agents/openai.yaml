@@ -1,4 +1,4 @@
 interface:
   display_name: "Executive Brief"
   short_description: "Create one-page briefs that enable fast understanding and a c..."
-  default_prompt: "Use $executive-brief to produce a rigorous, decision-ready result."
+  default_prompt: "Use $executive-brief to produce a one-page decision brief: decision first, options, evidence, top risk, and the ask with owner and date."

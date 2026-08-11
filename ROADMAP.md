@@ -25,4 +25,6 @@ Quality gates take precedence over file counts.
 - [x] Add security strategy, security architecture, compliance readiness, disaster recovery, and SaaS portfolio governance
 - [x] Add Exchange Online, Purview, and Microsoft 365 Copilot readiness
 - [x] Add delegation, conflict mediation, executive presence, and human-in-the-loop design
-- [ ] Expand representative forward tests and replace shallow legacy workflows with domain-specific procedures
+- [x] Replace shallow legacy workflows with domain-specific procedures (44 skills rewritten; concrete triggers on 56 more; 0 validator warnings)
+- [x] Add validator quality-lint for generic descriptions, placeholder examples, and self-referential links
+- [x] Expand representative forward tests (executable per-skill runner in scripts/run_checks.py, wired into CI; 112/112 skills pass)

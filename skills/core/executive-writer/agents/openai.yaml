@@ -1,4 +1,4 @@
 interface:
   display_name: "Executive Writer"
   short_description: "Turn complex material into concise, decision-ready executive..."
-  default_prompt: "Use $executive-writer to produce a rigorous, decision-ready result."
+  default_prompt: "Use $executive-writer to draft a decision-first memo that leads with the conclusion and ends with the action, owner, and timing."

@@ -1,4 +1,4 @@
 interface:
   display_name: "Incident Response"
   short_description: "Classify event scope, severity, containment needs, evidence, and communications|Separate detection, containment, erad..."
-  default_prompt: "Use $incident-response to produce a rigorous, decision-ready result."
+  default_prompt: "Use $incident-response to triage this event: classify scope and severity, drive containment through recovery, and log the timeline with owned follow-ups."

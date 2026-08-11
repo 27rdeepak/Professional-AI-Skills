@@ -1,4 +1,4 @@
 interface:
   display_name: "Enterprise Asset Inventory"
   short_description: "Map business-critical hardware, software, services, and ownership to reveal coverage gaps and lifecycle risk|Separate..."
-  default_prompt: "Use $enterprise-asset-inventory to produce a rigorous, decision-ready result."
+  default_prompt: "Use $enterprise-asset-inventory to reconcile discovered, registered, and authoritative records, assign ownership, and recommend cleanup."

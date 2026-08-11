@@ -1,4 +1,4 @@
 interface:
   display_name: "Commercial Negotiation"
   short_description: "Frame goals, walk-away points, concession strategy, and leverage|Separate price from terms, scope, service, and timin..."
-  default_prompt: "Use $commercial-negotiation to produce a rigorous, decision-ready result."
+  default_prompt: "Use $commercial-negotiation to set the target and BATNA, unbundle price from terms, and plan a concession path with a fallback."

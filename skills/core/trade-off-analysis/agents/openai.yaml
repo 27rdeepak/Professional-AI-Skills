@@ -1,4 +1,4 @@
 interface:
   display_name: "Trade-off Analysis"
   short_description: "Make competing benefits, costs, constraints, and opportunity..."
-  default_prompt: "Use $trade-off-analysis to produce a rigorous, decision-ready result."
+  default_prompt: "Use $trade-off-analysis to make the competing dimensions explicit, recommend a choice, and name the sacrifice."

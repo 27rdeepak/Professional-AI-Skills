@@ -1,4 +1,4 @@
 interface:
   display_name: "Defender Operations"
   short_description: "Assess alert fidelity, coverage, tuning, response ownership, and containment workflow|Identify blind spots across end..."
-  default_prompt: "Use $defender-operations to produce a rigorous, decision-ready result."
+  default_prompt: "Use $defender-operations to assess coverage and alert fidelity, separate noise from real signal, and set response ownership and thresholds."

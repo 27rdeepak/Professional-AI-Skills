@@ -1,4 +1,4 @@
 interface:
   display_name: "Zero Trust Architecture"
   short_description: "Evaluate identity, device, network, application, data, and telemetry controls against least-privilege intent|Identify..."
-  default_prompt: "Use $zero-trust-architecture to produce a rigorous, decision-ready result."
+  default_prompt: "Use $zero-trust-architecture to assess each pillar against least-privilege intent and sequence a pragmatic zero-trust roadmap."

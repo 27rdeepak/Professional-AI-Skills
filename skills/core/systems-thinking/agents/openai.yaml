@@ -1,4 +1,4 @@
 interface:
   display_name: "Systems Thinking"
   short_description: "Analyze feedback loops, dependencies, incentives, delays, and..."
-  default_prompt: "Use $systems-thinking to produce a rigorous, decision-ready result."
+  default_prompt: "Use $systems-thinking to map the loops and delays, find the highest-leverage intervention, and name the signals to watch."

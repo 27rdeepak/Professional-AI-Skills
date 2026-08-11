@@ -1,4 +1,4 @@
 interface:
   display_name: "Decision Analysis"
   short_description: "Structure consequential choices with criteria, uncertainty, r..."
-  default_prompt: "Use $decision-analysis to produce a rigorous, decision-ready result."
+  default_prompt: "Use $decision-analysis to choose among these options with weighted criteria, scored ranges, a sensitivity check, and a review trigger."
