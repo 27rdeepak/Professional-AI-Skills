@@ -124,6 +124,23 @@ def check_regression_suite():
             for r in sorted(refs) if r not in NAMES]
 
 
+def check_mirror():
+    """The committed .claude/skills mount must match the canonical source."""
+    mount = ROOT / ".claude/skills"
+    if not mount.exists():
+        return []  # no committed mirror; nothing to enforce
+    want = {p.parent.name: p.read_text() for p in SKILLS}
+    have = {p.parent.name: p.read_text() for p in mount.glob("*/SKILL.md")}
+    fails = []
+    for n in sorted(set(want) - set(have)):
+        fails.append(("mirror", f".claude/skills missing {n} (run scripts/install_skills.py)"))
+    for n in sorted(set(have) - set(want)):
+        fails.append(("mirror", f".claude/skills has stale {n} (run scripts/install_skills.py)"))
+    for n in sorted(n for n in want if n in have and want[n] != have[n]):
+        fails.append(("mirror", f".claude/skills/{n} drifted from source (run scripts/install_skills.py)"))
+    return fails
+
+
 def main():
     by_check = {}
     failing_skills = 0
@@ -134,13 +151,12 @@ def main():
         for cid, msg in fails:
             by_check.setdefault(cid, []).append(f"{path.parent.name}: {msg}")
 
-    global_fails = check_regression_suite()
-    for cid, msg in global_fails:
+    for cid, msg in check_regression_suite() + check_mirror():
         by_check.setdefault(cid, []).append(msg)
 
     total = sum(len(v) for v in by_check.values())
     order = ["trigger", "workflow", "output", "example", "uncertainty",
-             "links", "agent", "regression-suite"]
+             "links", "agent", "regression-suite", "mirror"]
     for cid in sorted(by_check, key=lambda c: order.index(c) if c in order else 99):
         items = by_check[cid]
         print(f"\n[{cid}] {len(items)} failure(s):")
