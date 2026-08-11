@@ -84,6 +84,16 @@ python3 scripts/install_skills.py
 
 Then invoke any skill by name, e.g. `/risk-analysis` or `/threat-modeling`. Working inside a clone of this repo, the bundled `.claude/skills/` mount means the skills are already available with no install step.
 
+## Browse the catalog
+
+A searchable catalog of all 112 skills is generated to `docs/index.html`:
+
+```bash
+python3 scripts/build_site.py
+```
+
+Published via GitHub Pages at **https://27rdeepak.github.io/Professional-AI-Skills/** (enable once under Settings → Pages → Deploy from a branch → `main` → `/docs`).
+
 ## Quick start (any assistant)
 
 1. Browse the [catalog](docs/catalog.md).

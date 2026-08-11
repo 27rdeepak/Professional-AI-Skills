@@ -141,6 +141,21 @@ def check_mirror():
     return fails
 
 
+def check_site():
+    """The committed catalog page must match what build_site would generate."""
+    page = ROOT / "docs/index.html"
+    if not page.exists():
+        return []
+    sys.path.insert(0, str(ROOT / "scripts"))
+    try:
+        import build_site
+    except Exception as e:  # pragma: no cover
+        return [("site", f"could not import build_site: {e}")]
+    if build_site.render() != page.read_text():
+        return [("site", "docs/index.html is stale (run scripts/build_site.py)")]
+    return []
+
+
 def main():
     by_check = {}
     failing_skills = 0
@@ -151,12 +166,12 @@ def main():
         for cid, msg in fails:
             by_check.setdefault(cid, []).append(f"{path.parent.name}: {msg}")
 
-    for cid, msg in check_regression_suite() + check_mirror():
+    for cid, msg in check_regression_suite() + check_mirror() + check_site():
         by_check.setdefault(cid, []).append(msg)
 
     total = sum(len(v) for v in by_check.values())
     order = ["trigger", "workflow", "output", "example", "uncertainty",
-             "links", "agent", "regression-suite", "mirror"]
+             "links", "agent", "regression-suite", "mirror", "site"]
     for cid in sorted(by_check, key=lambda c: order.index(c) if c in order else 99):
         items = by_check[cid]
         print(f"\n[{cid}] {len(items)} failure(s):")
